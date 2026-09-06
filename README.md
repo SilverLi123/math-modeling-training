@@ -12,9 +12,9 @@
 
 | 用途 | 推荐工具 | 主要作用 |
 |---|---|---|
-| 查文献 / 文献综述 | **Elicit** | 搜论文、筛选论文、提取方法、数据和结论，适合快速做文献调研 |
-| 画流程图 / 技术路线图 | **Next AI Draw.io** | 用自然语言生成可编辑的流程图、算法图、技术路线图、模型流程图 |
-| 画科研框架图 / Graphical Abstract | **BioRender AI** | 生成科研论文风格的框架图、机制图、研究总览图，科研图标资源丰富 |
+| 查文献 / 文献综述 | **[Elicit](https://elicit.com/)** | 搜论文、筛选论文、提取方法、数据和结论，适合快速做文献调研 |
+| 画流程图 / 技术路线图 | **[Next AI Draw.io](https://github.com/DayuanJiang/next-ai-draw-io)** | 用自然语言生成可编辑的流程图、算法图、技术路线图、模型流程图 |
+| 画科研框架图 / Graphical Abstract | **[BioRender AI](https://www.biorender.com/ai-tools)** | 生成科研论文风格的框架图、机制图、研究总览图，科研图标资源丰富 |
 
 - 找论文、做文献综述：优先使用 **Elicit**。
 - 画算法流程、建模路线、技术路线：优先使用 **Next AI Draw.io**。
