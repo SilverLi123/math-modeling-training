@@ -68,3 +68,5 @@
 - PR 聚焦一个成员职责或一个清晰任务，避免跨题混杂修改。
 - 合并前复现受影响的结果，检查数据和最终论文没有被误删。
 - 不强推共享分支，不覆盖其他成员未提交的工作。
+
+When appropriate, the team may use the recommended research and visualization tools documented in README.md or docs/tools.md.
