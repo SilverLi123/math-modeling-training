@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+~$*
+
+# LaTeX build intermediates (keep .tex and final .pdf)
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# Regenerable or oversized model/cache artifacts
+**/outputs/cache/
+**/outputs/tmp/
+**/outputs/models/
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.pt
+*.pth
+
+# Local planning files used by agents
+/task_plan.md
+/findings.md
+/progress.md
