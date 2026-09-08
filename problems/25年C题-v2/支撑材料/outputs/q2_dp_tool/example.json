@@ -1,0 +1,130 @@
+{
+  "scope": "synthetic feasibility demo ONLY; the project gate forbids recommending real test weeks until a probability model passes decision gates",
+  "pareto_by_w_late": [
+    {
+      "w_late": 0.5,
+      "total_cost": 44.73233146698561,
+      "weeks": [
+        18.0,
+        21.5,
+        25.0
+      ],
+      "infeasible": false
+    },
+    {
+      "w_late": 1.0,
+      "total_cost": 77.42383566322103,
+      "weeks": [
+        16.5,
+        20.0,
+        24.0
+      ],
+      "infeasible": false
+    },
+    {
+      "w_late": 2.0,
+      "total_cost": 137.3599002609065,
+      "weeks": [
+        16.5,
+        20.0,
+        24.0
+      ],
+      "infeasible": false
+    }
+  ],
+  "plans": [
+    {
+      "w_late": 0.5,
+      "segments": [
+        {
+          "bmi_lo": 21.173507357639235,
+          "bmi_hi": 27.759505003859857,
+          "week": 18.0,
+          "n": 40,
+          "mean_coverage": 0.9336008461703846
+        },
+        {
+          "bmi_lo": 28.95851272474058,
+          "bmi_hi": 36.049690542690655,
+          "week": 21.5,
+          "n": 39,
+          "mean_coverage": 0.9310932600307905
+        },
+        {
+          "bmi_lo": 36.1976431007035,
+          "bmi_hi": 45.87552102880822,
+          "week": 25.0,
+          "n": 41,
+          "mean_coverage": 0.9108627449999553
+        }
+      ],
+      "total_cost": 44.73233146698561,
+      "infeasible": false,
+      "coverage_relaxed": false,
+      "n_subjects": 120,
+      "n_segments": 3
+    },
+    {
+      "w_late": 1.0,
+      "segments": [
+        {
+          "bmi_lo": 21.173507357639235,
+          "bmi_hi": 29.007658726556215,
+          "week": 16.5,
+          "n": 42,
+          "mean_coverage": 0.863231274675447
+        },
+        {
+          "bmi_lo": 29.147328442597654,
+          "bmi_hi": 36.52663908864356,
+          "week": 20.0,
+          "n": 39,
+          "mean_coverage": 0.8563359177045883
+        },
+        {
+          "bmi_lo": 37.46753947653701,
+          "bmi_hi": 45.87552102880822,
+          "week": 24.0,
+          "n": 39,
+          "mean_coverage": 0.858611538716186
+        }
+      ],
+      "total_cost": 77.42383566322103,
+      "infeasible": false,
+      "coverage_relaxed": false,
+      "n_subjects": 120,
+      "n_segments": 3
+    },
+    {
+      "w_late": 2.0,
+      "segments": [
+        {
+          "bmi_lo": 21.173507357639235,
+          "bmi_hi": 29.543110682038968,
+          "week": 16.5,
+          "n": 45,
+          "mean_coverage": 0.8525391445224628
+        },
+        {
+          "bmi_lo": 29.545313993923564,
+          "bmi_hi": 36.52663908864356,
+          "week": 20.0,
+          "n": 36,
+          "mean_coverage": 0.8500691173792063
+        },
+        {
+          "bmi_lo": 37.46753947653701,
+          "bmi_hi": 45.87552102880822,
+          "week": 24.0,
+          "n": 39,
+          "mean_coverage": 0.858611538716186
+        }
+      ],
+      "total_cost": 137.3599002609065,
+      "infeasible": false,
+      "coverage_relaxed": false,
+      "n_subjects": 120,
+      "n_segments": 3
+    }
+  ]
+}

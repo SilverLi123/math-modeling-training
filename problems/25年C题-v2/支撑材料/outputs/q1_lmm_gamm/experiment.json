@@ -1,0 +1,151 @@
+{
+  "seed": 20250904,
+  "responses": [
+    "logit",
+    "identity",
+    "log"
+  ],
+  "clean_cohort": {
+    "rows_raw": 1082,
+    "rows_after_drop_aneuploid": 956,
+    "rows_final": 945,
+    "subjects_final": 267,
+    "rule": "drop 非整倍体 rows; gestational week [10,25]; Y in (0,1); GC in [0.35,0.65]"
+  },
+  "spec_summary": [
+    {
+      "response": "logit",
+      "spec_col": "GAMM-add_df3",
+      "y_rmse": 0.03383931133845201,
+      "y_subject_rmse": 0.03323757542805952,
+      "logit_rmse": 0.49970020727777276,
+      "logit_subject_rmse": 0.49996430349581017
+    },
+    {
+      "response": "logit",
+      "spec_col": "GAMM-tensor_df3",
+      "y_rmse": 0.035661407232358,
+      "y_subject_rmse": 0.034797467860916094,
+      "logit_rmse": 0.4992818869908083,
+      "logit_subject_rmse": 0.4964076786586555
+    },
+    {
+      "response": "logit",
+      "spec_col": "LMM-lin_df0",
+      "y_rmse": 0.03435283801895124,
+      "y_subject_rmse": 0.033707674285348814,
+      "logit_rmse": 0.5082769137154399,
+      "logit_subject_rmse": 0.5073510536502898
+    },
+    {
+      "response": "logit",
+      "spec_col": "LMM-quad_df0",
+      "y_rmse": 0.034352794484242256,
+      "y_subject_rmse": 0.033687374812623926,
+      "logit_rmse": 0.5074034584318772,
+      "logit_subject_rmse": 0.5059386695403744
+    },
+    {
+      "response": "identity",
+      "spec_col": "LMM-lin_df0",
+      "y_rmse": 0.033744795480467646,
+      "y_subject_rmse": 0.0331328133047344,
+      "logit_rmse": 0.5122136417516915,
+      "logit_subject_rmse": 0.5118503764692776
+    },
+    {
+      "response": "identity",
+      "spec_col": "LMM-quad_df0",
+      "y_rmse": 0.033717153706005476,
+      "y_subject_rmse": 0.03308667648703786,
+      "logit_rmse": 0.5103797243166637,
+      "logit_subject_rmse": 0.5095121709673127
+    },
+    {
+      "response": "log",
+      "spec_col": "LMM-lin_df0",
+      "y_rmse": 0.03442900347280449,
+      "y_subject_rmse": 0.03378179380883786,
+      "logit_rmse": 0.5083354899822689,
+      "logit_subject_rmse": 0.5073740649651912
+    },
+    {
+      "response": "log",
+      "spec_col": "LMM-quad_df0",
+      "y_rmse": 0.034427144401389456,
+      "y_subject_rmse": 0.03375989528807823,
+      "logit_rmse": 0.5075468837577481,
+      "logit_subject_rmse": 0.5060422507699658
+    }
+  ],
+  "response_form": [
+    {
+      "response": "identity",
+      "spec_col": "LMM-lin_df0",
+      "y_subject_rmse": 0.0331328133047344,
+      "logit_subject_rmse": 0.5118503764692776
+    },
+    {
+      "response": "logit",
+      "spec_col": "LMM-lin_df0",
+      "y_subject_rmse": 0.033707674285348814,
+      "logit_subject_rmse": 0.5073510536502898
+    },
+    {
+      "response": "log",
+      "spec_col": "LMM-lin_df0",
+      "y_subject_rmse": 0.03378179380883786,
+      "logit_subject_rmse": 0.5073740649651912
+    },
+    {
+      "response": "identity",
+      "spec_col": "LMM-quad_df0",
+      "y_subject_rmse": 0.03308667648703786,
+      "logit_subject_rmse": 0.5095121709673127
+    },
+    {
+      "response": "logit",
+      "spec_col": "LMM-quad_df0",
+      "y_subject_rmse": 0.033687374812623926,
+      "logit_subject_rmse": 0.5059386695403744
+    },
+    {
+      "response": "log",
+      "spec_col": "LMM-quad_df0",
+      "y_subject_rmse": 0.03375989528807823,
+      "logit_subject_rmse": 0.5060422507699658
+    }
+  ],
+  "final_spec": "LMM-quad",
+  "final_df": 0,
+  "selection_decision": "spline advantage over LMM-quad not confirmed by paired bootstrap: {\"spec_a\": \"GAMM-add_df3\", \"spec_b\": \"LMM-quad_df0\", \"metric\": \"logit\", \"point_rmse_b_minus_a\": 0.005974366044564194, \"ci_rmse_b_minus_a\": [-0.002761413596740603, 0.013358672845192678]}",
+  "spec_full_data_notes": [
+    {
+      "spec": "GAMM-add",
+      "full_data_converged": true,
+      "full_data_singular_re": false
+    },
+    {
+      "spec": "GAMM-tensor",
+      "full_data_converged": true,
+      "full_data_singular_re": false
+    },
+    {
+      "spec": "LMM-lin",
+      "full_data_converged": true,
+      "full_data_singular_re": false
+    },
+    {
+      "spec": "LMM-quad",
+      "full_data_converged": true,
+      "full_data_singular_re": false
+    }
+  ],
+  "degradations": [],
+  "re_formula": null,
+  "diag": {
+    "warnings": [],
+    "singular_re": false
+  },
+  "note": "paper-cohort Q1 rebuild: cleaned 945 male rows; dual-scale metrics (logit & Y); LMM-rs singular -> excluded; selection via frozen-OOF paired bootstrap"
+}

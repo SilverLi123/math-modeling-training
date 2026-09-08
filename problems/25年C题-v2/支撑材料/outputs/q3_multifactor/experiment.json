@@ -1,0 +1,55 @@
+{
+  "seed": 20250904,
+  "specs": {
+    "Q2_baseline": [
+      "gestational_week",
+      "baseline_bmi"
+    ],
+    "Q3_A_bmi_age_ivf": [
+      "gestational_week",
+      "baseline_bmi",
+      "baseline_age",
+      "non_natural"
+    ],
+    "Q3_B_hw_age": [
+      "gestational_week",
+      "baseline_height",
+      "baseline_weight",
+      "baseline_age"
+    ]
+  },
+  "summary": [
+    {
+      "spec": "Q2_baseline",
+      "record_brier": 0.11539987992006544,
+      "subject_brier": 0.11159719756457541,
+      "record_log_loss": 0.3937834955886411,
+      "subject_log_loss": 0.3836139813393446
+    },
+    {
+      "spec": "Q3_A_bmi_age_ivf",
+      "record_brier": 0.11684070243734257,
+      "subject_brier": 0.11304885442633376,
+      "record_log_loss": 0.4587405946439246,
+      "subject_log_loss": 0.4371501723967009
+    },
+    {
+      "spec": "Q3_B_hw_age",
+      "record_brier": 0.11524258419050513,
+      "subject_brier": 0.11183412862824323,
+      "record_log_loss": 0.3972305418894604,
+      "subject_log_loss": 0.3860127517370341
+    }
+  ],
+  "brier_diff_ci95_vs_baseline": {
+    "Q3_A_bmi_age_ivf": [
+      0.00011928489286805966,
+      0.0029806809416616366
+    ],
+    "Q3_B_hw_age": [
+      -0.002673721516943437,
+      0.0032387909019747246
+    ]
+  },
+  "bootstrap": "2000 subject resamples of frozen OOF Brier differences"
+}

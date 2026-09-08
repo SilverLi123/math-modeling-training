@@ -1,0 +1,262 @@
+{
+  "seed": 20250904,
+  "data_audit": {
+    "rows_before_dropna": 605,
+    "rows_after_dropna": 604,
+    "dropped_rows": 1
+  },
+  "n_rows": 604,
+  "n_subjects": 147,
+  "positive_rows": 67,
+  "positive_subjects": 44,
+  "features": [
+    "z13",
+    "z18",
+    "z21",
+    "zx",
+    "x_conc",
+    "gc",
+    "gc13",
+    "gc18",
+    "gc21",
+    "map_ratio",
+    "dup_ratio",
+    "filter_ratio",
+    "log_raw",
+    "log_unique",
+    "bmi",
+    "age"
+  ],
+  "C_grid": [
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    1.0
+  ],
+  "l1_ratio": 0.5,
+  "outer": "StratifiedGroupKFold 5 by subject",
+  "inner": "3 subject-grouped folds; C by inner PR-AUC; tau by F2",
+  "pooled_oof_summary": {
+    "auc": 0.8081102865560467,
+    "pr_auc": 0.4596062869772463,
+    "brier": 0.1603342316980915
+  },
+  "pooled_oof_at_median_tau": {
+    "tau": 0.49138956181383486,
+    "sensitivity": 0.6865671641791045,
+    "specificity": 0.7728119180633147,
+    "ppv": 0.27380952380952384,
+    "npv": 0.9518348623853211,
+    "f1": 0.39148936170212767,
+    "tp": 46,
+    "fp": 122,
+    "fn": 21,
+    "tn": 415,
+    "rows_flagged_at_own_tau": 142
+  },
+  "z_baseline": {
+    "auc": 0.478751493927013,
+    "pr_auc": 0.10955539848235515,
+    "note": "continuous |Z|max score baseline, not prob"
+  },
+  "subject_bootstrap_auc_ci95": [
+    0.7556880856808182,
+    0.8586986411335502
+  ],
+  "subject_bootstrap_brier_ci95": [
+    0.1450752018953868,
+    0.17568905531434967
+  ],
+  "bootstrap": "2000 subject resamples of frozen outer-OOF rows; no refit, no model-selection adjustment",
+  "fold_selections": [
+    {
+      "fold": 1,
+      "selected_C": 1.0,
+      "selected_tau_inner_f2": 0.49138956181383486,
+      "inner_rows": [
+        {
+          "C": 0.02,
+          "inner_auc": 0.749507507770433,
+          "inner_pr_auc": 0.4248922539454765
+        },
+        {
+          "C": 0.05,
+          "inner_auc": 0.7848793941251149,
+          "inner_pr_auc": 0.4727509544750321
+        },
+        {
+          "C": 0.1,
+          "inner_auc": 0.7893446570065228,
+          "inner_pr_auc": 0.47877049147905837
+        },
+        {
+          "C": 0.2,
+          "inner_auc": 0.7895635424418859,
+          "inner_pr_auc": 0.4874534752762309
+        },
+        {
+          "C": 0.5,
+          "inner_auc": 0.7965678763735062,
+          "inner_pr_auc": 0.5042958902020565
+        },
+        {
+          "C": 1.0,
+          "inner_auc": 0.7995884953815173,
+          "inner_pr_auc": 0.5108742259229186
+        }
+      ]
+    },
+    {
+      "fold": 2,
+      "selected_C": 0.5,
+      "selected_tau_inner_f2": 0.4829372318521884,
+      "inner_rows": [
+        {
+          "C": 0.02,
+          "inner_auc": 0.7760407816482583,
+          "inner_pr_auc": 0.4293772638144176
+        },
+        {
+          "C": 0.05,
+          "inner_auc": 0.7956669498725574,
+          "inner_pr_auc": 0.503152128538569
+        },
+        {
+          "C": 0.1,
+          "inner_auc": 0.8157179269328801,
+          "inner_pr_auc": 0.4949516979593598
+        },
+        {
+          "C": 0.2,
+          "inner_auc": 0.8203058623619373,
+          "inner_pr_auc": 0.47916360615769726
+        },
+        {
+          "C": 0.5,
+          "inner_auc": 0.8339847068819032,
+          "inner_pr_auc": 0.5102316453055344
+        },
+        {
+          "C": 1.0,
+          "inner_auc": 0.8346219201359388,
+          "inner_pr_auc": 0.5008514379439053
+        }
+      ]
+    },
+    {
+      "fold": 3,
+      "selected_C": 1.0,
+      "selected_tau_inner_f2": 0.6769126557373307,
+      "inner_rows": [
+        {
+          "C": 0.02,
+          "inner_auc": 0.7361992733003545,
+          "inner_pr_auc": 0.354788137480613
+        },
+        {
+          "C": 0.05,
+          "inner_auc": 0.7534036685198967,
+          "inner_pr_auc": 0.4050587239077484
+        },
+        {
+          "C": 0.1,
+          "inner_auc": 0.7640415006785448,
+          "inner_pr_auc": 0.38549677389907955
+        },
+        {
+          "C": 0.2,
+          "inner_auc": 0.7675436676443549,
+          "inner_pr_auc": 0.37953811355649475
+        },
+        {
+          "C": 0.5,
+          "inner_auc": 0.777262180974478,
+          "inner_pr_auc": 0.4110217178620271
+        },
+        {
+          "C": 1.0,
+          "inner_auc": 0.7820776605524667,
+          "inner_pr_auc": 0.429350393900676
+        }
+      ]
+    },
+    {
+      "fold": 4,
+      "selected_C": 0.5,
+      "selected_tau_inner_f2": 0.6072785916898186,
+      "inner_rows": [
+        {
+          "C": 0.02,
+          "inner_auc": 0.7277125390332938,
+          "inner_pr_auc": 0.3774377303362507
+        },
+        {
+          "C": 0.05,
+          "inner_auc": 0.7423142894841008,
+          "inner_pr_auc": 0.42261581875961285
+        },
+        {
+          "C": 0.1,
+          "inner_auc": 0.7484716541320314,
+          "inner_pr_auc": 0.43167047480059983
+        },
+        {
+          "C": 0.2,
+          "inner_auc": 0.7511984870475437,
+          "inner_pr_auc": 0.43310553377600025
+        },
+        {
+          "C": 0.5,
+          "inner_auc": 0.7657122751462374,
+          "inner_pr_auc": 0.44426547534459215
+        },
+        {
+          "C": 1.0,
+          "inner_auc": 0.76725161630822,
+          "inner_pr_auc": 0.437866125764854
+        }
+      ]
+    },
+    {
+      "fold": 5,
+      "selected_C": 0.5,
+      "selected_tau_inner_f2": 0.4805829268149507,
+      "inner_rows": [
+        {
+          "C": 0.02,
+          "inner_auc": 0.7623672623672624,
+          "inner_pr_auc": 0.4108380911778738
+        },
+        {
+          "C": 0.05,
+          "inner_auc": 0.7331433998100665,
+          "inner_pr_auc": 0.3499068341404388
+        },
+        {
+          "C": 0.1,
+          "inner_auc": 0.7327980661313995,
+          "inner_pr_auc": 0.3497729260381505
+        },
+        {
+          "C": 0.2,
+          "inner_auc": 0.745014245014245,
+          "inner_pr_auc": 0.3872542386576345
+        },
+        {
+          "C": 0.5,
+          "inner_auc": 0.755805922472589,
+          "inner_pr_auc": 0.4179540457834435
+        },
+        {
+          "C": 1.0,
+          "inner_auc": 0.7594750928084262,
+          "inner_pr_auc": 0.4167705521350167
+        }
+      ]
+    }
+  ],
+  "per_type_model_note": "no separate per-type CV models: T13/T21 have only ~5-8 positive subjects",
+  "type_labels_note": "labels parsed with regex T13|T18|T21 (no delimiter)"
+}

@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-07T15:18:54.057034+00:00",
+  "random_seed": 20250904,
+  "input_files": [
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\附件.xlsx",
+      "sha256": "14827156218bd4f7e4f16db4aa6d9f757c6648379e038ae6c6b58383648614af",
+      "bytes": 481734
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\题目分析报告.md",
+      "sha256": "1cb4f301bddc0eac425d591e508cdaa749dda44cb6b659b1822988ac38dbcc91",
+      "bytes": 24597
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\术语表格.md",
+      "sha256": "cd2dbaf242f6168be61fa4facb51c424b3b19b19f9706de75d29c1a997810d98",
+      "bytes": 6860
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\requirements.txt",
+      "sha256": "c07da87213a835cdb0be9f0f006edac457302528cb49e180764eb154dfb44479",
+      "bytes": 126
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\src\\q1_lmm_baseline.py",
+      "sha256": "98e0728561cb6044f7fccab4a6980ac7a08b45063472c7a7e0b2fd52626295cf",
+      "bytes": 19215
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\src\\q2_probability.py",
+      "sha256": "4b659bc2d328020ec431f0d9c5bbc84314d13602d683f8aee1a894343b675221",
+      "bytes": 12422
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\src\\q2_covariates.py",
+      "sha256": "16b5cc055f273ca4a8bc565b2c6605b2786a9c73ea25ab4851f4f300b17cec96",
+      "bytes": 11060
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\src\\run_q2_covariates.py",
+      "sha256": "c0f75a57c09b1b67d0a44359d9bc5b2251ccc6a3853ac6efb2b8af6f066f94b2",
+      "bytes": 1502
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\utils\\plot_style.py",
+      "sha256": "e9fa501fe72ff89b913e1f777e0b5925a118b95b9d324288c59e906f27592b9a",
+      "bytes": 17654
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\utils\\repro_manifest.py",
+      "sha256": "ef68a6db57b446ef8a930e4f40e486eadec19f609d1d9f65db7c6a6796d90365",
+      "bytes": 4461
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\q2_covariates\\calibration.csv",
+      "sha256": "cc033984e546ec8ad6f906865808ea5c664d8e6d466ed879900943f23ce47717",
+      "bytes": 1090
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\q2_covariates\\comparison.csv",
+      "sha256": "3ecd45b6ebf1984b19d89f5f23772f0fc1d2d934fff12d1c3d6981c5d19f963c",
+      "bytes": 491
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\q2_covariates\\fold_metrics.csv",
+      "sha256": "15b2ff8a78f31c24c335754890e367ddd6189f4fef91c9ad19ef1b65659b6367",
+      "bytes": 2165
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\q2_covariates\\experiment.json",
+      "sha256": "c4360597fe24605bf3d7bdd541f7853b6c8533695d37f6864e7424f760a645fe",
+      "bytes": 31006
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\q2_covariates\\README.md",
+      "sha256": "730f23158c76c99d5fc47177a0cdb3b54e89f176280186afeb8995aafa284d8e",
+      "bytes": 3140
+    }
+  ],
+  "runtime": {
+    "name": "python",
+    "version": "3.13.5",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "dependencies": {
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.3",
+      "statsmodels": "0.14.4",
+      "openpyxl": "3.1.5",
+      "matplotlib": "3.10.6",
+      "pyparsing": "3.2.3"
+    }
+  },
+  "key_parameters": {
+    "features_by_spec": {
+      "week_bmi": [
+        "gestational_week",
+        "baseline_bmi"
+      ],
+      "week_bmi_age": [
+        "gestational_week",
+        "baseline_bmi",
+        "age_years"
+      ],
+      "week_bmi_age_conception": [
+        "gestational_week",
+        "baseline_bmi",
+        "age_years",
+        "non_natural"
+      ]
+    },
+    "threshold": 0.04,
+    "outer_folds": 5,
+    "random_effect": "normal intercept",
+    "prediction": "marginal",
+    "quadrature_orders": [
+      80,
+      160,
+      320,
+      640
+    ],
+    "bootstrap_replicates": 2000,
+    "scope": "Q2 candidate screening of prior-known covariates only; no decision optimization"
+  },
+  "reproduce_command": ".\\.venv\\Scripts\\python.exe -W error src\\run_q2_covariates.py"
+}

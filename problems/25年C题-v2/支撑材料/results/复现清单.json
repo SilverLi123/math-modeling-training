@@ -1,0 +1,104 @@
+{
+  "项目": "2025 高教社杯全国大学生数学建模竞赛 C 题（NIPT 的时点选择与胎儿的异常判定）",
+  "生成时间": "2026-09-07 20:43:47",
+  "输入文件SHA256": {
+    "C题.pdf": "d54400f4bb9920c0d37f15f5b6bc161aa281c4b32c03c063efdeb739716eac08",
+    "附件.xlsx": "14827156218bd4f7e4f16db4aa6d9f757c6648379e038ae6c6b58383648614af"
+  },
+  "随机种子": {
+    "q2 Monte Carlo（Y浓度加噪重估时点，300次）": 2025,
+    "q2 Monte Carlo 灵敏度（2×σ，300次）": 2027,
+    "q3 回归树 random_state": 2025,
+    "q3 Monte Carlo（300次）": 2026,
+    "q4 随机森林 random_state": 2025,
+    "figs_supplement 抽样（纵向序列抽样与jitter）": 2025
+  },
+  "关键参数": {
+    "达标阈值": 0.04,
+    "覆盖水平": 0.9,
+    "覆盖灵敏度": [
+      0.85,
+      0.95
+    ],
+    "测量误差标准差 sigma_y": 0.01812,
+    "Monte Carlo 次数": 300,
+    "分组最小样本量": 40,
+    "回归树 max_depth / min_samples_leaf": [
+      2,
+      40
+    ],
+    "风险权重灵敏度（晚发现风险权重）": [
+      0.5,
+      1,
+      2
+    ],
+    "显著性推断": "系数级 t 检验 + 整体 F 检验 + 按孕妇聚类稳健标准误（q1 的 M2/M7 增补 cluster 字段）",
+    "逻辑回归 C / 类权重": [
+      0.5,
+      "balanced"
+    ],
+    "随机森林 n_estimators / min_samples_leaf": [
+      400,
+      3
+    ],
+    "交叉验证": "GroupKFold(5)，按孕妇分组；主模型按 CV AUC 选取",
+    "显著性水平": 0.05,
+    "有效样本（清洗后男胎记录数）": 945
+  },
+  "运行环境": {
+    "平台": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.3",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.10.8"
+  },
+  "唯一复现命令": [
+    "python 求解/preprocess.py",
+    "python 求解/q1.py",
+    "python 求解/q2.py",
+    "python 求解/q3.py",
+    "python 求解/q4.py",
+    "python 求解/figs_supplement.py",
+    "python 求解/make_manifest.py"
+  ],
+  "代码文件": [
+    "求解/preprocess.py",
+    "求解/inspect_data.py",
+    "求解/q1.py",
+    "求解/q2.py",
+    "求解/q3.py",
+    "求解/q4.py",
+    "求解/figs_supplement.py",
+    "求解/make_manifest.py"
+  ],
+  "结果文件": [
+    "求解/q1_result.json",
+    "求解/q2_result.json",
+    "求解/q2_subjects.csv",
+    "求解/q3_result.json",
+    "求解/q3_subjects.csv",
+    "求解/q4_result.json"
+  ],
+  "图表文件": {
+    "figure_stems": [
+      "process_q1_model_sel",
+      "process_q2_group_sel",
+      "process_q3_tree_structure",
+      "process_q4_importance",
+      "raw_q1_conc",
+      "raw_q2_spaghetti",
+      "raw_q3_multi",
+      "raw_q4_markers",
+      "result_q1_resid",
+      "result_q2_groups",
+      "result_q2_km",
+      "result_q2_mc",
+      "result_q3_groups",
+      "result_q4_roc"
+    ],
+    "count_stems": 14
+  },
+  "说明": "重跑输出与复核前备份的 q1~q4 结果 JSON 逐字段比对为 0 差异；论文数值与结果文件双向一致。"
+}

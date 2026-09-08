@@ -1,0 +1,43 @@
+{
+  "cohort": "full male load_and_prepare cohort (1082 rows / 267 subjects)",
+  "bands": [
+    [
+      20.703,
+      32.1,
+      "BMI<32.1"
+    ],
+    [
+      32.1,
+      34.7,
+      "32.1<=BMI<34.7"
+    ],
+    [
+      34.7,
+      46.9,
+      "BMI>=34.7"
+    ]
+  ],
+  "km_definition": "KM 90% = product-limit 90% quantile of time to first OBSERVED Y>=4% per subject; never-observed right-censored at last observed week",
+  "gamm_definition": "GAMM-Binomial 90% coverage week = earliest week with marginal p(t,bmi)>=0.9, averaged over BMI grid levels in the band",
+  "caveat": "The two statistics answer different questions (per-subject event-time quantile vs per-draw marginal-probability threshold); they are aligned on the same cohort and BMI bands but are not interchangeable.",
+  "rows": [
+    {
+      "band": "BMI<32.1",
+      "n_subjects": 158,
+      "km90_week": 16.428571428571427,
+      "gamm_mean90_week": 21.205263157894695
+    },
+    {
+      "band": "32.1<=BMI<34.7",
+      "n_subjects": 71,
+      "km90_week": 16.142857142857142,
+      "gamm_mean90_week": 20.79999999999996
+    },
+    {
+      "band": "BMI>=34.7",
+      "n_subjects": 38,
+      "km90_week": 20.857142857142858,
+      "gamm_mean90_week": 23.179999999999957
+    }
+  ]
+}

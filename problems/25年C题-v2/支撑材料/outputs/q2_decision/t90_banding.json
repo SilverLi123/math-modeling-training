@@ -1,0 +1,144 @@
+{
+  "sigma_none_reference": {
+    "achievable": 44,
+    "mean90_week": 22.06
+  },
+  "t90_cap_for_infeasible": 25.0,
+  "min_subjects_per_band": 30,
+  "k_table": [
+    {
+      "K": 1,
+      "weighted_sse": 223.63,
+      "bounds": [],
+      "band_weeks": [
+        20.5
+      ],
+      "segments": [
+        {
+          "bmi_lo": 21.0,
+          "bmi_hi": 47.0,
+          "subjects": 267,
+          "week": 20.5
+        }
+      ]
+    },
+    {
+      "K": 2,
+      "weighted_sse": 92.66,
+      "bounds": [
+        34.5
+      ],
+      "band_weeks": [
+        20.2,
+        22.1
+      ],
+      "segments": [
+        {
+          "bmi_lo": 21.0,
+          "bmi_hi": 34.0,
+          "subjects": 223,
+          "week": 20.2
+        },
+        {
+          "bmi_lo": 34.5,
+          "bmi_hi": 47.0,
+          "subjects": 44,
+          "week": 22.1
+        }
+      ]
+    },
+    {
+      "K": 3,
+      "weighted_sse": 61.94,
+      "bounds": [
+        33.0,
+        35.5
+      ],
+      "band_weeks": [
+        20.0,
+        20.9,
+        22.4
+      ],
+      "segments": [
+        {
+          "bmi_lo": 21.0,
+          "bmi_hi": 32.5,
+          "subjects": 179,
+          "week": 20.0
+        },
+        {
+          "bmi_lo": 33.0,
+          "bmi_hi": 35.0,
+          "subjects": 58,
+          "week": 20.9
+        },
+        {
+          "bmi_lo": 35.5,
+          "bmi_hi": 47.0,
+          "subjects": 30,
+          "week": 22.4
+        }
+      ]
+    },
+    {
+      "K": 4,
+      "weighted_sse": 57.24,
+      "bounds": [
+        32.5,
+        33.5,
+        35.5
+      ],
+      "band_weeks": [
+        20.0,
+        20.5,
+        21.0,
+        22.4
+      ],
+      "segments": [
+        {
+          "bmi_lo": 21.0,
+          "bmi_hi": 32.0,
+          "subjects": 161,
+          "week": 20.0
+        },
+        {
+          "bmi_lo": 32.5,
+          "bmi_hi": 33.0,
+          "subjects": 34,
+          "week": 20.5
+        },
+        {
+          "bmi_lo": 33.5,
+          "bmi_hi": 35.0,
+          "subjects": 42,
+          "week": 21.0
+        },
+        {
+          "bmi_lo": 35.5,
+          "bmi_hi": 47.0,
+          "subjects": 30,
+          "week": 22.4
+        }
+      ]
+    }
+  ],
+  "chosen_K": 3,
+  "old_band_mean90": [
+    {
+      "band": "20.703-32.1",
+      "mean90": 21.21,
+      "n_ok": 19
+    },
+    {
+      "band": "32.1-34.7",
+      "mean90": 20.8,
+      "n_ok": 5
+    },
+    {
+      "band": "34.7-46.9",
+      "mean90": 23.18,
+      "n_ok": 20
+    }
+  ],
+  "note": "t90 capped at 25w for BMI levels that never reach p>=0.9 within 10-25w window; segment cost = subject-weighted within-band SSE of t90"
+}

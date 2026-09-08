@@ -1,0 +1,5 @@
+K,weighted_sse,bounds,band_weeks,segments
+1,223.63,[],[20.5],"[{'bmi_lo': 21.0, 'bmi_hi': 47.0, 'subjects': 267, 'week': 20.5}]"
+2,92.66,[34.5],"[20.2, 22.1]","[{'bmi_lo': 21.0, 'bmi_hi': 34.0, 'subjects': 223, 'week': 20.2}, {'bmi_lo': 34.5, 'bmi_hi': 47.0, 'subjects': 44, 'week': 22.1}]"
+3,61.94,"[33.0, 35.5]","[20.0, 20.9, 22.4]","[{'bmi_lo': 21.0, 'bmi_hi': 32.5, 'subjects': 179, 'week': 20.0}, {'bmi_lo': 33.0, 'bmi_hi': 35.0, 'subjects': 58, 'week': 20.9}, {'bmi_lo': 35.5, 'bmi_hi': 47.0, 'subjects': 30, 'week': 22.4}]"
+4,57.24,"[32.5, 33.5, 35.5]","[20.0, 20.5, 21.0, 22.4]","[{'bmi_lo': 21.0, 'bmi_hi': 32.0, 'subjects': 161, 'week': 20.0}, {'bmi_lo': 32.5, 'bmi_hi': 33.0, 'subjects': 34, 'week': 20.5}, {'bmi_lo': 33.5, 'bmi_hi': 35.0, 'subjects': 42, 'week': 21.0}, {'bmi_lo': 35.5, 'bmi_hi': 47.0, 'subjects': 30, 'week': 22.4}]"

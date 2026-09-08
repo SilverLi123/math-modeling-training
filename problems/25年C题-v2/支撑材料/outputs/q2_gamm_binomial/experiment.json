@@ -1,0 +1,28 @@
+{
+  "seed": 20250904,
+  "threshold": 0.04,
+  "specs": {
+    "T_w4_b3": "1 + cr(week_c, df=4, constraints='center') + cr(bmi_c, df=3, constraints='center')",
+    "T_w4_blin": "1 + cr(week_c, df=4, constraints='center') + bmi_c",
+    "T_w3_b3": "1 + cr(week_c, df=3, constraints='center') + cr(bmi_c, df=3, constraints='center')",
+    "linear_mixed": "1 + week_c + bmi_c"
+  },
+  "ladder": [
+    "T_w4_b3",
+    "T_w4_blin",
+    "T_w3_b3",
+    "linear_mixed"
+  ],
+  "degradations": [],
+  "chosen_summary": [
+    {
+      "spec": "T_w4_b3",
+      "n_rows": 1082,
+      "record_brier": 0.11393458769174361,
+      "subject_brier": 0.11046346120484965,
+      "record_log_loss": 0.38771045318697417,
+      "subject_log_loss": 0.3780045103466206
+    }
+  ],
+  "note": "gated candidate: per-fold spec may degrade; best-spec refit handled in q2_decision stage"
+}

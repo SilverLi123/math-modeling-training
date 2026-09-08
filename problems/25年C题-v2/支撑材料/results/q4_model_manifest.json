@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-07T15:28:08.546726+00:00",
+  "random_seed": 20250904,
+  "input_files": [
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\附件.xlsx",
+      "sha256": "14827156218bd4f7e4f16db4aa6d9f757c6648379e038ae6c6b58383648614af",
+      "bytes": 481734
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\题目分析报告.md",
+      "sha256": "1cb4f301bddc0eac425d591e508cdaa749dda44cb6b659b1822988ac38dbcc91",
+      "bytes": 24597
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\术语表格.md",
+      "sha256": "cd2dbaf242f6168be61fa4facb51c424b3b19b19f9706de75d29c1a997810d98",
+      "bytes": 6860
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\requirements.txt",
+      "sha256": "cebf5ef25cc007bdd2a3593f254f5c8b016145f6e3a8d7d3f8246f40e58997f3",
+      "bytes": 147
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\src\\q1_lmm_baseline.py",
+      "sha256": "98e0728561cb6044f7fccab4a6980ac7a08b45063472c7a7e0b2fd52626295cf",
+      "bytes": 19215
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\src\\q4_label_audit.py",
+      "sha256": "eea2e5adfd0afb7fc6ef333ed3b953b62e8c560f9772ade3ab39686793b22463",
+      "bytes": 4779
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\src\\q4_model.py",
+      "sha256": "c70b0aeb12f67f05cc97196b95733285083312623bfd089a30c2d45c21934bf4",
+      "bytes": 12116
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\src\\run_q4_model.py",
+      "sha256": "5b061abcadce0e010ec87004d75fb1f14b6d68d2673c40a5e90c989b54ca715a",
+      "bytes": 1738
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\utils\\repro_manifest.py",
+      "sha256": "ef68a6db57b446ef8a930e4f40e486eadec19f609d1d9f65db7c6a6796d90365",
+      "bytes": 4461
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\q4_label_audit\\label_counts.csv",
+      "sha256": "964882b39a3174a37ea903ddd5068ea3724fef339ce1311570ad32c7dd5164db",
+      "bytes": 88
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\q4_label_audit\\subject_labels.csv",
+      "sha256": "e4b4f57e216f6014af44f63e6dd7334d6af4c66c3592a5bf0e6bffc60532233d",
+      "bytes": 2086
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\q4_model\\calibration.csv",
+      "sha256": "38af42e0aa68733c6ba3d8711edaf1742489850e8f88dc69290cca13ea4c5324",
+      "bytes": 373
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\q4_model\\fold_metrics.csv",
+      "sha256": "60db056f1de923fc1cdab02c5af8b3507088d1ee38c90400d399060b75b1780d",
+      "bytes": 852
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\q4_model\\oof_predictions.csv",
+      "sha256": "12eb22a75697495e018ee35effd383ca9550c41386fa7d0a1ac3f421b6a93c05",
+      "bytes": 36619
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\q4_model\\experiment.json",
+      "sha256": "144b57b81d87858976e940f1fd23eb5c37d062a4044eecc12541f9eddc916569",
+      "bytes": 6566
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\q4_model\\README.md",
+      "sha256": "c2f4560cdd9ac90475be80f22cf8f0c4b1529bfcb5243722043e685012555ff2",
+      "bytes": 3051
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\src\\plot_q4_model.py",
+      "sha256": "320d8a080483970e09781330ff0ad38699f6f5d54815ea2f4dc42bb98cf835fa",
+      "bytes": 2802
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q4_model\\process_q4_calibration.png",
+      "sha256": "d14210944751bffea122963eac3fe470d903145d8cda54142a42b28edc38a75e",
+      "bytes": 123086
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q4_model\\result_q4_roc_pr.png",
+      "sha256": "7236d91f863268a5c66e2ac9f4fb18a1089d38a35a18b83a883917a6c757ed4e",
+      "bytes": 164162
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q4_model\\process_q4_calibration.svg",
+      "sha256": "f33c2740f6fb2f1fa9fa4d40723363fd8fe43eb81e24af2dd0330f16fe28e797",
+      "bytes": 15493
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q4_model\\result_q4_roc_pr.svg",
+      "sha256": "24687d341495454e0e4da37fcc74a85139586ea083c8823703be2208baec61c4",
+      "bytes": 32516
+    }
+  ],
+  "runtime": {
+    "name": "python",
+    "version": "3.13.5",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "dependencies": {
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.3",
+      "statsmodels": "0.14.4",
+      "openpyxl": "3.1.5",
+      "scikit-learn": "1.9.0",
+      "matplotlib": "3.10.6",
+      "pyparsing": "3.2.3"
+    }
+  },
+  "key_parameters": {
+    "threshold": 0.04,
+    "l1_ratio": 0.5,
+    "C_grid": [
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0
+    ],
+    "outer": "StratifiedGroupKFold(5) by subject",
+    "inner": "3 subject-grouped folds; C by PR-AUC; tau by F2",
+    "scope": "Q4 A_any main model, nested threshold, no per-type CV",
+    "optimizer": "custom deterministic FISTA (intercept unpenalized)"
+  },
+  "reproduce_command": ".\\.venv\\Scripts\\python.exe -W error src\\run_q4_model.py"
+}

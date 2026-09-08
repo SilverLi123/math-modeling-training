@@ -1,0 +1,48 @@
+{
+  "sigma_logit_sd": 0.25520716236791846,
+  "sigma_hat_y": 0.0177,
+  "design": "Y perturbed with N(0, sigma) per record (clipped), D recomputed, T_w4_b3 refit on full data; Q3 linear specs refit at sigma_hat",
+  "scenarios": [
+    {
+      "sigma": 0.0177,
+      "label": "sigma_hat",
+      "R": 20
+    },
+    {
+      "sigma": 0.0354,
+      "label": "sigma_2x",
+      "R": 20
+    }
+  ],
+  "q2_summary": [
+    {
+      "sigma": 0.0177,
+      "t90_mean": 23.134,
+      "t90_sd": 0.586,
+      "t90_min": 21.84,
+      "t90_max": 24.07,
+      "feasible_min": 20,
+      "risk_mean": 12.253,
+      "risk_max": 13.5
+    },
+    {
+      "sigma": 0.0354,
+      "t90_mean": 24.426,
+      "t90_sd": 0.488,
+      "t90_min": 23.35,
+      "t90_max": 25.0,
+      "feasible_min": 2,
+      "risk_mean": 12.139,
+      "risk_max": 13.3
+    }
+  ],
+  "q3_summary": {
+    "n_reps": 15,
+    "baseline_best_rate": 0.0,
+    "mean_brier": {
+      "Q2_baseline": 0.1349,
+      "Q3_A_bmi_age_ivf": 0.1345,
+      "Q3_B_hw_age": 0.1336
+    }
+  }
+}

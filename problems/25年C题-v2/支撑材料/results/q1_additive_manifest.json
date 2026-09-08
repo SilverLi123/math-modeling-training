@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-07T15:31:44.335797+00:00",
+  "random_seed": 20250904,
+  "input_files": [
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\附件.xlsx",
+      "sha256": "14827156218bd4f7e4f16db4aa6d9f757c6648379e038ae6c6b58383648614af",
+      "bytes": 481734
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\题目分析报告.md",
+      "sha256": "1cb4f301bddc0eac425d591e508cdaa749dda44cb6b659b1822988ac38dbcc91",
+      "bytes": 24597
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\术语表格.md",
+      "sha256": "cd2dbaf242f6168be61fa4facb51c424b3b19b19f9706de75d29c1a997810d98",
+      "bytes": 6860
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\requirements.txt",
+      "sha256": "cebf5ef25cc007bdd2a3593f254f5c8b016145f6e3a8d7d3f8246f40e58997f3",
+      "bytes": 147
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\src\\q1_lmm_baseline.py",
+      "sha256": "98e0728561cb6044f7fccab4a6980ac7a08b45063472c7a7e0b2fd52626295cf",
+      "bytes": 19215
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\src\\q1_spline_comparison.py",
+      "sha256": "ce5b238455529c86ca77ea59898498eab4aaf8ef1d19cb171d69619cf99b504c",
+      "bytes": 6678
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\src\\q1_additive_linear.py",
+      "sha256": "6561dc276077bbbcb57c12ad6cc285f95212a7e14526d3f0744363c3b227209a",
+      "bytes": 6461
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\src\\run_q1_additive.py",
+      "sha256": "ed31ab86e0fb028e6799f1e0c33cfac959a5b483d58eed7f87b1c6061c90f290",
+      "bytes": 1432
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\utils\\plot_style.py",
+      "sha256": "e9fa501fe72ff89b913e1f777e0b5925a118b95b9d324288c59e906f27592b9a",
+      "bytes": 17654
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\utils\\repro_manifest.py",
+      "sha256": "ef68a6db57b446ef8a930e4f40e486eadec19f609d1d9f65db7c6a6796d90365",
+      "bytes": 4461
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\q1_additive\\comparison.csv",
+      "sha256": "648e1a9a74eb2ddecc79cd85f61cd223162c26b9672cf75c0dd9670e5763ebcb",
+      "bytes": 285
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\q1_additive\\fold_metrics.csv",
+      "sha256": "aca81f40f30dbb0d969a95e635bd75598776cd555aced095c40896c804fca26d",
+      "bytes": 1346
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\q1_additive\\oof_predictions.csv",
+      "sha256": "2e99a5c7e0d68aad1128b5713a5ecb6d5b2c4be7607c4cc6e7699880445d144d",
+      "bytes": 132262
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\q1_additive\\experiment.json",
+      "sha256": "0c49e8e0a07646d6d83a1e334eb892f5c032c314bc94e1da51740247b3653601",
+      "bytes": 2556
+    },
+    {
+      "path": "D:\\mathmodeling - 副本\\math-modeling-training\\problems\\25年C题\\outputs\\q1_additive\\README.md",
+      "sha256": "114478f0af4effd98cae1a7884364c4c989cade8e63bceef05ff300876a30a93",
+      "bytes": 1803
+    }
+  ],
+  "runtime": {
+    "name": "python",
+    "version": "3.13.5",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "dependencies": {
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "patsy": "1.0.1",
+      "statsmodels": "0.14.4",
+      "scipy": "1.15.3",
+      "matplotlib": "3.10.6",
+      "openpyxl": "3.1.5",
+      "pyparsing": "3.2.3"
+    }
+  },
+  "key_parameters": {
+    "outer_folds": 5,
+    "inner_folds": 3,
+    "candidate_df": [
+      3,
+      4
+    ],
+    "bootstrap_replicates": 2000,
+    "response": "logit Y",
+    "scope": "Q1 additive-linear control: isolate interaction removal vs nonlinearity"
+  },
+  "reproduce_command": ".\\.venv\\Scripts\\python.exe -W error src\\run_q1_additive.py"
+}

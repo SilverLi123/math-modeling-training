@@ -1,0 +1,68 @@
+{
+  "n_fold_models": 5,
+  "l1_ratio": 0.5,
+  "fold_C": {
+    "1": 1.0,
+    "2": 0.5,
+    "3": 1.0,
+    "4": 0.5,
+    "5": 0.5
+  },
+  "note": "median of standardized betas across the five outer fold models; scale = z-score of fold training part",
+  "top6_by_abs_median_beta": [
+    {
+      "rank": 1,
+      "feature": "21号染色体的GC含量",
+      "code": "gc21",
+      "median_beta": -2.15089716737016,
+      "min": -3.0870940871190817,
+      "max": -1.9863191045631143,
+      "nonzero_folds": 5
+    },
+    {
+      "rank": 2,
+      "feature": "13号染色体的GC含量",
+      "code": "gc13",
+      "median_beta": 1.68719492266859,
+      "min": 1.4791317398229393,
+      "max": 2.019382960219843,
+      "nonzero_folds": 5
+    },
+    {
+      "rank": 3,
+      "feature": "X染色体浓度",
+      "code": "x_conc",
+      "median_beta": -0.929670228781087,
+      "min": -1.0846413307710299,
+      "max": -0.8210263077719251,
+      "nonzero_folds": 5
+    },
+    {
+      "rank": 4,
+      "feature": "18号染色体的GC含量",
+      "code": "gc18",
+      "median_beta": 0.7683082741591768,
+      "min": 0.43389926527683975,
+      "max": 1.2878028194024602,
+      "nonzero_folds": 5
+    },
+    {
+      "rank": 5,
+      "feature": "年龄",
+      "code": "age",
+      "median_beta": -0.3775121951798117,
+      "min": -0.5910168230899236,
+      "max": -0.16899064665042027,
+      "nonzero_folds": 5
+    },
+    {
+      "rank": 6,
+      "feature": "被过滤掉读段数的比例",
+      "code": "filter_ratio",
+      "median_beta": 0.30271767456321297,
+      "min": 0.1144218516983865,
+      "max": 0.3544988606095727,
+      "nonzero_folds": 5
+    }
+  ]
+}
