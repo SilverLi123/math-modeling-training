@@ -2809,5 +2809,6 @@
   "folds": 3,
   "inner_folds": 3,
   "input_sha256": "14827156218bd4f7e4f16db4aa6d9f757c6648379e038ae6c6b58383648614af",
-  "warning": "Attachment AB label replication, not clinical diagnosis. Fixed ridge C=.1, unweighted likelihood, no probability recalibration. Inner subject OOF chooses MCC threshold. 2000 frozen subject-loss bootstraps, no refit. Targets use separate grouped splits."
+  "high_sensitivity_target": 0.9,
+  "warning": "Attachment AB label replication, not clinical diagnosis. Fixed ridge C=.1, unweighted likelihood, no probability recalibration. Inner subject OOF chooses MCC threshold. High-sensitivity threshold is selected in inner subject OOF only. 2000 frozen subject-loss bootstraps, no refit. Targets use separate grouped splits."
 }

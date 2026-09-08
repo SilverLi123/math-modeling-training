@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "created_at_utc": "2026-09-08T00:30:38.093710+00:00",
+  "created_at_utc": "2026-09-08T01:40:32.465201+00:00",
   "random_seed": 20250904,
   "input_files": [
     {
@@ -190,17 +190,17 @@
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q2_probability\\process_q2_calibration.svg",
-      "sha256": "3d00b88f66b8da4baa90613b5d25efcb9d0256fc363c8238cafaaff7bd833efe",
+      "sha256": "6c6a657efa704230bb7a03b55c4ce4c9b79bb9592b6d436b31002f7e101aa98b",
       "bytes": 21225
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q2_probability\\result_q2_probability_slices.svg",
-      "sha256": "372a7781acedf4d29decbb7abc4dd9981d8f49b1e1d5f8bcb681438c4a02ea86",
+      "sha256": "b32d9fabbb63d9f511e4352590b507cbf4a4ca8cd00850c007127793387a421b",
       "bytes": 19325
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q2_probability\\result_q2_probability_surface.svg",
-      "sha256": "814890679adbfb085b776782305998eed6a1e32317dfac5d00c6231c5a0cfcf1",
+      "sha256": "ae874cd1adff630dea51bab0a10df574c834e1466975b135d9e894c694e157f9",
       "bytes": 2258115
     }
   ],

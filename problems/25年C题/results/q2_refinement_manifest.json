@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "created_at_utc": "2026-09-08T00:30:58.143775+00:00",
+  "created_at_utc": "2026-09-08T01:40:53.832160+00:00",
   "random_seed": 20250904,
   "input_files": [
     {
@@ -125,17 +125,17 @@
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q2_refinement\\process_q2_refinement_calibration.svg",
-      "sha256": "78e118ea87d44ff8812017383b55fbae5baa3c8b3b4868edfe04591528db96fa",
+      "sha256": "3658634844a244dd90a7c014a1c81c1894030b685efc9ceb2e71cd57d4b6b1e6",
       "bytes": 16396
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q2_refinement\\result_q2_early_sensitivity.svg",
-      "sha256": "5efce9d4a77f244171c8edf7dd273e7718f64ff5e477b98c3cb906dd832e2478",
+      "sha256": "5c08c671b965fbcfc69a448bd2f7a6ad49f62a234f71fc71c36d74ee06040058",
       "bytes": 36718
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q2_refinement\\result_q2_refinement_metrics.svg",
-      "sha256": "4fd6eb98c95ad0049c7131c03090d61372102c4ae2e3cadce591ae82d91e662b",
+      "sha256": "d3d06e390fed4e310187d5b3722f1369fbdb28e47ee9564878e76edd8dfc05dc",
       "bytes": 20650
     }
   ],

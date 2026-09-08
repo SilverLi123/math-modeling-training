@@ -3,7 +3,8 @@ import sys
 from pathlib import Path
 import numpy as np
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from q4_chromosomes import load_data, split, TARGETS, DEFAULT_SEED, model, FEATURES
+from q4_chromosomes import (load_data, split, TARGETS, DEFAULT_SEED, model,
+                             FEATURES, threshold_for_sensitivity)
 
 
 class ChromosomeTests(unittest.TestCase):
@@ -32,6 +33,13 @@ class ChromosomeTests(unittest.TestCase):
         p = fitted.predict_proba(valid[FEATURES])[:, 1]
         self.assertTrue(np.array_equal(before, fitted.steps[1][1].mean_))
         self.assertTrue(np.all(np.isfinite(p) & (p >= 0) & (p <= 1)))
+
+    def test_high_sensitivity_threshold_is_training_only_constraint(self):
+        y = np.array([1, 1, 1, 1, 0, 0, 0, 0])
+        score = np.array([.9, .8, .7, .6, .55, .4, .2, .1])
+        threshold = threshold_for_sensitivity(y, score, target=.75)
+        self.assertEqual(threshold, .7)
+        self.assertGreaterEqual((score[y == 1] >= threshold).mean(), .75)
 
 
 if __name__ == '__main__':

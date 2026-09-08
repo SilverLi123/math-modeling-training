@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "created_at_utc": "2026-09-08T00:30:28.173948+00:00",
+  "created_at_utc": "2026-09-08T01:40:22.017731+00:00",
   "random_seed": 20250904,
   "input_files": [
     {
@@ -130,22 +130,22 @@
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q1_comparison\\process_q1_oof_diagnostics.svg",
-      "sha256": "79895182d4aa449e07defd41224f81300f3adca7867eefd376998b9f1a4aacf5",
+      "sha256": "0fb88f92092f034fe708feda2b6a8a3a0a6ef011b3884e669d5b1e346cbd899a",
       "bytes": 380325
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q1_comparison\\result_q1_comparison.svg",
-      "sha256": "03bf3fe817e1513b6b79a68a3137a08fd58954700777bc717d3943d0d62f8892",
+      "sha256": "cbdbbd24c1a731de87c773238c454f3c4f76be7e8145f45fd06d55fecaa13e76",
       "bytes": 11520
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q1_comparison\\result_q1_effect_bmi.svg",
-      "sha256": "1a305a80c86764421e7fbc5224ecbbeaaffea01931a2d44f072b4c525270fa0f",
+      "sha256": "6fd0d9dc424d5f403b16ec618fd9f9c7bad9e898c923f860f7b751bd560cc216",
       "bytes": 201313
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q1_comparison\\result_q1_effect_gestational_week.svg",
-      "sha256": "c3bc4faabe0f05fb4e42dece2c912041f6ce0e165fcf1599e03470e28b72517b",
+      "sha256": "7987ec8f6ba97ac8e7088cc7965626be67e739adf6637d5099416655d6250c12",
       "bytes": 201836
     }
   ],

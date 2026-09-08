@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "created_at_utc": "2026-09-08T00:35:52.220698+00:00",
+  "created_at_utc": "2026-09-08T01:46:22.906842+00:00",
   "random_seed": 20250904,
   "input_files": [
     {
@@ -20,8 +20,8 @@
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\build_paper_docx.py",
-      "sha256": "dbd02fbffb11b0d488ccba6deb874252f7f80d28d17f98f40f9e3cdf5781cb27",
-      "bytes": 3530
+      "sha256": "e22191c80b6e4d13662660b7d3b5b972c0137d56c8b57ed01d79035167ac527b",
+      "bytes": 4569
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\plot_paper_coverage.py",
@@ -105,8 +105,8 @@
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\q4_chromosomes.py",
-      "sha256": "a22f92eb25cec0232b6fee876573639c54043046dc49e32e4b03acca37b2f707",
-      "bytes": 6217
+      "sha256": "da77dbcd306595895f0e833e646a881adcc0946d7177d9673cda3f1d77a44c2e",
+      "bytes": 8162
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\run_paper_evidence.py",
@@ -185,8 +185,8 @@
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\test_q4_chromosomes.py",
-      "sha256": "3a008e0c871606cccaaf397e80f4e80d1b108596857988838d474ed6daae1b32",
-      "bytes": 1782
+      "sha256": "39505b93d1a3ceca9526f7c103a8726d7aa91881ad357cc7558b333eede615de",
+      "bytes": 2205
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\utils\\plot_style.py",
@@ -380,13 +380,18 @@
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q4_chromosomes\\experiment.json",
-      "sha256": "97a68a468a171bd67e5b388dbd0429e1d8d1e7be16c1045c010f14219821ded6",
-      "bytes": 55677
+      "sha256": "9cebf4f0f4d160b8f31cabc52a73ff3b3990a632171d060bf812ed91e117a9fc",
+      "bytes": 55778
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q4_chromosomes\\high_sensitivity.csv",
+      "sha256": "5483c5e287b2bbbaa79893f475ae8148fcb4ad11acd4f30421f24defad47f956",
+      "bytes": 487
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q4_chromosomes\\oof.csv",
-      "sha256": "b013630f2947e6d7af8d115395e62b27bf7195fd706ba0ff37eb94269afc0b6e",
-      "bytes": 191716
+      "sha256": "e98a1a8f14e97c6ab593f08cd73c940e62ab6f3f7583b765b1fe07810a020630",
+      "bytes": 246221
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\metrics\\data_audit.json",
@@ -485,77 +490,77 @@
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\paper\\figures\\process_q1_oof_diagnostics.svg",
-      "sha256": "79895182d4aa449e07defd41224f81300f3adca7867eefd376998b9f1a4aacf5",
+      "sha256": "0fb88f92092f034fe708feda2b6a8a3a0a6ef011b3884e669d5b1e346cbd899a",
       "bytes": 380325
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\paper\\figures\\process_q2_calibration.svg",
-      "sha256": "3d00b88f66b8da4baa90613b5d25efcb9d0256fc363c8238cafaaff7bd833efe",
+      "sha256": "6c6a657efa704230bb7a03b55c4ce4c9b79bb9592b6d436b31002f7e101aa98b",
       "bytes": 21225
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\paper\\figures\\process_q3_paired_comparison.svg",
-      "sha256": "7aada4f156799914b64ab23cb8b8c6b95f1d11ead181a0ed78626d45b3dfac1e",
+      "sha256": "4c1f843757082d426c6481092ad465645d56697958b0d5715468292c366cb2bf",
       "bytes": 8040
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\paper\\figures\\process_q4_calibration.svg",
-      "sha256": "071734ab12f495073ae37ff542b4903bc2810c12d9e568025c0349f1aac2140c",
+      "sha256": "6e75a0382ff927e6c63b65a9eab379f9bae95de40c1f2303e588d0db8c2b7dea",
       "bytes": 12212
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\paper\\figures\\raw_q1_repeat_counts.svg",
-      "sha256": "2837094bb64ad3c2ac4489b86e2d766c931f257b7b673a57eec934a9d4b4815d",
+      "sha256": "9d1a7f34b5d2b745ced7a498d9eebb68704cd9ac30123fb9d912ffb83c4b2495",
       "bytes": 11884
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\paper\\figures\\raw_q2_observation_support.svg",
-      "sha256": "d5d11800759762c9a50de60d2ddfb292962317cb093a0b78d41210d2f20981b3",
+      "sha256": "c9a4b0847f4d7e8b95fea65b6fa08fabdf2732bfb25b89a929ff7811ae19b005",
       "bytes": 191875
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\paper\\figures\\raw_q3_covariates.svg",
-      "sha256": "4b02ff9dc671d79bfbbbcd2f419f5abe71fa4e204e29416987cf8ba44cf40d18",
+      "sha256": "be1ac1177335b83e914a81f74b06e82ec63bf8f193d41def371558769c023eef",
       "bytes": 53554
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\paper\\figures\\raw_q4_positive_subjects.svg",
-      "sha256": "c65e421ac8ea919849a190a2f48ff4139ab8c77e01e7e497b35204fd244ab32c",
+      "sha256": "6fa5cbdec84fe0519ff57ea62b769021214826a0a0f9d8d4c9411db03f970d54",
       "bytes": 9058
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\paper\\figures\\result_q1_comparison.svg",
-      "sha256": "03bf3fe817e1513b6b79a68a3137a08fd58954700777bc717d3943d0d62f8892",
+      "sha256": "cbdbbd24c1a731de87c773238c454f3c4f76be7e8145f45fd06d55fecaa13e76",
       "bytes": 11520
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\paper\\figures\\result_q1_effect_bmi.svg",
-      "sha256": "1a305a80c86764421e7fbc5224ecbbeaaffea01931a2d44f072b4c525270fa0f",
+      "sha256": "6fd0d9dc424d5f403b16ec618fd9f9c7bad9e898c923f860f7b751bd560cc216",
       "bytes": 201313
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\paper\\figures\\result_q1_effect_gestational_week.svg",
-      "sha256": "c3bc4faabe0f05fb4e42dece2c912041f6ce0e165fcf1599e03470e28b72517b",
+      "sha256": "7987ec8f6ba97ac8e7088cc7965626be67e739adf6637d5099416655d6250c12",
       "bytes": 201836
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\paper\\figures\\result_q2_probability_slices.svg",
-      "sha256": "372a7781acedf4d29decbb7abc4dd9981d8f49b1e1d5f8bcb681438c4a02ea86",
+      "sha256": "b32d9fabbb63d9f511e4352590b507cbf4a4ca8cd00850c007127793387a421b",
       "bytes": 19325
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\paper\\figures\\result_q2_probability_surface.svg",
-      "sha256": "814890679adbfb085b776782305998eed6a1e32317dfac5d00c6231c5a0cfcf1",
+      "sha256": "ae874cd1adff630dea51bab0a10df574c834e1466975b135d9e894c694e157f9",
       "bytes": 2258115
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\paper\\figures\\result_q3_conditional_policy.svg",
-      "sha256": "e29abda3f7f1029098260dd76e88a7638de0d9c6e4c7ce8f38387a9a0a947b92",
+      "sha256": "c077323eef50b434955363d729eec304132248fdb1c67dd5619db7187c68e632",
       "bytes": 11092
     },
     {
       "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\paper\\figures\\result_q4_brier_intervals.svg",
-      "sha256": "49253e1d3c1ffa45936265b11375731b156f98b48358fe6e632b151b7dfc5856",
+      "sha256": "bbdd95ac312d079b659dd89905763b3edb0f66acdfb0f2d18e30d80999239b9a",
       "bytes": 10325
     }
   ],
