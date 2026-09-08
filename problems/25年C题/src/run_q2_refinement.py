@@ -13,7 +13,7 @@ if __name__ == "__main__":
     run()
     plot()
     files = [
-        ROOT / "附件.xlsx", ROOT / "题目分析报告.md", ROOT / "术语表格.md",
+        ROOT / "附件.xlsx", ROOT / "docs" / "analysis" / "题目分析报告.md", ROOT / "docs" / "analysis" / "术语表格.md",
         ROOT / "requirements.txt", ROOT / "src" / "q1_lmm_baseline.py",
         ROOT / "utils" / "plot_style.py", ROOT / "utils" / "repro_manifest.py",
         ROOT / "src" / "q2_probability.py", ROOT / "src" / "q2_nonlinear_calibration.py",

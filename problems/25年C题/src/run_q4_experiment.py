@@ -8,7 +8,7 @@ from utils.repro_manifest import build_manifest
 
 if __name__ == "__main__":
     run(); plot()
-    files = [ROOT / "附件.xlsx", ROOT / "题目分析报告.md", ROOT / "术语表格.md",
+    files = [ROOT / "附件.xlsx", ROOT / "docs" / "analysis" / "题目分析报告.md", ROOT / "docs" / "analysis" / "术语表格.md",
              ROOT / "requirements.txt", ROOT / "src" / "q4_abnormality_baseline.py",
              ROOT / "src" / "test_q4_abnormality.py", ROOT / "src" / "plot_q4_abnormality.py",
              ROOT / "src" / "run_q4_experiment.py", ROOT / "utils" / "plot_style.py",

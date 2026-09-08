@@ -9,7 +9,7 @@ from utils.repro_manifest import build_manifest
 if __name__=='__main__':
     run()
     plot()
-    inputs=[ROOT/'附件.xlsx', ROOT/'题目分析报告.md', ROOT/'术语表格.md',ROOT/'requirements.txt']
+    inputs=[ROOT/'附件.xlsx', ROOT/'docs'/'analysis'/'题目分析报告.md', ROOT/'docs'/'analysis'/'术语表格.md',ROOT/'requirements.txt']
     inputs+=list((ROOT/'src').glob('*q1*.py'))+list((ROOT/'utils').glob('*.py'))
     inputs+=list((ROOT/'outputs'/'q1_comparison').glob('*.csv'))
     inputs+=[ROOT/'outputs'/'q1_comparison'/'experiment.json']

@@ -10,7 +10,7 @@ from utils.repro_manifest import build_manifest
 if __name__=='__main__':
     run()
     plot()
-    files=[ROOT/'附件.xlsx',ROOT/'题目分析报告.md',ROOT/'术语表格.md',ROOT/'requirements.txt',
+    files=[ROOT/'附件.xlsx',ROOT/'docs'/'analysis'/'题目分析报告.md',ROOT/'docs'/'analysis'/'术语表格.md',ROOT/'requirements.txt',
            ROOT/'src'/'q1_lmm_baseline.py',ROOT/'utils'/'plot_style.py',ROOT/'utils'/'repro_manifest.py']
     files+=list((ROOT/'src').glob('*q2*.py'))
     files+=list(OUT.glob('*.csv'))+[OUT/'experiment.json',OUT/'README.md']
