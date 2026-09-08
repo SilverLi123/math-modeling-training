@@ -1,0 +1,1006 @@
+{
+  "seed": 20250904,
+  "threshold": 0.04,
+  "input_sha256": "14827156218bd4f7e4f16db4aa6d9f757c6648379e038ae6c6b58383648614af",
+  "n_records": 1082,
+  "n_subjects": 267,
+  "specs": {
+    "week_bmi": [
+      "gestational_week",
+      "baseline_bmi"
+    ],
+    "week_bmi_age": [
+      "gestational_week",
+      "baseline_bmi",
+      "age_years"
+    ],
+    "week_bmi_age_conception": [
+      "gestational_week",
+      "baseline_bmi",
+      "age_years",
+      "non_natural"
+    ]
+  },
+  "comparison": [
+    {
+      "spec": "week_bmi",
+      "record_brier": 0.11539987992006544,
+      "subject_brier": 0.11159719756457541,
+      "record_log_loss": 0.3937834955886411,
+      "subject_log_loss": 0.3836139813393446,
+      "mean_probability": 0.8609323781126268,
+      "observed_rate": 0.865988909426987
+    },
+    {
+      "spec": "week_bmi_age",
+      "record_brier": 0.11615233965519883,
+      "subject_brier": 0.1124663730906062,
+      "record_log_loss": 0.3957636923049269,
+      "subject_log_loss": 0.38599274349100754,
+      "mean_probability": 0.8611015831360074,
+      "observed_rate": 0.865988909426987
+    },
+    {
+      "spec": "week_bmi_age_conception",
+      "record_brier": 0.11684070243734257,
+      "subject_brier": 0.11304885442633376,
+      "record_log_loss": 0.4587405946439246,
+      "subject_log_loss": 0.4371501723967009,
+      "mean_probability": 0.8611772665558007,
+      "observed_rate": 0.865988909426987
+    }
+  ],
+  "subject_brier_difference_ci95_vs_week_bmi": {
+    "week_bmi_age": [
+      -0.00020315690633014428,
+      0.0019003366562638168
+    ],
+    "week_bmi_age_conception": [
+      0.0001475235380666845,
+      0.0030220672676402253
+    ]
+  },
+  "bootstrap": "2000 subject resamples of frozen OOF Brier differences vs week_bmi; no refit",
+  "covariate_rule": "age and conception type taken from the subject first record only; no future information",
+  "fold_fits": [
+    {
+      "fold": 1,
+      "spec": "week_bmi",
+      "fit": {
+        "theta": [
+          3.6458205094888956,
+          0.8183901666854031,
+          -0.44576810226210933,
+          1.0026727005993075
+        ],
+        "features": [
+          "gestational_week",
+          "baseline_bmi"
+        ],
+        "center": [
+          16.858120215018733,
+          31.830388485877364
+        ],
+        "scale": [
+          4.101310395014121,
+          2.7750849516396827
+        ],
+        "sigma": 2.725556699376419,
+        "nodes": 320,
+        "quadrature_nll_difference": 4.4191779124957975e-09,
+        "quadrature_probability_difference": 5.969669203409467e-13,
+        "checked_gradient_max": 2.74947932266123e-06,
+        "optimization_history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 291.169229912583,
+            "gradient_max": 5.837102627541051e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 291.16922991254216,
+            "gradient_max": 2.788693396205133e-07,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 291.1692299125422,
+            "gradient_max": 2.7636467523350916e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 291.16937218511777,
+            "gradient_max": 6.0428728236436955e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 291.1693721851163,
+            "gradient_max": 1.794656289133556e-07,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          }
+        ]
+      }
+    },
+    {
+      "fold": 1,
+      "spec": "week_bmi_age",
+      "fit": {
+        "theta": [
+          3.6237422180361305,
+          0.8151096179562795,
+          -0.4492285551582313,
+          -0.29293859749352535,
+          0.9881776845693138
+        ],
+        "features": [
+          "gestational_week",
+          "baseline_bmi",
+          "age_years"
+        ],
+        "center": [
+          16.858120215018733,
+          31.830388485877364,
+          28.843785632839225
+        ],
+        "scale": [
+          4.101310395014121,
+          2.7750849516396827,
+          3.6565179976840883
+        ],
+        "sigma": 2.686334660100395,
+        "nodes": 320,
+        "quadrature_nll_difference": 1.4935324088583002e-08,
+        "quadrature_probability_difference": 4.468647674116255e-13,
+        "checked_gradient_max": 8.602036159155446e-06,
+        "optimization_history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 290.51352422361145,
+            "gradient_max": 1.6374102900943482e-07,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 290.5135242236162,
+            "gradient_max": 7.578267367414071e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 290.5135242236239,
+            "gradient_max": 2.5780317594481517e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 290.51362519276677,
+            "gradient_max": 2.9602381819149315e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 290.5136251927456,
+            "gradient_max": 9.266558917808698e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          }
+        ]
+      }
+    },
+    {
+      "fold": 1,
+      "spec": "week_bmi_age_conception",
+      "fit": {
+        "theta": [
+          3.618856816972472,
+          0.8152346024961326,
+          -0.4565766109681314,
+          -0.27446315965773455,
+          -0.11036541742801294,
+          0.986115111790723
+        ],
+        "features": [
+          "gestational_week",
+          "baseline_bmi",
+          "age_years",
+          "non_natural"
+        ],
+        "center": [
+          16.858120215018733,
+          31.830388485877364,
+          28.843785632839225,
+          0.01596351197263398
+        ],
+        "scale": [
+          4.101310395014121,
+          2.7750849516396827,
+          3.6565179976840883,
+          0.12533426609723913
+        ],
+        "sigma": 2.6807996095408635,
+        "nodes": 320,
+        "quadrature_nll_difference": 2.2621748030360322e-08,
+        "quadrature_probability_difference": 3.9190872769268026e-13,
+        "checked_gradient_max": 1.3978950520909805e-05,
+        "optimization_history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 290.42573298820224,
+            "gradient_max": 1.5131927300389181e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 290.4257329881939,
+            "gradient_max": 5.6762823735103235e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 290.42573298819264,
+            "gradient_max": 2.3374680126383457e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 290.425847279585,
+            "gradient_max": 4.707492131424272e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 290.42584727951714,
+            "gradient_max": 1.4631581932822435e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          }
+        ]
+      }
+    },
+    {
+      "fold": 2,
+      "spec": "week_bmi",
+      "fit": {
+        "theta": [
+          3.9245114910673142,
+          1.0170387890166637,
+          -0.6128146459401556,
+          1.0748326753207036
+        ],
+        "features": [
+          "gestational_week",
+          "baseline_bmi"
+        ],
+        "center": [
+          16.854512576031563,
+          31.719159271046845
+        ],
+        "scale": [
+          4.118422974526136,
+          2.804326265670871
+        ],
+        "sigma": 2.9295026814253005,
+        "nodes": 320,
+        "quadrature_nll_difference": 2.3137658899941016e-08,
+        "quadrature_probability_difference": 4.278799536905353e-12,
+        "checked_gradient_max": 7.234567123592939e-06,
+        "optimization_history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 275.77563073990484,
+            "gradient_max": 3.8250135503403726e-08,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 275.77563073990495,
+            "gradient_max": 1.7947346551139276e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 275.77563073990484,
+            "gradient_max": 7.95045255995114e-07,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 275.7759058922833,
+            "gradient_max": 1.673290082136172e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 275.77590589228305,
+            "gradient_max": 1.1628711394367737e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          }
+        ]
+      }
+    },
+    {
+      "fold": 2,
+      "spec": "week_bmi_age",
+      "fit": {
+        "theta": [
+          3.907508360697001,
+          1.0149069001334998,
+          -0.6150833083199224,
+          -0.27929562148766496,
+          1.0635375403481626
+        ],
+        "features": [
+          "gestational_week",
+          "baseline_bmi",
+          "age_years"
+        ],
+        "center": [
+          16.854512576031563,
+          31.719159271046845,
+          29.049482163406214
+        ],
+        "scale": [
+          4.118422974526136,
+          2.804326265670871,
+          3.678205688256829
+        ],
+        "sigma": 2.896599724717414,
+        "nodes": 320,
+        "quadrature_nll_difference": 7.560436188214226e-08,
+        "quadrature_probability_difference": 3.353539668182748e-12,
+        "checked_gradient_max": 5.1486810812573225e-06,
+        "optimization_history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 275.268777629967,
+            "gradient_max": 1.858093233843045e-08,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 275.26877763000937,
+            "gradient_max": 2.751054961404833e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 275.268777629967,
+            "gradient_max": 2.1417379141297488e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 275.26899283535903,
+            "gradient_max": 4.019376056065662e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 275.26899283533544,
+            "gradient_max": 5.728462565190995e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          }
+        ]
+      }
+    },
+    {
+      "fold": 2,
+      "spec": "week_bmi_age_conception",
+      "fit": {
+        "theta": [
+          3.905333240180467,
+          1.0149109597701054,
+          -0.6170910793846913,
+          -0.2722854512264247,
+          -0.046341831133291544,
+          1.062748651113065
+        ],
+        "features": [
+          "gestational_week",
+          "baseline_bmi",
+          "age_years",
+          "non_natural"
+        ],
+        "center": [
+          16.854512576031563,
+          31.719159271046845,
+          29.049482163406214,
+          0.019562715765247412
+        ],
+        "scale": [
+          4.118422974526136,
+          2.804326265670871,
+          3.678205688256829,
+          0.1384919344840542
+        ],
+        "sigma": 2.8943155294831766,
+        "nodes": 320,
+        "quadrature_nll_difference": 9.990139915316831e-08,
+        "quadrature_probability_difference": 3.3315572522951697e-12,
+        "checked_gradient_max": 1.297189898531389e-05,
+        "optimization_history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 275.25563141537066,
+            "gradient_max": 6.830196592932157e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 275.25563141542443,
+            "gradient_max": 3.488509434147651e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 275.25563141536776,
+            "gradient_max": 2.970754734210601e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 275.2558380297137,
+            "gradient_max": 1.4299167728628643e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 275.2558380297104,
+            "gradient_max": 1.3058174923147042e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          }
+        ]
+      }
+    },
+    {
+      "fold": 3,
+      "spec": "week_bmi",
+      "fit": {
+        "theta": [
+          3.3743607988496005,
+          0.6896159539215113,
+          -0.536500266324396,
+          0.799797470567741
+        ],
+        "features": [
+          "gestational_week",
+          "baseline_bmi"
+        ],
+        "center": [
+          16.870811801966994,
+          31.88455283960487
+        ],
+        "scale": [
+          4.052621492002116,
+          2.97175947604396
+        ],
+        "sigma": 2.2250902365924787,
+        "nodes": 160,
+        "quadrature_nll_difference": 2.554294155743264e-06,
+        "quadrature_probability_difference": 5.3235638119986106e-11,
+        "checked_gradient_max": 4.5249368266997436e-05,
+        "optimization_history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 277.75885688995754,
+            "gradient_max": 1.543579458496147e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 277.75885688995425,
+            "gradient_max": 9.277451549216664e-07,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 277.75885688995425,
+            "gradient_max": 1.0416977571647834e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          }
+        ]
+      }
+    },
+    {
+      "fold": 3,
+      "spec": "week_bmi_age",
+      "fit": {
+        "theta": [
+          3.3828849077029366,
+          0.6909855156153194,
+          -0.5380355833931112,
+          0.08643816115274104,
+          0.803321614482887
+        ],
+        "features": [
+          "gestational_week",
+          "baseline_bmi",
+          "age_years"
+        ],
+        "center": [
+          16.870811801966994,
+          31.88455283960487,
+          28.918319719953324
+        ],
+        "scale": [
+          4.052621492002116,
+          2.97175947604396,
+          3.4617904966510182
+        ],
+        "sigma": 2.232945608410774,
+        "nodes": 160,
+        "quadrature_nll_difference": 3.981436805133853e-06,
+        "quadrature_probability_difference": 5.4172555330467276e-11,
+        "checked_gradient_max": 3.022009213982102e-05,
+        "optimization_history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 277.6871496078812,
+            "gradient_max": 4.600156016590518e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 277.68714960788066,
+            "gradient_max": 2.7118571837014827e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 277.6871496078806,
+            "gradient_max": 8.655539422974812e-07,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          }
+        ]
+      }
+    },
+    {
+      "fold": 3,
+      "spec": "week_bmi_age_conception",
+      "fit": {
+        "theta": [
+          3.68296549703396,
+          0.6907713781882234,
+          -0.5219151857789429,
+          0.07272129295874752,
+          2.806075924416454,
+          0.7981363281778945
+        ],
+        "features": [
+          "gestational_week",
+          "baseline_bmi",
+          "age_years",
+          "non_natural"
+        ],
+        "center": [
+          16.870811801966994,
+          31.88455283960487,
+          28.918319719953324,
+          0.014002333722287048
+        ],
+        "scale": [
+          4.052621492002116,
+          2.97175947604396,
+          3.4617904966510182,
+          0.11750007818132187
+        ],
+        "sigma": 2.22139711313044,
+        "nodes": 160,
+        "quadrature_nll_difference": 3.5303639833728084e-06,
+        "quadrature_probability_difference": 4.630917871395468e-11,
+        "checked_gradient_max": 3.589669468977846e-05,
+        "optimization_history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 276.8446225754779,
+            "gradient_max": 1.3070205381706864e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 276.8446225755881,
+            "gradient_max": 7.720706177449799e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 276.844622575463,
+            "gradient_max": 2.2545050661258725e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          }
+        ]
+      }
+    },
+    {
+      "fold": 4,
+      "spec": "week_bmi",
+      "fit": {
+        "theta": [
+          3.4997923251266254,
+          0.7888755769815586,
+          -0.5273919535175375,
+          0.98923254582587
+        ],
+        "features": [
+          "gestational_week",
+          "baseline_bmi"
+        ],
+        "center": [
+          16.762680858140694,
+          31.85503171015451
+        ],
+        "scale": [
+          3.9934267433553012,
+          2.8449708490318577
+        ],
+        "sigma": 2.689169865566777,
+        "nodes": 320,
+        "quadrature_nll_difference": 7.088056008797139e-08,
+        "quadrature_probability_difference": 4.954925358902074e-13,
+        "checked_gradient_max": 2.7950942791399314e-06,
+        "optimization_history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 291.9520277526502,
+            "gradient_max": 2.085687312039508e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 291.95202775265034,
+            "gradient_max": 3.2150050788826157e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 291.9520277526501,
+            "gradient_max": 1.5136733044762707e-07,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 291.95213011564283,
+            "gradient_max": 3.167749741339598e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 291.9521301156184,
+            "gradient_max": 2.807709028607164e-07,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          }
+        ]
+      }
+    },
+    {
+      "fold": 4,
+      "spec": "week_bmi_age",
+      "fit": {
+        "theta": [
+          3.4892594133914754,
+          0.7873248751449954,
+          -0.521533611681959,
+          -0.19390964349138642,
+          0.9817570544987599
+        ],
+        "features": [
+          "gestational_week",
+          "baseline_bmi",
+          "age_years"
+        ],
+        "center": [
+          16.762680858140694,
+          31.85503171015451,
+          28.90337601862631
+        ],
+        "scale": [
+          3.9934267433553012,
+          2.8449708490318577,
+          3.68538317383751
+        ],
+        "sigma": 2.6691419520746007,
+        "nodes": 160,
+        "quadrature_nll_difference": 1.3491579125002318e-05,
+        "quadrature_probability_difference": 2.210870597707526e-09,
+        "checked_gradient_max": 0.0008502140301957228,
+        "optimization_history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 291.66532651189334,
+            "gradient_max": 6.815784705585526e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 291.66532651189283,
+            "gradient_max": 1.7197178054095819e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 291.6653265118928,
+            "gradient_max": 1.2230727337164682e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          }
+        ]
+      }
+    },
+    {
+      "fold": 4,
+      "spec": "week_bmi_age_conception",
+      "fit": {
+        "theta": [
+          3.4854751792507086,
+          0.7871408067064574,
+          -0.5246135201243549,
+          -0.17716752451703074,
+          -0.09638884301265155,
+          0.9793682735925903
+        ],
+        "features": [
+          "gestational_week",
+          "baseline_bmi",
+          "age_years",
+          "non_natural"
+        ],
+        "center": [
+          16.762680858140694,
+          31.85503171015451,
+          28.90337601862631,
+          0.013969732246798603
+        ],
+        "scale": [
+          3.9934267433553012,
+          2.8449708490318577,
+          3.68538317383751,
+          0.11736515167523685
+        ],
+        "sigma": 2.6627735661113374,
+        "nodes": 160,
+        "quadrature_nll_difference": 4.1882213963617687e-07,
+        "quadrature_probability_difference": 2.0760431151956027e-09,
+        "checked_gradient_max": 0.0008175922128659252,
+        "optimization_history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 291.5862077230658,
+            "gradient_max": 7.15608229303541e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 291.58620772273696,
+            "gradient_max": 9.858233989709295e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 291.5862077227332,
+            "gradient_max": 3.177265269549423e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          }
+        ]
+      }
+    },
+    {
+      "fold": 5,
+      "spec": "week_bmi",
+      "fit": {
+        "theta": [
+          3.7019328932811684,
+          0.8457423270672894,
+          -0.6957604261647914,
+          1.0092531529989688
+        ],
+        "features": [
+          "gestational_week",
+          "baseline_bmi"
+        ],
+        "center": [
+          16.881557241834376,
+          31.84522947632115
+        ],
+        "scale": [
+          4.10255458340922,
+          2.716690795832819
+        ],
+        "sigma": 2.743551236663508,
+        "nodes": 160,
+        "quadrature_nll_difference": 6.906634251890864e-05,
+        "quadrature_probability_difference": 3.6772133116258487e-09,
+        "checked_gradient_max": 0.0018330362209004747,
+        "optimization_history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 278.84225204174766,
+            "gradient_max": 1.309245310121554e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 278.8422520417465,
+            "gradient_max": 2.5392566179588405e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 278.8422520417466,
+            "gradient_max": 4.651020574897302e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          }
+        ]
+      }
+    },
+    {
+      "fold": 5,
+      "spec": "week_bmi_age",
+      "fit": {
+        "theta": [
+          3.6872940185657455,
+          0.8414310865964366,
+          -0.6966157243335341,
+          -0.3700109181554426,
+          0.9931522374618945
+        ],
+        "features": [
+          "gestational_week",
+          "baseline_bmi",
+          "age_years"
+        ],
+        "center": [
+          16.881557241834376,
+          31.84522947632115,
+          28.989607390300232
+        ],
+        "scale": [
+          4.10255458340922,
+          2.716690795832819,
+          3.6986525332603173
+        ],
+        "sigma": 2.6997312673937954,
+        "nodes": 160,
+        "quadrature_nll_difference": 3.130620677893603e-05,
+        "quadrature_probability_difference": 3.0586450039393753e-09,
+        "checked_gradient_max": 0.0012780989894138513,
+        "optimization_history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 277.83751833970786,
+            "gradient_max": 8.072620746535364e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 277.83751833971263,
+            "gradient_max": 1.2721105057345028e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 277.83751833970837,
+            "gradient_max": 4.04021963262835e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          }
+        ]
+      }
+    },
+    {
+      "fold": 5,
+      "spec": "week_bmi_age_conception",
+      "fit": {
+        "theta": [
+          3.68073621461764,
+          0.84197666377639,
+          -0.6992399837457786,
+          -0.3513464686003995,
+          -0.11576397117422489,
+          0.990126342107956
+        ],
+        "features": [
+          "gestational_week",
+          "baseline_bmi",
+          "age_years",
+          "non_natural"
+        ],
+        "center": [
+          16.881557241834376,
+          31.84522947632115,
+          28.989607390300232,
+          0.015011547344110854
+        ],
+        "scale": [
+          4.10255458340922,
+          2.716690795832819,
+          3.6986525332603173,
+          0.12159852297806241
+        ],
+        "sigma": 2.6915745100655912,
+        "nodes": 160,
+        "quadrature_nll_difference": 1.1830743460450321e-06,
+        "quadrature_probability_difference": 2.866648363131219e-09,
+        "checked_gradient_max": 0.0012816693709292101,
+        "optimization_history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 277.7367427349542,
+            "gradient_max": 1.232928291204638e-06,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 277.7367427350029,
+            "gradient_max": 5.395773315264307e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 277.73674273496033,
+            "gradient_max": 1.4734102323915588e-05,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          }
+        ]
+      }
+    }
+  ],
+  "note": "candidate screening only; no decision optimization"
+}

@@ -1,0 +1,80 @@
+{
+  "model": {
+    "theta": [
+      3.618856816972472,
+      0.8152346024961326,
+      -0.4565766109681314,
+      -0.27446315965773455,
+      -0.11036541742801294,
+      0.986115111790723
+    ],
+    "features": [
+      "gestational_week",
+      "baseline_bmi",
+      "age_years",
+      "non_natural"
+    ],
+    "center": [
+      16.858120215018733,
+      31.830388485877364,
+      28.843785632839225,
+      0.01596351197263398
+    ],
+    "scale": [
+      4.101310395014121,
+      2.7750849516396827,
+      3.6565179976840883,
+      0.12533426609723913
+    ],
+    "sigma": 2.6807996095408635,
+    "nodes": 320,
+    "quadrature_nll_difference": 2.2621748030360322e-08,
+    "quadrature_probability_difference": 3.9190872769268026e-13,
+    "checked_gradient_max": 1.3978950520909805e-05,
+    "optimization_history": [
+      {
+        "nodes": 80,
+        "success": true,
+        "nll": 290.42573298820224,
+        "gradient_max": 1.5131927300389181e-05,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "nodes": 80,
+        "success": true,
+        "nll": 290.4257329881939,
+        "gradient_max": 5.6762823735103235e-06,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "nodes": 80,
+        "success": true,
+        "nll": 290.42573298819264,
+        "gradient_max": 2.3374680126383457e-06,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "nodes": 160,
+        "success": true,
+        "nll": 290.425847279585,
+        "gradient_max": 4.707492131424272e-05,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "nodes": 160,
+        "success": true,
+        "nll": 290.42584727951714,
+        "gradient_max": 1.4631581932822435e-05,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      }
+    ]
+  },
+  "heldout_metrics": {
+    "record_brier": 0.09923521858545269,
+    "subject_brier": 0.11457954162918434,
+    "record_log_loss": 0.3433660125412555,
+    "subject_log_loss": 0.38015536113501225,
+    "mean_probability": 0.8554494037192953,
+    "observed_rate": 0.8829268292682927
+  }
+}

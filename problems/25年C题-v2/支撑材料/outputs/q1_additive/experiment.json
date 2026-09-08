@@ -1,0 +1,110 @@
+{
+  "seed": 20250904,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "selections": [
+    {
+      "outer_fold": 1,
+      "selected_spline_df": 3,
+      "inner_scores": [
+        {
+          "df": 3,
+          "subject_mse": 0.2578113440106128
+        },
+        {
+          "df": 4,
+          "subject_mse": 0.2607784348101305
+        }
+      ]
+    },
+    {
+      "outer_fold": 2,
+      "selected_spline_df": 4,
+      "inner_scores": [
+        {
+          "df": 3,
+          "subject_mse": 0.24051041624195496
+        },
+        {
+          "df": 4,
+          "subject_mse": 0.23832294845422566
+        }
+      ]
+    },
+    {
+      "outer_fold": 3,
+      "selected_spline_df": 4,
+      "inner_scores": [
+        {
+          "df": 3,
+          "subject_mse": 0.25269776695720747
+        },
+        {
+          "df": 4,
+          "subject_mse": 0.25220678826146004
+        }
+      ]
+    },
+    {
+      "outer_fold": 4,
+      "selected_spline_df": 4,
+      "inner_scores": [
+        {
+          "df": 3,
+          "subject_mse": 0.2622825290727734
+        },
+        {
+          "df": 4,
+          "subject_mse": 0.2611219294381751
+        }
+      ]
+    },
+    {
+      "outer_fold": 5,
+      "selected_spline_df": 4,
+      "inner_scores": [
+        {
+          "df": 3,
+          "subject_mse": 0.2701265209146168
+        },
+        {
+          "df": 4,
+          "subject_mse": 0.2660222482123631
+        }
+      ]
+    }
+  ],
+  "delta_subject_rmse_addlin_vs_lmm_ci95": [
+    -0.0010047177517842163,
+    0.003242509865868266
+  ],
+  "delta_subject_rmse_spline_vs_addlin_ci95": [
+    -0.014966709103278736,
+    0.00011221013395271226
+  ],
+  "bootstrap": "2000 paired subject resamples of frozen OOF RMSE differences; no refit",
+  "comparison": [
+    {
+      "model": "LMM",
+      "rmse": 0.5140631434145018,
+      "mae": 0.42320982933792667,
+      "r2": -0.030231972554428,
+      "subject_rmse": 0.5062840670278578
+    },
+    {
+      "model": "AddLin",
+      "rmse": 0.5143382070002405,
+      "mae": 0.4234476993692577,
+      "r2": -0.03133477527070405,
+      "subject_rmse": 0.50715635390674
+    },
+    {
+      "model": "Spline",
+      "rmse": 0.5071668049434794,
+      "mae": 0.4159757135631826,
+      "r2": -0.002775534228369736,
+      "subject_rmse": 0.5008323015435879
+    }
+  ],
+  "note": "AddLin isolates removing the week x bmi interaction; Spline vs AddLin isolates nonlinearity; both are frozen-OOF comparisons without model-selection adjustment"
+}

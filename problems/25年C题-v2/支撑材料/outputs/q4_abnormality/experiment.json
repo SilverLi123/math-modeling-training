@@ -1,0 +1,87 @@
+{
+  "seed": 20250904,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "target": "attachment AB screening label",
+  "audit": {
+    "sheet": "女胎检测数据",
+    "rows": 605,
+    "subjects": 147,
+    "label_source": "染色体的非整倍体",
+    "nonempty_ab_rows": 67,
+    "positive_subjects_any": 44,
+    "per_label": {
+      "a13": {
+        "positive_rows": 23,
+        "positive_subjects": 18
+      },
+      "a18": {
+        "positive_rows": 46,
+        "positive_subjects": 30
+      },
+      "a21": {
+        "positive_rows": 13,
+        "positive_subjects": 12
+      },
+      "a_any": {
+        "positive_rows": 67,
+        "positive_subjects": 44
+      }
+    },
+    "label_combinations": {
+      "<empty>": 538,
+      "T18": 33,
+      "T13T18": 11,
+      "T13": 10,
+      "T21": 9,
+      "T18T21": 2,
+      "T13T21": 2
+    },
+    "feature_missing": {
+      "z13": 0,
+      "z18": 0,
+      "z21": 0,
+      "zx": 0,
+      "x_fraction": 0,
+      "gc_content": 0,
+      "raw_reads": 0,
+      "mapped_ratio": 0,
+      "duplicate_ratio": 0,
+      "unique_reads": 0,
+      "filtered_ratio": 0,
+      "gestational_week": 0,
+      "bmi": 1,
+      "age_years": 0
+    }
+  },
+  "comparison": [
+    {
+      "model": "max_Z_rule",
+      "pr_auc": 0.10989412017567426,
+      "roc_auc": 0.5038561837651889,
+      "mcc": -0.016974067925854864,
+      "sensitivity": 0.7910447761194029,
+      "specificity": 0.18773234200743494,
+      "threshold_median": 0.356627538,
+      "tp": 53,
+      "fp": 437,
+      "fn": 14,
+      "tn": 101
+    },
+    {
+      "model": "elasticnet_logistic",
+      "pr_auc": 0.3762997625111794,
+      "roc_auc": 0.7645508516895079,
+      "mcc": 0.2457123659601887,
+      "sensitivity": 0.44776119402985076,
+      "specificity": 0.8531598513011153,
+      "threshold_median": 0.6254799104024699,
+      "tp": 30,
+      "fp": 79,
+      "fn": 37,
+      "tn": 459,
+      "brier": 0.1918702775029653
+    }
+  ],
+  "warning": "AB is not a clinical gold-standard label; Z-rule score is uncalibrated and has no Brier score."
+}

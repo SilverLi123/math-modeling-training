@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-07T12:08:03.152631+00:00",
+  "random_seed": 20250904,
+  "input_files": [
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\附件.xlsx",
+      "sha256": "14827156218bd4f7e4f16db4aa6d9f757c6648379e038ae6c6b58383648614af",
+      "bytes": 481734
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\题目分析报告.md",
+      "sha256": "1cb4f301bddc0eac425d591e508cdaa749dda44cb6b659b1822988ac38dbcc91",
+      "bytes": 24597
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\术语表格.md",
+      "sha256": "cd2dbaf242f6168be61fa4facb51c424b3b19b19f9706de75d29c1a997810d98",
+      "bytes": 6860
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\requirements.txt",
+      "sha256": "27840452dd215c8961ee61a2935c3d5f51eb6670d18fae80342b57f92d0469b0",
+      "bytes": 146
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\q4_abnormality_baseline.py",
+      "sha256": "438c7f8d7e251d72d7f121ae3a78864070db53072cb0e8b50406f04339d50294",
+      "bytes": 10192
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\test_q4_abnormality.py",
+      "sha256": "aaa758b356d53a55c2552b90b0251c006b8c6211915e011d6b22f72253ae71a6",
+      "bytes": 1671
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\plot_q4_abnormality.py",
+      "sha256": "58141393add0c3348e8b05c5703211039d005fe9fd14d29d48bb8d8911a512e6",
+      "bytes": 2877
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\run_q4_experiment.py",
+      "sha256": "bcd4f75b44c8e08185febc4b4248e3ab9bd0c35a92a49e04445df5602ed1ed86",
+      "bytes": 1513
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\utils\\plot_style.py",
+      "sha256": "e9fa501fe72ff89b913e1f777e0b5925a118b95b9d324288c59e906f27592b9a",
+      "bytes": 17654
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\utils\\repro_manifest.py",
+      "sha256": "ef68a6db57b446ef8a930e4f40e486eadec19f609d1d9f65db7c6a6796d90365",
+      "bytes": 4461
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q4_abnormality\\comparison.csv",
+      "sha256": "f42fdbae64417fa2df4593616a8879278475dc5e5191ed709b4280a52703c317",
+      "bytes": 392
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q4_abnormality\\oof_predictions.csv",
+      "sha256": "a35fda529d6570e67030e7bd52825af8d32d16337339fed9362670854b56e249",
+      "bytes": 51135
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q4_abnormality\\experiment.json",
+      "sha256": "97f52bd9a5d62eda20f4f2a1714c3e8c3d58262fe9b8bcdd1f46291cb84a634b",
+      "bytes": 2114
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q4_abnormality\\label_audit.json",
+      "sha256": "fbe1239250716e8b6f1250b676aa7a2839da86115b66480166f9c21f2f4c6a4c",
+      "bytes": 1001
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q4_abnormality\\smoke.json",
+      "sha256": "54a4daf8c51680c542add3340d79a765a90e19b274fb1735241b6f06ff38c436",
+      "bytes": 171
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q4_abnormality\\README.md",
+      "sha256": "2396a8ac9e373c00eaefe70307af2a8a833083859af2655ad975acee4c7bc227",
+      "bytes": 1759
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q4_abnormality\\process_q4_oof_pr.png",
+      "sha256": "1c6c262313aaa8b1c2ac3b74959b1b6b6d4ecc9c95d25aaffe2a6c4d09c2fdea",
+      "bytes": 65289
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q4_abnormality\\raw_q4_ab_label_composition.png",
+      "sha256": "17090e8663193048a4401865ce29bfb8a66235e320a694d9983c6ce818a81baf",
+      "bytes": 46646
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q4_abnormality\\result_q4_model_comparison.png",
+      "sha256": "69e57055293dde2931b19f8343e8b98b96ad0bba2715ac86351ec7138931a601",
+      "bytes": 52012
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q4_abnormality\\_qa\\process_q4_oof_pr_grayscale.png",
+      "sha256": "d69391e7fda9c0dfb0032fb6e68394dca8a962464f86ee4b621adcd617bbe877",
+      "bytes": 62224
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q4_abnormality\\_qa\\raw_q4_ab_label_composition_grayscale.png",
+      "sha256": "46971a958bb1fa48f6395f2174e1d7c07928f11455593885615335631131f192",
+      "bytes": 46612
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q4_abnormality\\_qa\\result_q4_model_comparison_grayscale.png",
+      "sha256": "6a3274fb178182cb47732dace00cf2c58c3795fad6f32e1c7c4def18f2a24dd7",
+      "bytes": 51827
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q4_abnormality\\process_q4_oof_pr.svg",
+      "sha256": "d16bbc483cd31f75f74024ce9e2341dcd7d6781a03155359d6ebc865e0c12cbc",
+      "bytes": 12507
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q4_abnormality\\raw_q4_ab_label_composition.svg",
+      "sha256": "bb282d494094da9f64ab76fbee564e3c4606b1a4c4cc23e8089127a6d59746ab",
+      "bytes": 11799
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q4_abnormality\\result_q4_model_comparison.svg",
+      "sha256": "2c4613d88d1b91d2779fa9a5f95915df6e249912d6313bd9a2192ebd6995acb4",
+      "bytes": 9839
+    }
+  ],
+  "runtime": {
+    "name": "python",
+    "version": "3.13.5",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "dependencies": {
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "openpyxl": "3.1.5",
+      "scikit-learn": "1.9.0",
+      "matplotlib": "3.10.6",
+      "pyparsing": "3.2.3"
+    }
+  },
+  "key_parameters": {
+    "question": "q4",
+    "target": "attachment AB screening label",
+    "outer_folds": 5,
+    "inner_folds": 3,
+    "elasticnet_l1_ratio": 0.5,
+    "solver": "saga",
+    "tol": 0.01,
+    "scope": "OOF discrimination of attachment labels; not clinical diagnosis"
+  },
+  "reproduce_command": ".\\.venv\\Scripts\\python.exe -W error src\\run_q4_experiment.py"
+}
