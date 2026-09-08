@@ -1,0 +1,37 @@
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# The single-source final manuscript is 论文.tex. These are unused template examples.
+0.摘要.tex
+1.引言.tex
+2.总体分析.tex
+3.模型假设.tex
+4.符号说明.tex
+5.模型的建立与求解.tex
+5.1.问题1的建立求解.tex
+5.1.1.分析与准备.tex
+5.1.2.建模与求解.tex
+5.2.问题2的建立求解.tex
+5.2.1.分析与准备.tex
+5.2.2.建模与求解.tex
+5.3.问题3的建立求解.tex
+5.3.1.分析与准备.tex
+5.3.2.建模与求解.tex
+6.模型检验.tex
+7.模型评价.tex
+8.模型改进推广.tex
+9.参考文献.tex
+10.附录.tex
+全国大学生数学建模竞赛论文格式规范.pdf
+
+# Keep the final paper self-contained, but version only the PNG figures it uses.
+figures/*
+!figures/result_q1_effect_bmi.png
+!figures/result_q1_comparison.png
+!figures/result_q2_probability_surface.png
+!figures/process_q2_calibration.png
+!figures/result_q3_conditional_policy.png
+!figures/result_q4_brier_intervals.png
