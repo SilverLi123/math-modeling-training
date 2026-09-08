@@ -1,0 +1,78 @@
+{
+  "query": "Random effects models longitudinal data Laird Ware 1982",
+  "cross_validated": [
+    {
+      "title": "A review on longitudinal data analysis with random forest",
+      "authors": [
+        "Jianchang Hu",
+        "Silke Szymczak"
+      ],
+      "year": 2023,
+      "citations": 656,
+      "doi": "10.1093/bib/bbad002",
+      "abstract": "In longitudinal studies variables are measured repeatedly over time, leading to clustered and correlated observations. If the goal of the study is to develop prediction models, machine learning approaches such as the powerful random forest (RF) are often promising alternatives to standard statistical methods, especially in the context of high-dimensional data. In this paper, we review extensions of the standard RF method for the purpose of longitudinal data analysis. Extension methods are categorized according to the data structures for which they are designed. We consider both univariate and multivariate response longitudinal data and further categorize the repeated measurements according to whether the time effect is relevant. Even though most extensions are proposed for low-dimensional data, some can be applied to high-dimensional data. Information of available software implementations of the reviewed extensions is also given. We conclude with discussions on the limitations of our review and some future research directions.",
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "Briefings in Bioinformatics",
+      "volume": "24",
+      "issue": "2",
+      "pages": null,
+      "url": "https://doi.org/10.1093/bib/bbad002"
+    },
+    {
+      "title": "Multilevel Models for Longitudinal Data",
+      "authors": [
+        "Fiona Steele"
+      ],
+      "year": 2007,
+      "citations": 252,
+      "doi": "10.1111/j.1467-985x.2007.00509.x",
+      "abstract": "Summary Repeated measures and repeated events data have a hierarchical structure which can be analysed by using multilevel models. A growth curve model is an example of a multilevel random-coefficients model, whereas a discrete time event history model for recurrent events can be fitted as a multilevel logistic regression model. The paper describes extensions to the basic growth curve model to handle auto-correlated residuals, multiple-indicator latent variables and correlated growth processes, and event history models for correlated event processes. The multilevel approach to the analysis of repeated measures data is contrasted with structural equation modelling. The methods are illustrated in analyses of children’s growth, changes in social and political attitudes, and the interrelationship between partnership transitions and childbearing.",
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "Journal of the Royal Statistical Society Series A (Statistics in Society)",
+      "volume": "171",
+      "issue": "1",
+      "pages": "5-19",
+      "url": "https://doi.org/10.1111/j.1467-985x.2007.00509.x"
+    },
+    {
+      "title": "LINEAR AND NONLINEAR MIXED-EFFECTS MODELS",
+      "authors": [
+        "Douglas M. Bates",
+        "José C. Pinheiro"
+      ],
+      "year": 1998,
+      "citations": 1068,
+      "doi": "10.4148/2475-7772.1273",
+      "abstract": "Recent developments in computational methods for maximum likelihood (ML) or restricted maximum likelihood (REML) estimation of parameters in general linear mixed-effects models have made the analysis of data in typical agricultural settings much easier. With software such as SAS PROC MIXED we are able to handle data from random-effects one-way classifications, from blocked designs including incomplete blocked designs, from hierarchical designs such as splitplot designs, and other types of data that may be described as repeated measures or longitudinal data or growth-curve data. It is especially helpful that the new computational methods do not depend on balance in the data so we are able to deal more easily with observational studies or with randomly missing data in a designed experiment . We describe some of the new computational approaches and how they are implemented in the nlme3.0 library for the S-PLUS language. One of the most powerful features of this language is the graphics capabilities, especially the trellis graphics facilities developed by Bill Cleveland and his coworkers at Bell Labs. Although most participants in this conference may be more familiar with SAS, and most of the models described here can be fit with PROC MIXED or the NLiNMIX macro or new PROC NLM IXED in SAS version 7, some exposure to the combination of graphical display and model-fitting approaches from S-PLUS may be informative . We show how data exploration with trellis graphics, followed by fitting and comparing mixedeffects models, followed by graphical assessment of the fitted model can be used in a variety of situations. On some occasions, such as modeling growth curves, a linear trend or polynomial trend or other types of linear statistical models for the within-subject time dependence are just not going to do an adequate job of representing the data. In those cases, a nonlinear model is more appropriate. We show how the concept of a random coefficient model can be extended to nonlinear models so as to fit nonlinear mixed-effects models .",
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "Conference on Applied Statistics in Agriculture",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.4148/2475-7772.1273"
+    }
+  ],
+  "openalex_only": [],
+  "anysearch_only": [],
+  "stats": {
+    "openalex_total": 15,
+    "anysearch_total": 10,
+    "cross_validated": 9,
+    "openalex_unique": 4,
+    "anysearch_unique": 0,
+    "filtered_irrelevant": 2,
+    "collapsed_duplicates": 0
+  }
+}

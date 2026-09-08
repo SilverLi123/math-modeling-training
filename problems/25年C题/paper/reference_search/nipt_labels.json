@@ -1,0 +1,85 @@
+{
+  "query": "Improving calling non invasive prenatal testing trisomy support vector machine Yang",
+  "cross_validated": [
+    {
+      "title": "Improving the calling of non-invasive prenatal testing on 13-/18-/21-trisomy by support vector machine discrimination",
+      "authors": [
+        "Jianfeng Yang",
+        "Xiaofan Ding",
+        "Weidong Zhu"
+      ],
+      "year": 2018,
+      "citations": 22,
+      "doi": "10.1371/journal.pone.0207840",
+      "abstract": "With the advance of next-generation sequencing (NGS) technologies, non-invasive prenatal testing (NIPT) has been developed and employed in fetal aneuploidy screening on 13-/18-/21-trisomies through detecting cell-free fetal DNA (cffDNA) in maternal blood. Although Z-test is widely used in NIPT NGS data analysis, there is still necessity to improve its accuracy for reducing a) false negatives and false positives, and b) the ratio of unclassified data, so as to lower the potential harm to patients as well as the induced cost of retests. Combining the multiple Z-tests with indexes of clinical signs and quality control, features were collected from the known samples and scaled for model training using support vector machine (SVM). We trained SVM models from the qualified NIPT NGS data that Z-test can discriminate and tested the performance on the data that Z-test cannot discriminate. On screenings of 13-/18-/21-trisomies, the trained SVM models achieved 100% accuracies in both internal validations and unknown sample predictions. It is shown that other machine learning (ML) models can also achieve similar high accuracy, and SVM model is most robust in this study. Moreover, four false positives and four false negatives caused by Z-test were corrected by using the SVM models. To our knowledge, this is one of the earliest studies to employ SVM in NIPT NGS data analysis. It is expected to replace Z-test in clinical practice.",
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "PLoS ONE",
+      "volume": "13",
+      "issue": "12",
+      "pages": "e0207840-e0207840",
+      "url": "https://doi.org/10.1371/journal.pone.0207840"
+    },
+    {
+      "title": "A Comprehensive Review of Artificial Intelligence-Driven Enhancements in Non-Invasive Prenatal Testing: Advancing Genomic Precision Through Deep Learning and Computational Genomics",
+      "authors": [
+        "Kartik Bhardwaj"
+      ],
+      "year": 2025,
+      "citations": 1,
+      "doi": "10.20944/preprints202506.2158.v1",
+      "abstract": "Non-Invasive Prenatal Testing (NIPT) has emerged as a pivotal tool in prenatal care by enabling early, risk-free detection of fetal chromosomal anomalies. However, despite its clinical significance, challenges such as limited sensitivity in low fetal fraction samples and a narrow detection spectrum persist.Current methodologies largely depend on statistical techniques and conventional sequencing interpretation, which may not fully exploit the complex and high-dimensional nature of cffDNA data. There is a lack of comprehensive analysis on how Artificial Intelligence (AI) can systematically address these limitations and enhance the accuracy and scope of NIPT.This review synthesizes existing research to evaluate the role of AI particularly machine learning and deep learning models in improving NIPT accuracy, reducing false positives, and expanding the spectrum of detectable conditions.An extensive literature review was conducted on AI applications in NIPT, including studies using Convolutional Neural Networks (CNNs), Support Vector Machines (SVMs), Random Forests, and ensemble methods. The analysis includes performance comparisons, case studies, and evaluations of emerging trends such as multi-omics integration and explainable AI.AI has demonstrated superior accuracy and predictive power over traditional models in detecting common aneuploidies like trisomy 21, 18, and 13. AI also shows potential in detecting rarer conditions, improving diagnostic clarity, and minimizing \"no-call\" results.This review highlights AI’s transformative potential in prenatal diagnostics. Continued interdisciplinary research and ethical oversight are essential to guide the integration of AI into clinical practice.",
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "Preprints.org",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.20944/preprints202506.2158.v1"
+    },
+    {
+      "title": "NIPTeR: an R package for fast and accurate trisomy prediction in non-invasive prenatal testing",
+      "authors": [
+        "Lennart Johansson",
+        "Hendrik Weerd",
+        "Eddy N. de Boer",
+        "Freerk van Dijk",
+        "Gerard J. te Meerman",
+        "Rolf H. Sijmons",
+        "Birgit Sikkema‐Raddatz",
+        "Morris A. Swertz"
+      ],
+      "year": 2018,
+      "citations": 14,
+      "doi": "10.1186/s12859-018-2557-8",
+      "abstract": "BACKGROUND: Various algorithms have been developed to predict fetal trisomies using cell-free DNA in non-invasive prenatal testing (NIPT). As basis for prediction, a control group of non-trisomy samples is needed. Prediction accuracy is dependent on the characteristics of this group and can be improved by reducing variability between samples and by ensuring the control group is representative for the sample analyzed. RESULTS: NIPTeR is an open-source R Package that enables fast NIPT analysis and simple but flexible workflow creation, including variation reduction, trisomy prediction algorithms and quality control. This broad range of functions allows users to account for variability in NIPT data, calculate control group statistics and predict the presence of trisomies. CONCLUSION: NIPTeR supports laboratories processing next-generation sequencing data for NIPT in assessing data quality and determining whether a fetal trisomy is present. NIPTeR is available under the GNU LGPL v3 license and can be freely downloaded from https://github.com/molgenis/NIPTeR or CRAN.",
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "BMC Bioinformatics",
+      "volume": "19",
+      "issue": "1",
+      "pages": "531-531",
+      "url": "https://doi.org/10.1186/s12859-018-2557-8"
+    }
+  ],
+  "openalex_only": [],
+  "anysearch_only": [],
+  "stats": {
+    "openalex_total": 15,
+    "anysearch_total": 10,
+    "cross_validated": 8,
+    "openalex_unique": 2,
+    "anysearch_unique": 0,
+    "filtered_irrelevant": 4,
+    "collapsed_duplicates": 1
+  }
+}

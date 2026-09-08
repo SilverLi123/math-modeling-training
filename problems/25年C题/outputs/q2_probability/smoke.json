@@ -1,0 +1,70 @@
+{
+  "model": {
+    "theta": [
+      3.6458205094888956,
+      0.8183901666854031,
+      -0.44576810226210933,
+      1.0026727005993075
+    ],
+    "center": [
+      16.858120215018733,
+      31.830388485877364
+    ],
+    "scale": [
+      4.101310395014121,
+      2.7750849516396827
+    ],
+    "sigma": 2.725556699376419,
+    "nodes": 320,
+    "nll": 291.16937218953547,
+    "quadrature_nll_difference": 4.4191779124957975e-09,
+    "quadrature_probability_difference": 5.969669203409467e-13,
+    "checked_gradient_max": 2.74947932266123e-06,
+    "variance_lower_boundary": false,
+    "optimization_history": [
+      {
+        "nodes": 80,
+        "success": true,
+        "nll": 291.169229912583,
+        "gradient_max": 5.837102627541051e-05,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "nodes": 80,
+        "success": true,
+        "nll": 291.16922991254216,
+        "gradient_max": 2.788693396205133e-07,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      },
+      {
+        "nodes": 80,
+        "success": true,
+        "nll": 291.1692299125422,
+        "gradient_max": 2.7636467523350916e-06,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "nodes": 160,
+        "success": true,
+        "nll": 291.16937218511777,
+        "gradient_max": 6.0428728236436955e-06,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "nodes": 160,
+        "success": true,
+        "nll": 291.1693721851163,
+        "gradient_max": 1.794656289133556e-07,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      }
+    ]
+  },
+  "heldout_metrics": {
+    "record_brier": 0.09805062320713263,
+    "subject_brier": 0.1134088340689033,
+    "record_log_loss": 0.33975397897303844,
+    "subject_log_loss": 0.3758032855296947,
+    "mean_probability": 0.8584627781587578,
+    "observed_rate": 0.8829268292682927
+  }
+}

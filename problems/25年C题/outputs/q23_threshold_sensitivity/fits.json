@@ -1,0 +1,419 @@
+{
+  "fits": [
+    {
+      "threshold": 0.035,
+      "spec": "q2",
+      "fit": {
+        "theta": [
+          4.050256657503211,
+          0.6007470624373311,
+          -0.6518247855572066,
+          0.9220126699047463
+        ],
+        "sigma": 2.514345848964941,
+        "nodes": 160,
+        "nll": 298.4541392274634,
+        "gradient_max": 0.00048792966997146525,
+        "quadrature_nll_difference": 5.3925654412978474e-05,
+        "quadrature_probability_difference": 6.400225904812373e-10,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 298.45408530180896,
+            "gradient_max": 2.383229154578892e-07
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 298.45408530181055,
+            "gradient_max": 6.385599424771349e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 298.4540853018091,
+            "gradient_max": 1.762414977967558e-06
+          }
+        ],
+        "cols": [
+          "gestational_week",
+          "baseline_bmi"
+        ],
+        "median": [
+          16.0,
+          31.3448155261195
+        ],
+        "center": [
+          16.8456561922366,
+          31.826641140876234
+        ],
+        "scale": [
+          4.074419020037639,
+          2.823944444089133
+        ],
+        "keep": [
+          true,
+          true
+        ]
+      },
+      "positive_records": 972
+    },
+    {
+      "threshold": 0.035,
+      "spec": "q3_basic",
+      "fit": {
+        "theta": [
+          4.049836981425521,
+          0.6007766931398625,
+          -0.5835017425076916,
+          -0.2134453268658963,
+          -0.5248010371530241,
+          0.8934180920001165
+        ],
+        "sigma": 2.4434673899313424,
+        "nodes": 160,
+        "nll": 295.1133789338155,
+        "gradient_max": 0.0005786119811325152,
+        "quadrature_nll_difference": 2.9983247600284813e-05,
+        "quadrature_probability_difference": 3.846268858964663e-10,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 295.1134089170648,
+            "gradient_max": 6.4266078818597805e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 295.11340891706493,
+            "gradient_max": 7.097929655586199e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 295.1134089170631,
+            "gradient_max": 3.663951055443704e-06
+          }
+        ],
+        "cols": [
+          "gestational_week",
+          "baseline_bmi",
+          "baseline_age",
+          "baseline_height"
+        ],
+        "median": [
+          16.0,
+          31.3448155261195,
+          29.0,
+          161.0
+        ],
+        "center": [
+          16.8456561922366,
+          31.826641140876234,
+          28.940850277264325,
+          161.05914972273567
+        ],
+        "scale": [
+          4.074419020037639,
+          2.823944444089133,
+          3.638240929201084,
+          5.226099935320811
+        ],
+        "keep": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "positive_records": 972
+    },
+    {
+      "threshold": 0.04,
+      "spec": "q2",
+      "fit": {
+        "theta": [
+          3.6232002792145135,
+          0.8287882066092042,
+          -0.5613646368638268,
+          0.9783204695014434
+        ],
+        "sigma": 2.6599849622853493,
+        "nodes": 160,
+        "nll": 354.33955415286596,
+        "gradient_max": 0.0021466111306246427,
+        "quadrature_nll_difference": 9.855857422280678e-05,
+        "quadrature_probability_difference": 2.1060644339598866e-09,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 354.3394555942922,
+            "gradient_max": 2.9097932928573433e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 354.33945559429173,
+            "gradient_max": 3.420127959175012e-07
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 354.33945559429407,
+            "gradient_max": 8.40870381324521e-06
+          }
+        ],
+        "cols": [
+          "gestational_week",
+          "baseline_bmi"
+        ],
+        "median": [
+          16.0,
+          31.3448155261195
+        ],
+        "center": [
+          16.8456561922366,
+          31.826641140876234
+        ],
+        "scale": [
+          4.074419020037639,
+          2.823944444089133
+        ],
+        "keep": [
+          true,
+          true
+        ]
+      },
+      "positive_records": 937
+    },
+    {
+      "threshold": 0.04,
+      "spec": "q3_basic",
+      "fit": {
+        "theta": [
+          3.599318236901986,
+          0.8257700181768546,
+          -0.4949593620328514,
+          -0.15645225206160765,
+          -0.48493859364116204,
+          0.9471859825150379
+        ],
+        "sigma": 2.578443655249512,
+        "nodes": 160,
+        "nll": 351.55768517515025,
+        "gradient_max": 0.0008172026219348538,
+        "quadrature_nll_difference": 2.117051371897105e-05,
+        "quadrature_probability_difference": 1.2461245368911023e-09,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 351.55766400464796,
+            "gradient_max": 2.3331840938611847e-05
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 351.55766400463654,
+            "gradient_max": 2.4814464246111778e-05
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 351.55766400465313,
+            "gradient_max": 2.5459202491785737e-05
+          }
+        ],
+        "cols": [
+          "gestational_week",
+          "baseline_bmi",
+          "baseline_age",
+          "baseline_height"
+        ],
+        "median": [
+          16.0,
+          31.3448155261195,
+          29.0,
+          161.0
+        ],
+        "center": [
+          16.8456561922366,
+          31.826641140876234,
+          28.940850277264325,
+          161.05914972273567
+        ],
+        "scale": [
+          4.074419020037639,
+          2.823944444089133,
+          3.638240929201084,
+          5.226099935320811
+        ],
+        "keep": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "positive_records": 937
+    },
+    {
+      "threshold": 0.045,
+      "spec": "q2",
+      "fit": {
+        "theta": [
+          3.113980034302626,
+          0.9526839190161849,
+          -0.5269732283524985,
+          1.0562945916694695
+        ],
+        "sigma": 2.875695596718037,
+        "nodes": 320,
+        "nll": 422.68372015470686,
+        "gradient_max": 2.106511194949201e-06,
+        "quadrature_nll_difference": 1.6565650184929837e-08,
+        "quadrature_probability_difference": 2.931987985732576e-12,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 422.68382110753623,
+            "gradient_max": 4.992169524084544e-07
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 422.68382110753674,
+            "gradient_max": 7.02114178263713e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 422.68382110754874,
+            "gradient_max": 3.91487291611925e-05
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 422.68372013814826,
+            "gradient_max": 1.961134181063806e-05
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 422.6837201381412,
+            "gradient_max": 1.0944161532022711e-06
+          }
+        ],
+        "cols": [
+          "gestational_week",
+          "baseline_bmi"
+        ],
+        "median": [
+          16.0,
+          31.3448155261195
+        ],
+        "center": [
+          16.8456561922366,
+          31.826641140876234
+        ],
+        "scale": [
+          4.074419020037639,
+          2.823944444089133
+        ],
+        "keep": [
+          true,
+          true
+        ]
+      },
+      "positive_records": 883
+    },
+    {
+      "threshold": 0.045,
+      "spec": "q3_basic",
+      "fit": {
+        "theta": [
+          3.0883110755887397,
+          0.9481959402871342,
+          -0.479316409273095,
+          -0.18749514459815725,
+          -0.37212804645470976,
+          1.0337814114783153
+        ],
+        "sigma": 2.811677868786496,
+        "nodes": 320,
+        "nll": 420.8487136367228,
+        "gradient_max": 5.091077904514907e-05,
+        "quadrature_nll_difference": 7.920755251689116e-08,
+        "quadrature_probability_difference": 1.6409096303959814e-12,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 420.8485732400799,
+            "gradient_max": 3.4097854885402346e-05
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 420.8485732400285,
+            "gradient_max": 2.4455171451255586e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 420.84857324005344,
+            "gradient_max": 3.3410325125521334e-05
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 420.8487135575152,
+            "gradient_max": 5.145468011212573e-05
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 420.8487135575208,
+            "gradient_max": 4.8953969126123986e-05
+          }
+        ],
+        "cols": [
+          "gestational_week",
+          "baseline_bmi",
+          "baseline_age",
+          "baseline_height"
+        ],
+        "median": [
+          16.0,
+          31.3448155261195,
+          29.0,
+          161.0
+        ],
+        "center": [
+          16.8456561922366,
+          31.826641140876234,
+          28.940850277264325,
+          161.05914972273567
+        ],
+        "scale": [
+          4.074419020037639,
+          2.823944444089133,
+          3.638240929201084,
+          5.226099935320811
+        ],
+        "keep": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "positive_records": 883
+    }
+  ],
+  "input_sha256": "14827156218bd4f7e4f16db4aa6d9f757c6648379e038ae6c6b58383648614af"
+}

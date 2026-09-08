@@ -1,0 +1,115 @@
+{
+  "seed": 20250904,
+  "candidates": [
+    3,
+    4
+  ],
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "selections": [
+    {
+      "outer_fold": 1,
+      "selected_df": 3,
+      "inner_scores": [
+        {
+          "df": 3,
+          "subject_mse": 0.2578113440106128
+        },
+        {
+          "df": 4,
+          "subject_mse": 0.2607784348101305
+        }
+      ]
+    },
+    {
+      "outer_fold": 2,
+      "selected_df": 4,
+      "inner_scores": [
+        {
+          "df": 3,
+          "subject_mse": 0.24051041624195496
+        },
+        {
+          "df": 4,
+          "subject_mse": 0.23832294845422566
+        }
+      ]
+    },
+    {
+      "outer_fold": 3,
+      "selected_df": 4,
+      "inner_scores": [
+        {
+          "df": 3,
+          "subject_mse": 0.25269776695720747
+        },
+        {
+          "df": 4,
+          "subject_mse": 0.25220678826146004
+        }
+      ]
+    },
+    {
+      "outer_fold": 4,
+      "selected_df": 4,
+      "inner_scores": [
+        {
+          "df": 3,
+          "subject_mse": 0.2622825290727734
+        },
+        {
+          "df": 4,
+          "subject_mse": 0.2611219294381751
+        }
+      ]
+    },
+    {
+      "outer_fold": 5,
+      "selected_df": 4,
+      "inner_scores": [
+        {
+          "df": 3,
+          "subject_mse": 0.2701265209146168
+        },
+        {
+          "df": 4,
+          "subject_mse": 0.2660222482123631
+        }
+      ]
+    }
+  ],
+  "final_df": 3,
+  "final_inner_scores": [
+    {
+      "df": 3,
+      "subject_mse": 0.2516273770277142
+    },
+    {
+      "df": 4,
+      "subject_mse": 0.25571974810333087
+    }
+  ],
+  "delta_subject_rmse_ci95": [
+    -0.014923897980957435,
+    0.0019547308796083857
+  ],
+  "bootstrap": "2000 paired subject resamples of frozen OOF errors; no refitting",
+  "effect_interval": "pointwise Wald 95%, conditional on chosen basis, not simultaneous or post-selection adjusted",
+  "spline": "unpenalized additive natural cubic regression spline; linear tail extrapolation",
+  "comparison": [
+    {
+      "model": "LMM",
+      "rmse": 0.5140631434145018,
+      "mae": 0.42320982933792667,
+      "r2": -0.030231972554428,
+      "subject_rmse": 0.5062840670278578
+    },
+    {
+      "model": "Spline",
+      "rmse": 0.5071668049434794,
+      "mae": 0.4159757135631826,
+      "r2": -0.002775534228369736,
+      "subject_rmse": 0.5008323015435879
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "query": "Bootstrap methods another look jackknife Efron 1979",
+  "cross_validated": [
+    {
+      "title": "Introduction to Efron (1979) Bootstrap Methods: Another Look at the Jackknife",
+      "authors": [
+        "Rudolf Beran"
+      ],
+      "year": 1992,
+      "citations": 5,
+      "doi": "10.1007/978-1-4612-4380-9_40",
+      "abstract": null,
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "Springer series in statistics",
+      "volume": null,
+      "issue": null,
+      "pages": "565-568",
+      "url": "https://doi.org/10.1007/978-1-4612-4380-9_40"
+    },
+    {
+      "title": "Bootstrap methods and their applications",
+      "authors": [
+        "László Varga"
+      ],
+      "year": 2018,
+      "citations": 575,
+      "doi": "10.15476/elte.2017.147",
+      "abstract": null,
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "Eötvös Loránd Tudományegyetem",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "http://dx.doi.org/10.15476/elte.2017.147"
+    },
+    {
+      "title": "Confidence Limits for the Indirect Effect: Distribution of the Product and Resampling Methods",
+      "authors": [
+        "David P. MacKinnon",
+        "Chondra M. Lockwood",
+        "Jason Williams"
+      ],
+      "year": 2004,
+      "citations": 7754,
+      "doi": "10.1207/s15327906mbr3901_4",
+      "abstract": "The most commonly used method to test an indirect effect is to divide the estimate of the indirect effect by its standard error and compare the resulting z statistic with a critical value from the standard normal distribution. Confidence limits for the indirect effect are also typically based on critical values from the standard normal distribution. This article uses a simulation study to demonstrate that confidence limits are imbalanced because the distribution of the indirect effect is normal only in special cases. Two alternatives for improving the performance of confidence limits for the indirect effect are evaluated: (a) a method based on the distribution of the product of two normal random variables, and (b) resampling methods. In Study 1, confidence limits based on the distribution of the product are more accurate than methods based on an assumed normal distribution but confidence limits are still imbalanced. Study 2 demonstrates that more accurate confidence limits are obtained using resampling methods, with the bias-corrected bootstrap the best method overall.",
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "Multivariate Behavioral Research",
+      "volume": "39",
+      "issue": "1",
+      "pages": "99-128",
+      "url": "https://doi.org/10.1207/s15327906mbr3901_4"
+    }
+  ],
+  "openalex_only": [],
+  "anysearch_only": [],
+  "stats": {
+    "openalex_total": 15,
+    "anysearch_total": 10,
+    "cross_validated": 5,
+    "openalex_unique": 5,
+    "anysearch_unique": 0,
+    "filtered_irrelevant": 6,
+    "collapsed_duplicates": 0
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-08T00:30:38.093710+00:00",
+  "random_seed": 20250904,
+  "input_files": [
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\附件.xlsx",
+      "sha256": "14827156218bd4f7e4f16db4aa6d9f757c6648379e038ae6c6b58383648614af",
+      "bytes": 481734
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\题目分析报告.md",
+      "sha256": "1cb4f301bddc0eac425d591e508cdaa749dda44cb6b659b1822988ac38dbcc91",
+      "bytes": 24597
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\术语表格.md",
+      "sha256": "cd2dbaf242f6168be61fa4facb51c424b3b19b19f9706de75d29c1a997810d98",
+      "bytes": 6860
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\requirements.txt",
+      "sha256": "27840452dd215c8961ee61a2935c3d5f51eb6670d18fae80342b57f92d0469b0",
+      "bytes": 146
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\q1_lmm_baseline.py",
+      "sha256": "98e0728561cb6044f7fccab4a6980ac7a08b45063472c7a7e0b2fd52626295cf",
+      "bytes": 19215
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\utils\\plot_style.py",
+      "sha256": "e9fa501fe72ff89b913e1f777e0b5925a118b95b9d324288c59e906f27592b9a",
+      "bytes": 17654
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\utils\\repro_manifest.py",
+      "sha256": "ef68a6db57b446ef8a930e4f40e486eadec19f609d1d9f65db7c6a6796d90365",
+      "bytes": 4461
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\plot_q23_exploration.py",
+      "sha256": "9d884bd9332166c47115e274d1102f84c3ac7ce8522821e85372842b34a6188b",
+      "bytes": 2561
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\plot_q2_probability.py",
+      "sha256": "5c9b6778c8bb8de0bbe8dec206730862647408e1e5cfa438c8c5cdaecd533c14",
+      "bytes": 4077
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\plot_q2_refinement.py",
+      "sha256": "417c6ec7793d336ca3d2f08b35b13e0e10282c98c718bf349a7d1f00e56d4007",
+      "bytes": 3927
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\q23_explore.py",
+      "sha256": "1039103d88cdf4c5af76a1639bfe6597668a0c2b3ac250d4860f10566be1d967",
+      "bytes": 9405
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\q23_measurement_sensitivity.py",
+      "sha256": "ac32746c795ef2e915a0c0bb9a735cbb2102564831c9e773604872c7d3ece259",
+      "bytes": 4745
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\q23_policy_summary.py",
+      "sha256": "5300e08e0a81014590128ab4112e3dc7e544c0f5c272c562644ee5673532154e",
+      "bytes": 3120
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\q23_threshold_sensitivity.py",
+      "sha256": "04de6142d21afd7baa67fa5449e850cea990bd51ae65680d361edc1b07249f74",
+      "bytes": 2884
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\q2_nonlinear_calibration.py",
+      "sha256": "f0e2725e44ff583061257d13c58809a8d3707aefbabf8708d914a3b431a53ebd",
+      "bytes": 13662
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\q2_probability.py",
+      "sha256": "4b659bc2d328020ec431f0d9c5bbc84314d13602d683f8aee1a894343b675221",
+      "bytes": 12422
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\run_q23_exploration.py",
+      "sha256": "f142b1dec5f9d04533d9ace0a5addbe19c6696daf9afb3c84ead203a4382a465",
+      "bytes": 1918
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\run_q2_experiment.py",
+      "sha256": "59b0abf25bd8b8e0f66c0e16e9c3d65958d257d296efd1f652ed047bd54735e7",
+      "bytes": 1384
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\run_q2_refinement.py",
+      "sha256": "2a21f28be8e4a22c936a2c3d17b9216ce53b2b00b84c56fc6b49edca8f62fe36",
+      "bytes": 1906
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\test_q23_explore.py",
+      "sha256": "e3dfa947519695603e84a8c7ada12e1c0502b5ca295cde61874dcf929d72491e",
+      "bytes": 4010
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\test_q2_probability.py",
+      "sha256": "40729d725fb7df2f54184e3cb451e045db083a6e06cb49fc405b96160c77a29b",
+      "bytes": 2112
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\test_q2_refinement.py",
+      "sha256": "0228160c5d66080aa1cfe2bcafb0ed4de3b4ce90b69c970316081c9d32c4b53a",
+      "bytes": 2524
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q2_probability\\calibration.csv",
+      "sha256": "ddddd000e6d887b0e9de3e599909ea74295471bd3f50f0876c7175beeb487871",
+      "bytes": 471
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q2_probability\\comparison.csv",
+      "sha256": "81cdef6caeee52afc193f041b9aa66e65540dffae12e3c4bdbcc77a3d0b10405",
+      "bytes": 496
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q2_probability\\fold_metrics.csv",
+      "sha256": "8052f50c31901d021fa42dd4c7b65696c3d266d613896f50ff4a716e5343a73f",
+      "bytes": 2149
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q2_probability\\oof_predictions.csv",
+      "sha256": "8ed36148d91dbef5e940caa59f8aa3e6c890506a8424b10f7cb818aa19d2420f",
+      "bytes": 133717
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q2_probability\\surface.csv",
+      "sha256": "89353c27a30517f26337021a38469f948d754d9099b5e4e5b8975b569488664f",
+      "bytes": 298689
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q2_probability\\threshold_crossings.csv",
+      "sha256": "891f07ef39c5dbc4cd553bb0eb7ea33264be920fc7bb10a46996929cf5b46544",
+      "bytes": 11936
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q2_probability\\time_calibration.csv",
+      "sha256": "59d90ec8f64b6306bf509f3dd43af3ca2b810b3717db62da4e407d7267178e07",
+      "bytes": 534
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q2_probability\\experiment.json",
+      "sha256": "bc7ee2b3f46bc0287c16fa61d87f6b003cf6d7f8fb77e946cbdd0f4d8fab3fe9",
+      "bytes": 12363
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q2_probability\\README.md",
+      "sha256": "a8a9e9fde7352eafc6d74244479d33f7045da378bd763559039c70c096b5db6e",
+      "bytes": 5248
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q2_probability\\process_q2_calibration.png",
+      "sha256": "6dc783474655125e05e4806af1856b0d0ef5268198f401d96209de95d2d213d3",
+      "bytes": 117078
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q2_probability\\result_q2_probability_slices.png",
+      "sha256": "5a7ee85acf4cae88e1ef92e22a4944256e22a75886080b436ae62f440ec8f2f4",
+      "bytes": 88817
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q2_probability\\result_q2_probability_surface.png",
+      "sha256": "a2ca2e276ccf309ad8bbc77e59099ab2d4d97a02f577ce31e29c4f2586b17313",
+      "bytes": 95916
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q2_probability\\_qa\\process_q2_calibration_grayscale.png",
+      "sha256": "55e5d6dba2e20f3e5b4f60a9487850806b942500f548142a64ff91f823ca5adb",
+      "bytes": 116005
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q2_probability\\_qa\\result_q2_probability_slices_grayscale.png",
+      "sha256": "d6739a7117256c082ce8eca3ac1c74cf46708732e38341b6237ac8a2f40a6acc",
+      "bytes": 82490
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q2_probability\\_qa\\result_q2_probability_surface_grayscale.png",
+      "sha256": "cc56f47b3c494245dc5ba9a890a984ba7d651bacfabf747be63dcb41a644980f",
+      "bytes": 91112
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q2_probability\\process_q2_calibration.svg",
+      "sha256": "3d00b88f66b8da4baa90613b5d25efcb9d0256fc363c8238cafaaff7bd833efe",
+      "bytes": 21225
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q2_probability\\result_q2_probability_slices.svg",
+      "sha256": "372a7781acedf4d29decbb7abc4dd9981d8f49b1e1d5f8bcb681438c4a02ea86",
+      "bytes": 19325
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q2_probability\\result_q2_probability_surface.svg",
+      "sha256": "814890679adbfb085b776782305998eed6a1e32317dfac5d00c6231c5a0cfcf1",
+      "bytes": 2258115
+    }
+  ],
+  "runtime": {
+    "name": "python",
+    "version": "3.13.5",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "dependencies": {
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.3",
+      "statsmodels": "0.14.4",
+      "openpyxl": "3.1.5",
+      "matplotlib": "3.10.6",
+      "pyparsing": "3.2.3"
+    }
+  },
+  "key_parameters": {
+    "features": [
+      "gestational_week",
+      "baseline_bmi"
+    ],
+    "threshold": 0.04,
+    "outer_folds": 5,
+    "random_effect": "normal intercept",
+    "prediction": "marginal",
+    "quadrature_orders": [
+      80,
+      160,
+      320,
+      640
+    ],
+    "bootstrap_replicates": 2000,
+    "scope": "Q2 probability validation only, no decision optimization"
+  },
+  "reproduce_command": ".\\.venv\\Scripts\\python.exe -W error src\\run_q2_experiment.py"
+}

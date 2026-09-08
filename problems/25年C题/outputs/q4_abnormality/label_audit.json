@@ -1,0 +1,51 @@
+{
+  "sheet": "女胎检测数据",
+  "rows": 605,
+  "subjects": 147,
+  "label_source": "染色体的非整倍体",
+  "nonempty_ab_rows": 67,
+  "positive_subjects_any": 44,
+  "per_label": {
+    "a13": {
+      "positive_rows": 23,
+      "positive_subjects": 18
+    },
+    "a18": {
+      "positive_rows": 46,
+      "positive_subjects": 30
+    },
+    "a21": {
+      "positive_rows": 13,
+      "positive_subjects": 12
+    },
+    "a_any": {
+      "positive_rows": 67,
+      "positive_subjects": 44
+    }
+  },
+  "label_combinations": {
+    "<empty>": 538,
+    "T18": 33,
+    "T13T18": 11,
+    "T13": 10,
+    "T21": 9,
+    "T18T21": 2,
+    "T13T21": 2
+  },
+  "feature_missing": {
+    "z13": 0,
+    "z18": 0,
+    "z21": 0,
+    "zx": 0,
+    "x_fraction": 0,
+    "gc_content": 0,
+    "raw_reads": 0,
+    "mapped_ratio": 0,
+    "duplicate_ratio": 0,
+    "unique_reads": 0,
+    "filtered_ratio": 0,
+    "gestational_week": 0,
+    "bmi": 1,
+    "age_years": 0
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "question": "q1",
+  "model": "random-intercept linear mixed-effects baseline",
+  "formula": "y_logit ~ gestational_week_c * bmi_c",
+  "response": "logit(Y chromosome fraction)",
+  "units": {
+    "gestational_week": "weeks",
+    "bmi": "kg/m^2",
+    "y_fraction": "proportion in (0,1)"
+  },
+  "seed": 20250904,
+  "n_records": 1082,
+  "n_subjects": 267,
+  "converged": true,
+  "fit_warnings": [],
+  "log_likelihood": -421.301552071307,
+  "aic": 854.603104142614,
+  "bic": 884.5225028990526,
+  "random_intercept_variance": 0.18706081609981276,
+  "residual_variance": 0.06978874701717004,
+  "intraclass_correlation": 0.7282894073470368,
+  "fixed_design_condition_number": 13.196618649196552,
+  "training_fixed_effects_only": {
+    "rmse": 0.5128652709597565,
+    "mae": 0.42230482009573517,
+    "r2": -0.02543626338715499
+  },
+  "training_conditional": {
+    "rmse": 0.23264882511553017,
+    "mae": 0.1638699173942099,
+    "r2": 0.7889896217179155
+  },
+  "subject_group_cross_validation": {
+    "strategy": "deterministic shuffled subject-level folds",
+    "n_splits": 5,
+    "seed": 20250904,
+    "prediction_for_unseen_subject": "fixed effects only; random intercept set to zero",
+    "overall": {
+      "rmse": 0.5140631434145018,
+      "mae": 0.42320982933792684,
+      "r2": -0.030231972554428
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "train_subjects": 213,
+        "validation_subjects": 54,
+        "validation_rows": 205,
+        "converged": true,
+        "warnings": [],
+        "rmse": 0.4834890579109273,
+        "mae": 0.4083265029159867,
+        "r2": 0.03109186688390131
+      },
+      {
+        "fold": 2,
+        "train_subjects": 213,
+        "validation_subjects": 54,
+        "validation_rows": 213,
+        "converged": true,
+        "warnings": [],
+        "rmse": 0.5284198786612092,
+        "mae": 0.42007780837615283,
+        "r2": -0.05923330137699434
+      },
+      {
+        "fold": 3,
+        "train_subjects": 214,
+        "validation_subjects": 53,
+        "validation_rows": 225,
+        "converged": true,
+        "warnings": [],
+        "rmse": 0.5534155943908107,
+        "mae": 0.47259633671084866,
+        "r2": -0.06561762235749047
+      },
+      {
+        "fold": 4,
+        "train_subjects": 214,
+        "validation_subjects": 53,
+        "validation_rows": 223,
+        "converged": true,
+        "warnings": [],
+        "rmse": 0.48461311032978655,
+        "mae": 0.3913435454373149,
+        "r2": 0.062167614002174965
+      },
+      {
+        "fold": 5,
+        "train_subjects": 214,
+        "validation_subjects": 53,
+        "validation_rows": 216,
+        "converged": true,
+        "warnings": [],
+        "rmse": 0.5148340774253964,
+        "mae": 0.421878438283689,
+        "r2": -0.11578085409744854
+      }
+    ],
+    "all_folds_converged": true
+  },
+  "output_files": {
+    "processed_data": "data\\processed\\male_q1_model.csv",
+    "data_audit": "outputs\\metrics\\data_audit.json",
+    "coefficients": "outputs\\tables\\q1_lmm_coefficients.csv",
+    "predictions": "outputs\\tables\\q1_lmm_predictions.csv"
+  }
+}

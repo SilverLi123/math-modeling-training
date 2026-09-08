@@ -1,0 +1,144 @@
+{
+  "linear": {
+    "fit": {
+      "theta": [
+        3.645820509488894,
+        0.8183901666854027,
+        -0.4457681022621094,
+        1.0026727005993068
+      ],
+      "sigma": 2.7255566993764173,
+      "nodes": 320,
+      "nll": 291.16937218953547,
+      "gradient_max": 2.7494793672366846e-06,
+      "quadrature_nll_difference": 4.4191779124957975e-09,
+      "quadrature_probability_difference": 5.969669203409467e-13,
+      "history": [
+        {
+          "nodes": 80,
+          "success": true,
+          "nll": 291.16922991258303,
+          "gradient_max": 5.8371026186842395e-05
+        },
+        {
+          "nodes": 80,
+          "success": true,
+          "nll": 291.1692299125422,
+          "gradient_max": 2.7886929165887864e-07
+        },
+        {
+          "nodes": 80,
+          "success": true,
+          "nll": 291.1692299125422,
+          "gradient_max": 2.7636467585523405e-06
+        },
+        {
+          "nodes": 160,
+          "success": true,
+          "nll": 291.1693721851178,
+          "gradient_max": 6.042872838110322e-06
+        },
+        {
+          "nodes": 160,
+          "success": true,
+          "nll": 291.1693721851163,
+          "gradient_max": 1.7946563912740743e-07
+        }
+      ],
+      "spec": "linear",
+      "transform": {
+        "spec": "linear",
+        "bmi_center": 31.830388485877364,
+        "bmi_scale": 2.7750849516396827,
+        "week_center": 16.858120215018733,
+        "week_scale": 4.101310395014121
+      },
+      "design_columns": [
+        "Intercept",
+        "week_z",
+        "bmi_z"
+      ]
+    },
+    "metrics": {
+      "record_brier": 0.09805062320713263,
+      "subject_brier": 0.11340883406890329,
+      "record_log_loss": 0.33975397897303844,
+      "subject_log_loss": 0.3758032855296947,
+      "mean_probability": 0.8584627781587577,
+      "observed_rate": 0.8829268292682927
+    }
+  },
+  "week_spline_df3": {
+    "fit": {
+      "theta": [
+        3.688723005588532,
+        0.17494596068202226,
+        0.5720438475210178,
+        6.32818384351404,
+        -0.45323630184100283,
+        1.006301292901224
+      ],
+      "sigma": 2.7354645984261463,
+      "nodes": 320,
+      "nll": 287.029294602192,
+      "gradient_max": 1.7223008246193897e-05,
+      "quadrature_nll_difference": 4.401675823828555e-08,
+      "quadrature_probability_difference": 6.424860643505781e-13,
+      "history": [
+        {
+          "nodes": 80,
+          "success": true,
+          "nll": 287.02930317322875,
+          "gradient_max": 7.017888638480296e-06
+        },
+        {
+          "nodes": 80,
+          "success": true,
+          "nll": 287.02930317322773,
+          "gradient_max": 5.468205838609838e-06
+        },
+        {
+          "nodes": 80,
+          "success": true,
+          "nll": 287.0293031732263,
+          "gradient_max": 2.47461267743887e-06
+        },
+        {
+          "nodes": 160,
+          "success": true,
+          "nll": 287.0292945599008,
+          "gradient_max": 3.1469500158747e-05
+        },
+        {
+          "nodes": 160,
+          "success": true,
+          "nll": 287.02929455817525,
+          "gradient_max": 1.7101926993287955e-05
+        }
+      ],
+      "spec": "week_spline_df3",
+      "transform": {
+        "spec": "week_spline_df3",
+        "bmi_center": 31.830388485877364,
+        "bmi_scale": 2.7750849516396827,
+        "week_center": 16.858120215018733,
+        "week_scale": 4.101310395014121
+      },
+      "design_columns": [
+        "Intercept",
+        "cr(gestational_week, df=3, constraints='center')[0]",
+        "cr(gestational_week, df=3, constraints='center')[1]",
+        "cr(gestational_week, df=3, constraints='center')[2]",
+        "bmi_z"
+      ]
+    },
+    "metrics": {
+      "record_brier": 0.09673481466730008,
+      "subject_brier": 0.11266635995724866,
+      "record_log_loss": 0.33335257435993043,
+      "subject_log_loss": 0.3717178493459549,
+      "mean_probability": 0.8569638532026663,
+      "observed_rate": 0.8829268292682927
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "input_file": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\附件.xlsx",
+  "input_sha256": "14827156218bd4f7e4f16db4aa6d9f757c6648379e038ae6c6b58383648614af",
+  "sheet": "男胎检测数据",
+  "rows": 1082,
+  "columns_in_source": 31,
+  "first_sample_id": 1,
+  "last_sample_id": 1082,
+  "unique_subjects": 267,
+  "records_per_subject": {
+    "min": 1,
+    "median": 4.0,
+    "max": 8
+  },
+  "gestational_week": {
+    "min": 11.0,
+    "max": 29.0
+  },
+  "bmi": {
+    "min": 20.703125,
+    "max": 46.875
+  },
+  "y_fraction": {
+    "min": 0.010003887,
+    "max": 0.234217554,
+    "records_at_or_above_4pct": 937,
+    "records_below_4pct": 145
+  },
+  "same_occasion_repeat_groups": 18,
+  "same_occasion_extra_records": 18,
+  "missing_by_source_column": {
+    "序号": 0,
+    "孕妇代码": 0,
+    "年龄": 0,
+    "身高": 0,
+    "体重": 0,
+    "末次月经": 12,
+    "IVF妊娠": 0,
+    "检测日期": 0,
+    "检测抽血次数": 0,
+    "检测孕周": 0,
+    "孕妇BMI": 0,
+    "原始读段数": 0,
+    "在参考基因组上比对的比例": 0,
+    "重复读段的比例": 0,
+    "唯一比对的读段数": 0,
+    "GC含量": 0,
+    "13号染色体的Z值": 0,
+    "18号染色体的Z值": 0,
+    "21号染色体的Z值": 0,
+    "X染色体的Z值": 0,
+    "Y染色体的Z值": 0,
+    "Y染色体浓度": 0,
+    "X染色体浓度": 0,
+    "13号染色体的GC含量": 0,
+    "18号染色体的GC含量": 0,
+    "21号染色体的GC含量": 0,
+    "被过滤掉读段数的比例": 0,
+    "染色体的非整倍体": 956,
+    "怀孕次数": 0,
+    "生产次数": 0,
+    "胎儿是否健康": 0
+  },
+  "model_field_missing": {
+    "subject_id": 0,
+    "gestational_week": 0,
+    "bmi": 0,
+    "y_fraction": 0
+  },
+  "rows_removed_for_q1_lmm": 0
+}

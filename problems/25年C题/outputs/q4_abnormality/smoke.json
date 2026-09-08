@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "rows": 605,
+  "subjects": 147,
+  "positive_rows": 67,
+  "fold0_probability_range": [
+    0.007183679968734629,
+    0.9648457468727177
+  ]
+}

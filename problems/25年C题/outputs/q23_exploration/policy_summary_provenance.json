@@ -1,0 +1,6 @@
+{
+  "source_sha256": "f8a85ee7c7bfa7fcb8b39b64e381a8940ae0c9f0b45386906246496ffe983e8f",
+  "script_sha256": "5300e08e0a81014590128ab4112e3dc7e544c0f5c272c562644ee5673532154e",
+  "command": ".\\.venv\\Scripts\\python.exe -W error src\\q23_policy_summary.py",
+  "scope": "Frozen policy postprocessing only. Equal-time adjacent groups merged exactly; risk weighted by heldout subjects, not independent counterfactual validation. Out-of-range BMI assignments remain extrapolations, not validated recommendations."
+}

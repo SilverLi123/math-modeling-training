@@ -1,0 +1,972 @@
+{
+  "seed": 20250904,
+  "outer_folds": 5,
+  "inner_calibration_folds": 3,
+  "specifications": [
+    "linear",
+    "week_spline_df3"
+  ],
+  "comparison": [
+    {
+      "model": "linear_raw",
+      "record_brier": 0.11539987992006542,
+      "subject_brier": 0.11159719756457541,
+      "record_log_loss": 0.3937834955886412,
+      "subject_log_loss": 0.3836139813393446,
+      "mean_probability": 0.8609323781126268,
+      "observed_rate": 0.865988909426987
+    },
+    {
+      "model": "linear_calibrated",
+      "record_brier": 0.1156917387860097,
+      "subject_brier": 0.11277953038929592,
+      "record_log_loss": 0.3931580784695384,
+      "subject_log_loss": 0.386106208852297,
+      "mean_probability": 0.8708387027776088,
+      "observed_rate": 0.865988909426987
+    },
+    {
+      "model": "week_spline_df3_raw",
+      "record_brier": 0.11493503042374419,
+      "subject_brier": 0.11126214000605933,
+      "record_log_loss": 0.3927281340956645,
+      "subject_log_loss": 0.38229782367149784,
+      "mean_probability": 0.8596898031489021,
+      "observed_rate": 0.865988909426987
+    },
+    {
+      "model": "week_spline_df3_calibrated",
+      "record_brier": 0.11530082759728019,
+      "subject_brier": 0.11230848413101484,
+      "record_log_loss": 0.39125235556513027,
+      "subject_log_loss": 0.383698354868563,
+      "mean_probability": 0.8709954576167834,
+      "observed_rate": 0.865988909426987
+    }
+  ],
+  "bootstrap": {
+    "linear_calibrated": {
+      "mean_difference": 0.0011823328247205162,
+      "ci95": [
+        -0.0022500052116202515,
+        0.005513319897863288
+      ]
+    },
+    "week_spline_df3_raw": {
+      "mean_difference": -0.0003350575585160815,
+      "ci95": [
+        -0.0013455959546135098,
+        0.0006448521025027809
+      ]
+    },
+    "week_spline_df3_calibrated": {
+      "mean_difference": 0.0007112865664394217,
+      "ci95": [
+        -0.0025062387628509734,
+        0.004663343970150883
+      ]
+    }
+  },
+  "bootstrap_note": "2000 subject resamples of frozen outer-OOF Brier differences; no refit",
+  "fit_records": [
+    {
+      "fold": 1,
+      "spec": "linear",
+      "calibrator": {
+        "intercept": 1.9400974020428012,
+        "slope": 0.0,
+        "gradient_max": 1.9022258915354513,
+        "projected_gradient_max": 8.193623557417595e-11,
+        "boundary_parameters": [
+          "slope"
+        ],
+        "boundary_warning": true
+      },
+      "fit": {
+        "theta": [
+          3.645820509488894,
+          0.8183901666854027,
+          -0.4457681022621094,
+          1.0026727005993068
+        ],
+        "sigma": 2.7255566993764173,
+        "nodes": 320,
+        "nll": 291.16937218953547,
+        "gradient_max": 2.7494793672366846e-06,
+        "quadrature_nll_difference": 4.4191779124957975e-09,
+        "quadrature_probability_difference": 5.969669203409467e-13,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 291.16922991258303,
+            "gradient_max": 5.8371026186842395e-05
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 291.1692299125422,
+            "gradient_max": 2.7886929165887864e-07
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 291.1692299125422,
+            "gradient_max": 2.7636467585523405e-06
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 291.1693721851178,
+            "gradient_max": 6.042872838110322e-06
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 291.1693721851163,
+            "gradient_max": 1.7946563912740743e-07
+          }
+        ],
+        "spec": "linear",
+        "transform": {
+          "spec": "linear",
+          "bmi_center": 31.830388485877364,
+          "bmi_scale": 2.7750849516396827,
+          "week_center": 16.858120215018733,
+          "week_scale": 4.101310395014121
+        },
+        "design_columns": [
+          "Intercept",
+          "week_z",
+          "bmi_z"
+        ]
+      }
+    },
+    {
+      "fold": 1,
+      "spec": "week_spline_df3",
+      "calibrator": {
+        "intercept": 1.7761268266707753,
+        "slope": 0.08464770766510636,
+        "gradient_max": 1.9730987332877703e-07,
+        "projected_gradient_max": 1.9730987332877703e-07,
+        "boundary_parameters": [],
+        "boundary_warning": false
+      },
+      "fit": {
+        "theta": [
+          3.688723005588532,
+          0.17494596068202226,
+          0.5720438475210178,
+          6.32818384351404,
+          -0.45323630184100283,
+          1.006301292901224
+        ],
+        "sigma": 2.7354645984261463,
+        "nodes": 320,
+        "nll": 287.029294602192,
+        "gradient_max": 1.7223008246193897e-05,
+        "quadrature_nll_difference": 4.401675823828555e-08,
+        "quadrature_probability_difference": 6.424860643505781e-13,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 287.02930317322875,
+            "gradient_max": 7.017888638480296e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 287.02930317322773,
+            "gradient_max": 5.468205838609838e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 287.0293031732263,
+            "gradient_max": 2.47461267743887e-06
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 287.0292945599008,
+            "gradient_max": 3.1469500158747e-05
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 287.02929455817525,
+            "gradient_max": 1.7101926993287955e-05
+          }
+        ],
+        "spec": "week_spline_df3",
+        "transform": {
+          "spec": "week_spline_df3",
+          "bmi_center": 31.830388485877364,
+          "bmi_scale": 2.7750849516396827,
+          "week_center": 16.858120215018733,
+          "week_scale": 4.101310395014121
+        },
+        "design_columns": [
+          "Intercept",
+          "cr(gestational_week, df=3, constraints='center')[0]",
+          "cr(gestational_week, df=3, constraints='center')[1]",
+          "cr(gestational_week, df=3, constraints='center')[2]",
+          "bmi_z"
+        ]
+      }
+    },
+    {
+      "fold": 2,
+      "spec": "linear",
+      "calibrator": {
+        "intercept": 0.7369140445646116,
+        "slope": 0.6396907079006999,
+        "gradient_max": 3.3979630060798627e-06,
+        "projected_gradient_max": 3.3979630060798627e-06,
+        "boundary_parameters": [],
+        "boundary_warning": false
+      },
+      "fit": {
+        "theta": [
+          3.9245114910673133,
+          1.017038789016664,
+          -0.6128146459401554,
+          1.0748326753207034
+        ],
+        "sigma": 2.9295026814252996,
+        "nodes": 320,
+        "nll": 275.77590586914533,
+        "gradient_max": 7.234567134029035e-06,
+        "quadrature_nll_difference": 2.3137715743359877e-08,
+        "quadrature_probability_difference": 4.278799536905353e-12,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 275.77563073990484,
+            "gradient_max": 3.825014438518792e-08
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 275.77563073990495,
+            "gradient_max": 1.7947346471203218e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 275.7756307399049,
+            "gradient_max": 7.950452427726851e-07
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 275.7759058922832,
+            "gradient_max": 1.673290093233068e-06
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 275.77590589228305,
+            "gradient_max": 1.1628711405736042e-06
+          }
+        ],
+        "spec": "linear",
+        "transform": {
+          "spec": "linear",
+          "bmi_center": 31.719159271046845,
+          "bmi_scale": 2.804326265670871,
+          "week_center": 16.854512576031563,
+          "week_scale": 4.118422974526136
+        },
+        "design_columns": [
+          "Intercept",
+          "week_z",
+          "bmi_z"
+        ]
+      }
+    },
+    {
+      "fold": 2,
+      "spec": "week_spline_df3",
+      "calibrator": {
+        "intercept": 0.7797871884008019,
+        "slope": 0.6192083338433265,
+        "gradient_max": 8.100820622303218e-06,
+        "projected_gradient_max": 8.100820622303218e-06,
+        "boundary_parameters": [],
+        "boundary_warning": false
+      },
+      "fit": {
+        "theta": [
+          4.0720441563934635,
+          -0.18909758527161252,
+          0.8535101239146563,
+          7.223957530888771,
+          -0.6391034087482003,
+          1.1115736810683248
+        ],
+        "sigma": 3.0391372660191522,
+        "nodes": 320,
+        "nll": 270.0787947275785,
+        "gradient_max": 1.757804694113574e-05,
+        "quadrature_nll_difference": 4.874696060142014e-07,
+        "quadrature_probability_difference": 1.1571243963004463e-11,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 270.07892136127685,
+            "gradient_max": 1.2786956150914394e-05
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 270.0789213612696,
+            "gradient_max": 8.264687738623877e-07
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 270.0789213612825,
+            "gradient_max": 1.0034988341817153e-05
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 270.0787942401089,
+            "gradient_max": 1.603637064320762e-07
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 270.0787942401303,
+            "gradient_max": 2.7766314008914605e-05
+          }
+        ],
+        "spec": "week_spline_df3",
+        "transform": {
+          "spec": "week_spline_df3",
+          "bmi_center": 31.719159271046845,
+          "bmi_scale": 2.804326265670871,
+          "week_center": 16.854512576031563,
+          "week_scale": 4.118422974526136
+        },
+        "design_columns": [
+          "Intercept",
+          "cr(gestational_week, df=3, constraints='center')[0]",
+          "cr(gestational_week, df=3, constraints='center')[1]",
+          "cr(gestational_week, df=3, constraints='center')[2]",
+          "bmi_z"
+        ]
+      }
+    },
+    {
+      "fold": 3,
+      "spec": "linear",
+      "calibrator": {
+        "intercept": 1.089439791438305,
+        "slope": 0.44745620925204205,
+        "gradient_max": 1.936489724130297e-08,
+        "projected_gradient_max": 1.936489724130297e-08,
+        "boundary_parameters": [],
+        "boundary_warning": false
+      },
+      "fit": {
+        "theta": [
+          3.3743607988495996,
+          0.6896159539215109,
+          -0.5365002663243955,
+          0.7997974705677404
+        ],
+        "sigma": 2.2250902365924774,
+        "nodes": 160,
+        "nll": 277.7588543356601,
+        "gradient_max": 4.524936823635528e-05,
+        "quadrature_nll_difference": 2.554294155743264e-06,
+        "quadrature_probability_difference": 5.323574914228857e-11,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 277.75885688995754,
+            "gradient_max": 1.543579460516753e-05
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 277.75885688995425,
+            "gradient_max": 9.277451393785441e-07
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 277.75885688995425,
+            "gradient_max": 1.0416977507254899e-06
+          }
+        ],
+        "spec": "linear",
+        "transform": {
+          "spec": "linear",
+          "bmi_center": 31.88455283960487,
+          "bmi_scale": 2.97175947604396,
+          "week_center": 16.870811801966994,
+          "week_scale": 4.052621492002116
+        },
+        "design_columns": [
+          "Intercept",
+          "week_z",
+          "bmi_z"
+        ]
+      }
+    },
+    {
+      "fold": 3,
+      "spec": "week_spline_df3",
+      "calibrator": {
+        "intercept": 0.9438242028322973,
+        "slope": 0.5196449091467187,
+        "gradient_max": 7.110523370101873e-08,
+        "projected_gradient_max": 7.110523370101873e-08,
+        "boundary_parameters": [],
+        "boundary_warning": false
+      },
+      "fit": {
+        "theta": [
+          3.4139910737482944,
+          0.40817146430519674,
+          0.33890676743084525,
+          7.372815838575977,
+          -0.539695989502038,
+          0.7819505770025444
+        ],
+        "sigma": 2.1857315478095733,
+        "nodes": 160,
+        "nll": 272.75154236351244,
+        "gradient_max": 2.7274547451635114e-06,
+        "quadrature_nll_difference": 1.2318628250795882e-07,
+        "quadrature_probability_difference": 3.212619059667077e-11,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 272.75154224035373,
+            "gradient_max": 6.923052763641024e-05
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 272.75154224032633,
+            "gradient_max": 1.9336330375121363e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 272.75154224032616,
+            "gradient_max": 1.7832996459122424e-07
+          }
+        ],
+        "spec": "week_spline_df3",
+        "transform": {
+          "spec": "week_spline_df3",
+          "bmi_center": 31.88455283960487,
+          "bmi_scale": 2.97175947604396,
+          "week_center": 16.870811801966994,
+          "week_scale": 4.052621492002116
+        },
+        "design_columns": [
+          "Intercept",
+          "cr(gestational_week, df=3, constraints='center')[0]",
+          "cr(gestational_week, df=3, constraints='center')[1]",
+          "cr(gestational_week, df=3, constraints='center')[2]",
+          "bmi_z"
+        ]
+      }
+    },
+    {
+      "fold": 4,
+      "spec": "linear",
+      "calibrator": {
+        "intercept": 0.8918923252915538,
+        "slope": 0.5203010918391567,
+        "gradient_max": 4.075377127321644e-06,
+        "projected_gradient_max": 4.075377127321644e-06,
+        "boundary_parameters": [],
+        "boundary_warning": false
+      },
+      "fit": {
+        "theta": [
+          3.499792325126623,
+          0.7888755769815585,
+          -0.5273919535175374,
+          0.9892325458258693
+        ],
+        "sigma": 2.6891698655667753,
+        "nodes": 320,
+        "nll": 291.9521300447378,
+        "gradient_max": 2.795094293017719e-06,
+        "quadrature_nll_difference": 7.088056008797139e-08,
+        "quadrature_probability_difference": 4.954925358902074e-13,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 291.9520277526502,
+            "gradient_max": 2.085687293151839e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 291.95202775265034,
+            "gradient_max": 3.2150050730608837e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 291.95202775265017,
+            "gradient_max": 1.5136733955145587e-07
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 291.9521301156428,
+            "gradient_max": 3.169663196422867e-05
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 291.9521301156184,
+            "gradient_max": 2.807709352722898e-07
+          }
+        ],
+        "spec": "linear",
+        "transform": {
+          "spec": "linear",
+          "bmi_center": 31.85503171015451,
+          "bmi_scale": 2.8449708490318577,
+          "week_center": 16.762680858140694,
+          "week_scale": 3.9934267433553012
+        },
+        "design_columns": [
+          "Intercept",
+          "week_z",
+          "bmi_z"
+        ]
+      }
+    },
+    {
+      "fold": 4,
+      "spec": "week_spline_df3",
+      "calibrator": {
+        "intercept": 0.81973735728041,
+        "slope": 0.5610325620344886,
+        "gradient_max": 3.5554486217392878e-06,
+        "projected_gradient_max": 3.5554486217392878e-06,
+        "boundary_parameters": [],
+        "boundary_warning": false
+      },
+      "fit": {
+        "theta": [
+          3.5388414638493555,
+          0.1316143911061995,
+          0.6051239877776614,
+          4.693664720925774,
+          -0.5327937853603467,
+          0.9949364823911003
+        ],
+        "sigma": 2.704552549112533,
+        "nodes": 160,
+        "nll": 288.7601334122293,
+        "gradient_max": 0.002666238810241861,
+        "quadrature_nll_difference": 5.095368379670617e-05,
+        "quadrature_probability_difference": 2.5963390326566582e-09,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 288.7601843659131,
+            "gradient_max": 2.8190523988502747e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 288.7601843659132,
+            "gradient_max": 2.0610134963128246e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 288.76018436592483,
+            "gradient_max": 1.940577248182862e-05
+          }
+        ],
+        "spec": "week_spline_df3",
+        "transform": {
+          "spec": "week_spline_df3",
+          "bmi_center": 31.85503171015451,
+          "bmi_scale": 2.8449708490318577,
+          "week_center": 16.762680858140694,
+          "week_scale": 3.9934267433553012
+        },
+        "design_columns": [
+          "Intercept",
+          "cr(gestational_week, df=3, constraints='center')[0]",
+          "cr(gestational_week, df=3, constraints='center')[1]",
+          "cr(gestational_week, df=3, constraints='center')[2]",
+          "bmi_z"
+        ]
+      }
+    },
+    {
+      "fold": 5,
+      "spec": "linear",
+      "calibrator": {
+        "intercept": 1.0751712324116502,
+        "slope": 0.4277374817612186,
+        "gradient_max": 7.143441393964167e-10,
+        "projected_gradient_max": 7.143441393964167e-10,
+        "boundary_parameters": [],
+        "boundary_warning": false
+      },
+      "fit": {
+        "theta": [
+          3.7019328932811635,
+          0.845742327067288,
+          -0.6957604261647903,
+          1.0092531529989672
+        ],
+        "sigma": 2.743551236663504,
+        "nodes": 160,
+        "nll": 278.84232110808904,
+        "gradient_max": 0.0018330362208751616,
+        "quadrature_nll_difference": 6.906634251890864e-05,
+        "quadrature_probability_difference": 3.6772132006035463e-09,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 278.84225204174766,
+            "gradient_max": 1.3092453101659629e-05
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 278.8422520417465,
+            "gradient_max": 2.53925665497437e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 278.8422520417466,
+            "gradient_max": 4.651020563795072e-06
+          }
+        ],
+        "spec": "linear",
+        "transform": {
+          "spec": "linear",
+          "bmi_center": 31.84522947632115,
+          "bmi_scale": 2.716690795832819,
+          "week_center": 16.881557241834376,
+          "week_scale": 4.10255458340922
+        },
+        "design_columns": [
+          "Intercept",
+          "week_z",
+          "bmi_z"
+        ]
+      }
+    },
+    {
+      "fold": 5,
+      "spec": "week_spline_df3",
+      "calibrator": {
+        "intercept": 1.1168995991513717,
+        "slope": 0.40214882667196555,
+        "gradient_max": 3.0739798262402473e-07,
+        "projected_gradient_max": 3.0739798262402473e-07,
+        "boundary_parameters": [],
+        "boundary_warning": false
+      },
+      "fit": {
+        "theta": [
+          3.9539405434626773,
+          -0.43979469858731185,
+          0.44690420299848893,
+          7.717845271323009,
+          -0.7395281575067655,
+          1.0802473366651217
+        ],
+        "sigma": 2.945407968363976,
+        "nodes": 320,
+        "nll": 270.6899318760351,
+        "gradient_max": 1.2251567607535208e-05,
+        "quadrature_nll_difference": 5.325023266777862e-07,
+        "quadrature_probability_difference": 5.187517082561044e-12,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 270.6901082912888,
+            "gradient_max": 6.572905824481223e-07
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 270.6901082912923,
+            "gradient_max": 9.034154160116742e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 270.6901082912919,
+            "gradient_max": 1.163386986657855e-05
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 270.68993134353275,
+            "gradient_max": 3.2689104577134087e-06
+          },
+          {
+            "nodes": 160,
+            "success": true,
+            "nll": 270.689931343571,
+            "gradient_max": 1.9528926744328406e-05
+          }
+        ],
+        "spec": "week_spline_df3",
+        "transform": {
+          "spec": "week_spline_df3",
+          "bmi_center": 31.84522947632115,
+          "bmi_scale": 2.716690795832819,
+          "week_center": 16.881557241834376,
+          "week_scale": 4.10255458340922
+        },
+        "design_columns": [
+          "Intercept",
+          "cr(gestational_week, df=3, constraints='center')[0]",
+          "cr(gestational_week, df=3, constraints='center')[1]",
+          "cr(gestational_week, df=3, constraints='center')[2]",
+          "bmi_z"
+        ]
+      }
+    }
+  ],
+  "full_models": {
+    "linear": {
+      "full": {
+        "theta": [
+          3.6232002792145104,
+          0.8287882066092034,
+          -0.5613646368638261,
+          0.9783204695014425
+        ],
+        "sigma": 2.6599849622853466,
+        "nodes": 160,
+        "nll": 354.33955415286596,
+        "gradient_max": 0.0021466111306234215,
+        "quadrature_nll_difference": 9.855857422280678e-05,
+        "quadrature_probability_difference": 2.1060644339598866e-09,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 354.3394555942922,
+            "gradient_max": 2.909793262728666e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 354.33945559429173,
+            "gradient_max": 3.4201280541337753e-07
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 354.3394555942941,
+            "gradient_max": 8.40870379636982e-06
+          }
+        ],
+        "spec": "linear",
+        "transform": {
+          "spec": "linear",
+          "bmi_center": 31.826641140876234,
+          "bmi_scale": 2.823944444089133,
+          "week_center": 16.8456561922366,
+          "week_scale": 4.074419020037639
+        },
+        "design_columns": [
+          "Intercept",
+          "week_z",
+          "bmi_z"
+        ]
+      },
+      "early69": {
+        "theta": [
+          3.975382952540923,
+          0.5792298512546196,
+          -0.39948385784091567,
+          0.9282492516892316
+        ],
+        "sigma": 2.5300757719776406,
+        "nodes": 160,
+        "nll": 77.39625148604415,
+        "gradient_max": 0.00010182550644466382,
+        "quadrature_nll_difference": 3.7033348121440213e-06,
+        "quadrature_probability_difference": 5.797541335894607e-10,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 77.39624778270995,
+            "gradient_max": 3.4498394038892655e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 77.39624778270976,
+            "gradient_max": 5.10473603387851e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 77.39624778270934,
+            "gradient_max": 3.3388733911010604e-07
+          }
+        ],
+        "spec": "linear",
+        "transform": {
+          "spec": "linear",
+          "bmi_center": 31.406262177685065,
+          "bmi_scale": 2.461058312283972,
+          "week_center": 15.771938775510202,
+          "week_scale": 4.1668149321114925
+        },
+        "design_columns": [
+          "Intercept",
+          "week_z",
+          "bmi_z"
+        ]
+      }
+    },
+    "week_spline_df3": {
+      "full": {
+        "theta": [
+          3.7091106188135154,
+          0.02004122550088536,
+          0.6153750211507361,
+          6.762466693688275,
+          -0.5743512860453364,
+          0.9959151580554785
+        ],
+        "sigma": 2.7072007245164227,
+        "nodes": 160,
+        "nll": 348.3745390351075,
+        "gradient_max": 0.0017693358326517084,
+        "quadrature_nll_difference": 8.091679603694502e-06,
+        "quadrature_probability_difference": 2.8951044894753863e-09,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 348.37453094342794,
+            "gradient_max": 1.0014686373360088e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 348.3745309434279,
+            "gradient_max": 2.1545597914118808e-07
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 348.37453094342794,
+            "gradient_max": 7.221334642898425e-07
+          }
+        ],
+        "spec": "week_spline_df3",
+        "transform": {
+          "spec": "week_spline_df3",
+          "bmi_center": 31.826641140876234,
+          "bmi_scale": 2.823944444089133,
+          "week_center": 16.8456561922366,
+          "week_scale": 4.074419020037639
+        },
+        "design_columns": [
+          "Intercept",
+          "cr(gestational_week, df=3, constraints='center')[0]",
+          "cr(gestational_week, df=3, constraints='center')[1]",
+          "cr(gestational_week, df=3, constraints='center')[2]",
+          "bmi_z"
+        ]
+      },
+      "early69": {
+        "theta": [
+          3.851881726073567,
+          0.4732101855036756,
+          -0.008160890122244578,
+          3.5381953015179404,
+          -0.3725716760088602,
+          0.8364943749546219
+        ],
+        "sigma": 2.308260879463482,
+        "nodes": 160,
+        "nll": 76.47541724672902,
+        "gradient_max": 7.91299820157576e-06,
+        "quadrature_nll_difference": 5.415372612560532e-07,
+        "quadrature_probability_difference": 8.011469265767346e-11,
+        "history": [
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 76.47541670519183,
+            "gradient_max": 1.3683410573506194e-06
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 76.47541670519183,
+            "gradient_max": 5.82151344285034e-07
+          },
+          {
+            "nodes": 80,
+            "success": true,
+            "nll": 76.47541670519176,
+            "gradient_max": 3.6232577471650984e-07
+          }
+        ],
+        "spec": "week_spline_df3",
+        "transform": {
+          "spec": "week_spline_df3",
+          "bmi_center": 31.406262177685065,
+          "bmi_scale": 2.461058312283972,
+          "week_center": 15.771938775510202,
+          "week_scale": 4.1668149321114925
+        },
+        "design_columns": [
+          "Intercept",
+          "cr(gestational_week, df=3, constraints='center')[0]",
+          "cr(gestational_week, df=3, constraints='center')[1]",
+          "cr(gestational_week, df=3, constraints='center')[2]",
+          "bmi_z"
+        ]
+      }
+    }
+  },
+  "early_subjects": 69,
+  "early_sensitivity": {
+    "linear": {
+      "mean_absolute_difference": 0.04598990213773634,
+      "maximum_absolute_difference": 0.10486921617020417
+    },
+    "week_spline_df3": {
+      "mean_absolute_difference": 0.05133302161265086,
+      "maximum_absolute_difference": 0.10190817569592547
+    }
+  },
+  "calibration": "subject-weighted intercept and nonnegative slope fitted only to inner OOF",
+  "decision_gate": "requires stable Brier/log-loss and calibration improvement before DP"
+}

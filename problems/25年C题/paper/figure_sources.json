@@ -1,0 +1,152 @@
+[
+  {
+    "source": "outputs\\figures\\q1_comparison\\process_q1_oof_diagnostics.png",
+    "destination": "paper\\figures\\process_q1_oof_diagnostics.png",
+    "sha256": "398004b85b82e7ad70128700f0d0f9c8f5f4946cb5c0c945bbc004ba38f13257"
+  },
+  {
+    "source": "outputs\\figures\\q1_comparison\\process_q1_oof_diagnostics.svg",
+    "destination": "paper\\figures\\process_q1_oof_diagnostics.svg",
+    "sha256": "79895182d4aa449e07defd41224f81300f3adca7867eefd376998b9f1a4aacf5"
+  },
+  {
+    "source": "outputs\\figures\\q1_comparison\\result_q1_comparison.png",
+    "destination": "paper\\figures\\result_q1_comparison.png",
+    "sha256": "00d1d3fdd8276eae01517457bd4c3cb5bef5060873abd9d4d5b36a5f0173e5c0"
+  },
+  {
+    "source": "outputs\\figures\\q1_comparison\\result_q1_comparison.svg",
+    "destination": "paper\\figures\\result_q1_comparison.svg",
+    "sha256": "03bf3fe817e1513b6b79a68a3137a08fd58954700777bc717d3943d0d62f8892"
+  },
+  {
+    "source": "outputs\\figures\\q1_comparison\\result_q1_effect_bmi.png",
+    "destination": "paper\\figures\\result_q1_effect_bmi.png",
+    "sha256": "f7587b9f2a8d44d4e8f0abc13c0638ad21b5d3b7ce8028a2c1ada7b3b6287d76"
+  },
+  {
+    "source": "outputs\\figures\\q1_comparison\\result_q1_effect_bmi.svg",
+    "destination": "paper\\figures\\result_q1_effect_bmi.svg",
+    "sha256": "1a305a80c86764421e7fbc5224ecbbeaaffea01931a2d44f072b4c525270fa0f"
+  },
+  {
+    "source": "outputs\\figures\\q1_comparison\\result_q1_effect_gestational_week.png",
+    "destination": "paper\\figures\\result_q1_effect_gestational_week.png",
+    "sha256": "4f7a5108ab7064392a960b242bd334e42f0af361aed1544e81b09b30cce89574"
+  },
+  {
+    "source": "outputs\\figures\\q1_comparison\\result_q1_effect_gestational_week.svg",
+    "destination": "paper\\figures\\result_q1_effect_gestational_week.svg",
+    "sha256": "c3bc4faabe0f05fb4e42dece2c912041f6ce0e165fcf1599e03470e28b72517b"
+  },
+  {
+    "source": "outputs\\figures\\q2_probability\\process_q2_calibration.png",
+    "destination": "paper\\figures\\process_q2_calibration.png",
+    "sha256": "6dc783474655125e05e4806af1856b0d0ef5268198f401d96209de95d2d213d3"
+  },
+  {
+    "source": "outputs\\figures\\q2_probability\\process_q2_calibration.svg",
+    "destination": "paper\\figures\\process_q2_calibration.svg",
+    "sha256": "3d00b88f66b8da4baa90613b5d25efcb9d0256fc363c8238cafaaff7bd833efe"
+  },
+  {
+    "source": "outputs\\figures\\q2_probability\\result_q2_probability_slices.png",
+    "destination": "paper\\figures\\result_q2_probability_slices.png",
+    "sha256": "5a7ee85acf4cae88e1ef92e22a4944256e22a75886080b436ae62f440ec8f2f4"
+  },
+  {
+    "source": "outputs\\figures\\q2_probability\\result_q2_probability_slices.svg",
+    "destination": "paper\\figures\\result_q2_probability_slices.svg",
+    "sha256": "372a7781acedf4d29decbb7abc4dd9981d8f49b1e1d5f8bcb681438c4a02ea86"
+  },
+  {
+    "source": "outputs\\figures\\q2_probability\\result_q2_probability_surface.png",
+    "destination": "paper\\figures\\result_q2_probability_surface.png",
+    "sha256": "a2ca2e276ccf309ad8bbc77e59099ab2d4d97a02f577ce31e29c4f2586b17313"
+  },
+  {
+    "source": "outputs\\figures\\q2_probability\\result_q2_probability_surface.svg",
+    "destination": "paper\\figures\\result_q2_probability_surface.svg",
+    "sha256": "814890679adbfb085b776782305998eed6a1e32317dfac5d00c6231c5a0cfcf1"
+  },
+  {
+    "source": "outputs\\figures\\q4_chromosomes\\process_q4_calibration.png",
+    "destination": "paper\\figures\\process_q4_calibration.png",
+    "sha256": "5bf960f998c4d07e4b89b1eff173f2a00137c7f3a3afcb2e9bcde8ddadb165fb"
+  },
+  {
+    "source": "outputs\\figures\\q4_chromosomes\\process_q4_calibration.svg",
+    "destination": "paper\\figures\\process_q4_calibration.svg",
+    "sha256": "071734ab12f495073ae37ff542b4903bc2810c12d9e568025c0349f1aac2140c"
+  },
+  {
+    "source": "outputs\\figures\\q4_chromosomes\\raw_q4_positive_subjects.png",
+    "destination": "paper\\figures\\raw_q4_positive_subjects.png",
+    "sha256": "574e8046af36af4f71f517a14e98b3c7278bcdfec075adaa8408cb280e4d3155"
+  },
+  {
+    "source": "outputs\\figures\\q4_chromosomes\\raw_q4_positive_subjects.svg",
+    "destination": "paper\\figures\\raw_q4_positive_subjects.svg",
+    "sha256": "c65e421ac8ea919849a190a2f48ff4139ab8c77e01e7e497b35204fd244ab32c"
+  },
+  {
+    "source": "outputs\\figures\\q4_chromosomes\\result_q4_brier_intervals.png",
+    "destination": "paper\\figures\\result_q4_brier_intervals.png",
+    "sha256": "fb6c53bcff85b0f25230cb0affdcaaa504bf47a3a6b42138dbf579caef9855f4"
+  },
+  {
+    "source": "outputs\\figures\\q4_chromosomes\\result_q4_brier_intervals.svg",
+    "destination": "paper\\figures\\result_q4_brier_intervals.svg",
+    "sha256": "49253e1d3c1ffa45936265b11375731b156f98b48358fe6e632b151b7dfc5856"
+  },
+  {
+    "source": "outputs\\figures\\paper_coverage\\process_q3_paired_comparison.png",
+    "destination": "paper\\figures\\process_q3_paired_comparison.png",
+    "sha256": "099cf3f5433ede94adcc0dc8f787420e6f3284e84ff7dc4e2e90fd1a50a8ad43"
+  },
+  {
+    "source": "outputs\\figures\\paper_coverage\\process_q3_paired_comparison.svg",
+    "destination": "paper\\figures\\process_q3_paired_comparison.svg",
+    "sha256": "7aada4f156799914b64ab23cb8b8c6b95f1d11ead181a0ed78626d45b3dfac1e"
+  },
+  {
+    "source": "outputs\\figures\\paper_coverage\\raw_q1_repeat_counts.png",
+    "destination": "paper\\figures\\raw_q1_repeat_counts.png",
+    "sha256": "04643a0006181c9c90a20804eaaad52a08cfb7793b28bfa5105e1f6b58b134ed"
+  },
+  {
+    "source": "outputs\\figures\\paper_coverage\\raw_q1_repeat_counts.svg",
+    "destination": "paper\\figures\\raw_q1_repeat_counts.svg",
+    "sha256": "2837094bb64ad3c2ac4489b86e2d766c931f257b7b673a57eec934a9d4b4815d"
+  },
+  {
+    "source": "outputs\\figures\\paper_coverage\\raw_q2_observation_support.png",
+    "destination": "paper\\figures\\raw_q2_observation_support.png",
+    "sha256": "06c24da16e2309041ea05806ded486b0f310f0e088535ff09276ae08c3425113"
+  },
+  {
+    "source": "outputs\\figures\\paper_coverage\\raw_q2_observation_support.svg",
+    "destination": "paper\\figures\\raw_q2_observation_support.svg",
+    "sha256": "d5d11800759762c9a50de60d2ddfb292962317cb093a0b78d41210d2f20981b3"
+  },
+  {
+    "source": "outputs\\figures\\paper_coverage\\raw_q3_covariates.png",
+    "destination": "paper\\figures\\raw_q3_covariates.png",
+    "sha256": "1b9ee760bb03ac52649bdba49ca4ece542fbb06ac8f6509e7b78f29d482a497c"
+  },
+  {
+    "source": "outputs\\figures\\paper_coverage\\raw_q3_covariates.svg",
+    "destination": "paper\\figures\\raw_q3_covariates.svg",
+    "sha256": "4b02ff9dc671d79bfbbbcd2f419f5abe71fa4e204e29416987cf8ba44cf40d18"
+  },
+  {
+    "source": "outputs\\figures\\paper_coverage\\result_q3_conditional_policy.png",
+    "destination": "paper\\figures\\result_q3_conditional_policy.png",
+    "sha256": "7b0e98798134c59d6b3f0d3c8a2d13ef8c8b4845cb5add5d6e2ae16917e09853"
+  },
+  {
+    "source": "outputs\\figures\\paper_coverage\\result_q3_conditional_policy.svg",
+    "destination": "paper\\figures\\result_q3_conditional_policy.svg",
+    "sha256": "e29abda3f7f1029098260dd76e88a7638de0d9c6e4c7ce8f38387a9a0a947b92"
+  }
+]

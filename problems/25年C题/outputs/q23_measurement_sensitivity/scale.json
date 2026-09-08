@@ -1,0 +1,10 @@
+{
+  "sigma_logit": 0.12374499275199892,
+  "ci95": [
+    0.08174558320358795,
+    0.16770125803776445
+  ],
+  "groups": 18,
+  "subjects": 14,
+  "assumption": "Independent equal-variance technical errors within draw; 2000 subject bootstraps of replicate groups, exploratory only."
+}

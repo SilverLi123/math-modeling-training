@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-07T16:07:08.176619+00:00",
+  "random_seed": 20250904,
+  "input_files": [
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\附件.xlsx",
+      "sha256": "14827156218bd4f7e4f16db4aa6d9f757c6648379e038ae6c6b58383648614af",
+      "bytes": 481734
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\题目分析报告.md",
+      "sha256": "1cb4f301bddc0eac425d591e508cdaa749dda44cb6b659b1822988ac38dbcc91",
+      "bytes": 24597
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\术语表格.md",
+      "sha256": "cd2dbaf242f6168be61fa4facb51c424b3b19b19f9706de75d29c1a997810d98",
+      "bytes": 6860
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\requirements.txt",
+      "sha256": "27840452dd215c8961ee61a2935c3d5f51eb6670d18fae80342b57f92d0469b0",
+      "bytes": 146
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\q1_lmm_baseline.py",
+      "sha256": "98e0728561cb6044f7fccab4a6980ac7a08b45063472c7a7e0b2fd52626295cf",
+      "bytes": 19215
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\q2_probability.py",
+      "sha256": "4b659bc2d328020ec431f0d9c5bbc84314d13602d683f8aee1a894343b675221",
+      "bytes": 12422
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\q2_nonlinear_calibration.py",
+      "sha256": "f0e2725e44ff583061257d13c58809a8d3707aefbabf8708d914a3b431a53ebd",
+      "bytes": 13662
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\q23_explore.py",
+      "sha256": "1039103d88cdf4c5af76a1639bfe6597668a0c2b3ac250d4860f10566be1d967",
+      "bytes": 9405
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\test_q23_explore.py",
+      "sha256": "cc787cd5eeb7253a8460c8ec382322aba8f0a75cce28f0146246a4f901817f22",
+      "bytes": 2181
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\plot_q23_exploration.py",
+      "sha256": "9d884bd9332166c47115e274d1102f84c3ac7ce8522821e85372842b34a6188b",
+      "bytes": 2561
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\run_q23_exploration.py",
+      "sha256": "f142b1dec5f9d04533d9ace0a5addbe19c6696daf9afb3c84ead203a4382a465",
+      "bytes": 1918
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\utils\\plot_style.py",
+      "sha256": "e9fa501fe72ff89b913e1f777e0b5925a118b95b9d324288c59e906f27592b9a",
+      "bytes": 17654
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\utils\\repro_manifest.py",
+      "sha256": "ef68a6db57b446ef8a930e4f40e486eadec19f609d1d9f65db7c6a6796d90365",
+      "bytes": 4461
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q23_exploration\\README.md",
+      "sha256": "370ca5788c7998fc3e36bffc5044c6ab31a4e7ca4a95624f5d50f2d31d98e809",
+      "bytes": 3763
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q23_exploration\\experiment.json",
+      "sha256": "5ddc415405fae901543cebb8870abbd4ad138712ffc24021199c146b1cebb327",
+      "bytes": 31221
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q23_exploration\\comparison.csv",
+      "sha256": "f587b42609ebcebc7407b6f00b38b1e74676b29911845289685d151dfb7c2682",
+      "bytes": 468
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q23_exploration\\oof.csv",
+      "sha256": "2d9ad25bd96b3ec4322679da6d95ebbfaf3dc2496d1105f107462154ed145296",
+      "bytes": 100937
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q23_exploration\\policies.csv",
+      "sha256": "f8a85ee7c7bfa7fcb8b39b64e381a8940ae0c9f0b45386906246496ffe983e8f",
+      "bytes": 29062
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q23_exploration\\process_q23_probability_metrics.png",
+      "sha256": "6677e9efe093042c20bfa7e1e9ae43ec7cddf1660eddf5832852d1ea54615fdd",
+      "bytes": 43466
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q23_exploration\\result_q23_low_delay_stability.png",
+      "sha256": "0e947af5f4770e585f01fb599daf0bf39107ad28b6e2e091d4f23a2044d69371",
+      "bytes": 39232
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q23_exploration\\result_q23_policy_risk.png",
+      "sha256": "0ce0be60aeb09ac41993626e29e19b539066c704133cc45c352d1a6081a8f637",
+      "bytes": 49164
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q23_exploration\\process_q23_probability_metrics.svg",
+      "sha256": "68951fb2ce829d59c8ee43b120d13e781ff641dbcfbaa2193d5954018f5fb0dd",
+      "bytes": 9334
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q23_exploration\\result_q23_low_delay_stability.svg",
+      "sha256": "579a8649aed7803bbad4355741b6befc1496fe52100a501eef46f714a4d9872e",
+      "bytes": 13533
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q23_exploration\\result_q23_policy_risk.svg",
+      "sha256": "344b942cdabccbfaf1678e31e4828297d2934116f6edc32425b188f4021a6389",
+      "bytes": 10599
+    }
+  ],
+  "runtime": {
+    "name": "python",
+    "version": "3.13.5",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "dependencies": {
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.3",
+      "statsmodels": "0.14.4",
+      "patsy": "1.0.1",
+      "openpyxl": "3.1.5",
+      "matplotlib": "3.10.6",
+      "pyparsing": "3.2.3"
+    }
+  },
+  "key_parameters": {
+    "probability_specs": [
+      "q2",
+      "q3_basic",
+      "q3_full"
+    ],
+    "outer_folds": 5,
+    "random_effect": "normal intercept",
+    "policy_groups": [
+      1,
+      3,
+      4
+    ],
+    "minimum_group_subjects": 25,
+    "support_subjects_within_weeks": 1,
+    "minimum_support_subjects": 10,
+    "scenarios": {
+      "step_only": [
+        0,
+        0.1
+      ],
+      "low_delay": [
+        0.005,
+        0.1
+      ],
+      "medium_delay": [
+        0.02,
+        0.1
+      ],
+      "high_delay": [
+        0.05,
+        0.1
+      ]
+    },
+    "scope": "fixed-specification exploration; no final clinical policy"
+  },
+  "reproduce_command": ".\\.venv\\Scripts\\python.exe -W error src\\run_q23_exploration.py"
+}

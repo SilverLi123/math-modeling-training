@@ -1,0 +1,7 @@
+{
+  "manuscript_sha256": "f6d5c0d818acbe83b249efa707a832105cd4de9f23e0056ad943b5bf5d4e1538",
+  "docx_sha256": "a104ac3c0fa33896c47d796827842206d870804a5e80a5b80f95f1afb9c6001d",
+  "body_structure_issues": [
+    "预警：正文约 12710 字词单位，低于 15000 的质量目标；该目标不是 CUMCM 官方最低字数，可按当届规则或用户要求覆盖"
+  ]
+}

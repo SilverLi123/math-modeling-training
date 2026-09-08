@@ -1,0 +1,94 @@
+{
+  "query": "Gestational age maternal weight fetal cell free DNA",
+  "cross_validated": [
+    {
+      "title": "Gestational age and maternal weight effects on fetal cell‐free DNA in maternal plasma",
+      "authors": [
+        "Eric Wang",
+        "Annette Batey",
+        "Craig A. Struble",
+        "Thomas J. Musci",
+        "Ken Song",
+        "Arnold Oliphant"
+      ],
+      "year": 2013,
+      "citations": 444,
+      "doi": "10.1002/pd.4119",
+      "abstract": "OBJECTIVE: To determine the effects of gestational age and maternal weight on percent fetal cell-free DNA (cfDNA) in maternal plasma and the change in fetal cfDNA amounts within the same patient over time. METHODS: The cfDNA was extracted from maternal plasma from 22 384 singleton pregnancies of at least 10 weeks gestation undergoing the Harmony(TM) Prenatal Test. The Harmony Prenatal Test determined fetal percentage via directed analysis of cfDNA. RESULTS: At 10 weeks 0 days to 10 weeks 6 days gestation, the median percent fetal cfDNA was 10.2%. Between 10 and 21 weeks gestation, percent fetal increased 0.1% per week (p < 0.0001), and 2% of pregnancies were below 4% fetal cfDNA. Beyond 21 weeks gestation, fetal cfDNA increased 1% per week (p < 0.0001). Fetal cfDNA percentage was proportional to gestational age and inversely proportional to maternal weight (p = 0.0016). Of 135 samples that were redrawn because of insufficient fetal cfDNA of the initial sample, 76 (56%) had greater than 4% fetal cfDNA in the sample from the second draw. CONCLUSION: Fetal cfDNA increases with gestation, decreases with increasing maternal weight, and generally improves upon a blood redraw when the first attempt has insufficient fetal cfDNA.",
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "Prenatal Diagnosis",
+      "volume": "33",
+      "issue": "7",
+      "pages": "662-666",
+      "url": "https://doi.org/10.1002/pd.4119"
+    },
+    {
+      "title": "Maternal Plasma Cell-Free Fetal and Maternal DNA at 11-13 Weeks' Gestation: Relation to Fetal and Maternal Characteristics and Pregnancy Outcomes",
+      "authors": [
+        "Liona C. Poon",
+        "Thomas J. Musci",
+        "Kang Song",
+        "Argyro Syngelaki",
+        "K. H. Nicolaides"
+      ],
+      "year": 2013,
+      "citations": 246,
+      "doi": "10.1159/000346806",
+      "abstract": "OBJECTIVE: To examine the possible relationship between maternal and fetal characteristics and pregnancy outcomes on fetal and maternal cell-free (cf) DNA in maternal plasma at 11-13 weeks' gestation. METHODS: cfDNA was extracted from maternal plasma of 1,949 singleton pregnancies and chromosome-selective sequencing was used to determine the proportion of cfDNA and total cfDNA counts which was of fetal and maternal origin. Multivariate regression analysis was used to determine whether specific maternal and fetal characteristics and pregnancy complications, such as preeclampsia (PE), early spontaneous preterm birth (SPB) and delivery of small for gestational age (SGA) neonates, were significant predictors of fetal and maternal cfDNA in maternal plasma. RESULTS: The fetal and maternal cfDNA plasma concentration increased with serum pregnancy-associated plasma protein-A and free β-human chorionic gonadotropin level, was higher in women of Afro-Caribbean and East-Asian racial origin than in Caucasians, and lower in smokers, but it was not significantly altered in pregnancies complicated by PE, SPB or SGA. The fetal cfDNA level was inversely related to maternal weight and uterine artery pulsatility index, and maternal cfDNA increased with maternal weight. CONCLUSIONS: The fetal and maternal cfDNA level in maternal plasma is affected by maternal and fetal characteristics, but it is not altered in pregnancy complications.",
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "Fetal Diagnosis and Therapy",
+      "volume": "33",
+      "issue": "4",
+      "pages": "215-223",
+      "url": "https://doi.org/10.1159/000346806"
+    },
+    {
+      "title": "Factors affecting levels of circulating cell-free fetal DNA in maternal plasma and their implications for noninvasive prenatal testing",
+      "authors": [
+        "Sarah Kinnings",
+        "Jennifer A. Geis",
+        "Eyad Almasri",
+        "Huiquan Wang",
+        "Xiaojun Guan",
+        "Ron McCullough",
+        "Allan T. Bombard",
+        "Juan‐Sebastian Saldivar",
+        "Paul Oeth",
+        "Cosmin Deciu"
+      ],
+      "year": 2015,
+      "citations": 132,
+      "doi": "10.1002/pd.4625",
+      "abstract": "OBJECTIVE: Sufficient fetal DNA in a maternal plasma sample is required for accurate aneuploidy detection via noninvasive prenatal testing, thus highlighting a need to understand the factors affecting fetal fraction. METHOD: The MaterniT21™ PLUS test uses massively parallel sequencing to analyze cell-free fetal DNA in maternal plasma and detect chromosomal abnormalities. We assess the impact of a variety of factors, both maternal and fetal, on the fetal fraction across a large number of samples processed by Sequenom Laboratories. RESULTS: The rate of increase in fetal fraction with increasing gestational age varies across the duration of the testing period and is also influenced by fetal aneuploidy status. Maternal weight trends inversely with fetal fraction, and we find no added benefit from analyzing body mass index or blood volume instead of weight. Strong correlations exist between fetal fractions from aliquots taken from the same patient at the same blood draw and also at different blood draws. CONCLUSION: While a number of factors trend with fetal fraction across the cohort as a whole, they are not the sole determinants of fetal fraction. In this study, the variability for any one patient does not appear large enough to justify postponing testing to a later gestational age.",
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "Prenatal Diagnosis",
+      "volume": "35",
+      "issue": "8",
+      "pages": "816-822",
+      "url": "https://doi.org/10.1002/pd.4625"
+    }
+  ],
+  "openalex_only": [],
+  "anysearch_only": [],
+  "stats": {
+    "openalex_total": 15,
+    "anysearch_total": 10,
+    "cross_validated": 8,
+    "openalex_unique": 3,
+    "anysearch_unique": 0,
+    "filtered_irrelevant": 4,
+    "collapsed_duplicates": 0
+  }
+}

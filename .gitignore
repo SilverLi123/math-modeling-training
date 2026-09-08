@@ -47,6 +47,11 @@ Thumbs.db
 *.pt
 *.pth
 
+# Local PDF page renders used only for visual QA
+**/paper/render_pages/
+**/paper/render_pages_v2/
+**/paper/render_pages_final/
+
 # Local planning files used by agents
 /task_plan.md
 /findings.md

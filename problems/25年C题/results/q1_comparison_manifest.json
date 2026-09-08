@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-08T00:30:28.173948+00:00",
+  "random_seed": 20250904,
+  "input_files": [
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\附件.xlsx",
+      "sha256": "14827156218bd4f7e4f16db4aa6d9f757c6648379e038ae6c6b58383648614af",
+      "bytes": 481734
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\题目分析报告.md",
+      "sha256": "1cb4f301bddc0eac425d591e508cdaa749dda44cb6b659b1822988ac38dbcc91",
+      "bytes": 24597
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\术语表格.md",
+      "sha256": "cd2dbaf242f6168be61fa4facb51c424b3b19b19f9706de75d29c1a997810d98",
+      "bytes": 6860
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\requirements.txt",
+      "sha256": "27840452dd215c8961ee61a2935c3d5f51eb6670d18fae80342b57f92d0469b0",
+      "bytes": 146
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\plot_q1_comparison.py",
+      "sha256": "b6d5b7df9dbf64a00e6a079ae152a85df47a02b7bca7844b080b4ef95eadb495",
+      "bytes": 2950
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\q1_lmm_baseline.py",
+      "sha256": "98e0728561cb6044f7fccab4a6980ac7a08b45063472c7a7e0b2fd52626295cf",
+      "bytes": 19215
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\q1_spline_comparison.py",
+      "sha256": "ce5b238455529c86ca77ea59898498eab4aaf8ef1d19cb171d69619cf99b504c",
+      "bytes": 6678
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\run_q1_experiment.py",
+      "sha256": "7b07670c2166fca8f6b29526d4908f12270f7091610e97ec3438be5c9214c3bf",
+      "bytes": 1246
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\test_q1_pipeline.py",
+      "sha256": "744b3cb115657b4ac35d399107ef0cbb9c4855ca88dac8dcac4a6bb36328c25e",
+      "bytes": 2399
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\src\\test_q1_spline.py",
+      "sha256": "6fcac27697886f942cf9100d0b59e508f985d401ffc14d6a0441091368b1afeb",
+      "bytes": 1096
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\utils\\plot_style.py",
+      "sha256": "e9fa501fe72ff89b913e1f777e0b5925a118b95b9d324288c59e906f27592b9a",
+      "bytes": 17654
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\utils\\repro_manifest.py",
+      "sha256": "ef68a6db57b446ef8a930e4f40e486eadec19f609d1d9f65db7c6a6796d90365",
+      "bytes": 4461
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q1_comparison\\comparison.csv",
+      "sha256": "179bfff9d604acb2d2b9dec5a43196da6e4614f1015fa738eed162072a766b26",
+      "bytes": 201
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q1_comparison\\effects.csv",
+      "sha256": "5766b1212a70f79747633f133d7e96572a7c49b13c515d9994b4ab742c0f1b92",
+      "bytes": 17613
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q1_comparison\\fold_metrics.csv",
+      "sha256": "9a66245c371b1e0d0638b5c63dbc5e177c0e0410867b6ea55f70c4a9f567dda5",
+      "bytes": 929
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q1_comparison\\oof_predictions.csv",
+      "sha256": "c3b289b9923a9315561a178ac58637d8d9bbdc2f426c1269549a5b44bb726c5d",
+      "bytes": 111160
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\q1_comparison\\experiment.json",
+      "sha256": "1b827f008365d1019d4efe279d35b1a929562fe4761963ef72308acd908a9bd6",
+      "bytes": 2480
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q1_comparison\\process_q1_oof_diagnostics.png",
+      "sha256": "398004b85b82e7ad70128700f0d0f9c8f5f4946cb5c0c945bbc004ba38f13257",
+      "bytes": 256892
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q1_comparison\\result_q1_comparison.png",
+      "sha256": "00d1d3fdd8276eae01517457bd4c3cb5bef5060873abd9d4d5b36a5f0173e5c0",
+      "bytes": 89164
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q1_comparison\\result_q1_effect_bmi.png",
+      "sha256": "f7587b9f2a8d44d4e8f0abc13c0638ad21b5d3b7ce8028a2c1ada7b3b6287d76",
+      "bytes": 123057
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q1_comparison\\result_q1_effect_gestational_week.png",
+      "sha256": "4f7a5108ab7064392a960b242bd334e42f0af361aed1544e81b09b30cce89574",
+      "bytes": 118052
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q1_comparison\\_qa\\process_q1_oof_diagnostics_grayscale.png",
+      "sha256": "a064c19ecd4bc89657a3e54c6e47325a06cf80802d9e3dfbb2f05888e47aa5b0",
+      "bytes": 206883
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q1_comparison\\_qa\\result_q1_comparison_grayscale.png",
+      "sha256": "52548c5b3c92581aec06a6ffb74e6b99e20c3ad522eda722687b4ae4930d2059",
+      "bytes": 80183
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q1_comparison\\_qa\\result_q1_effect_bmi_grayscale.png",
+      "sha256": "8b1d27210494135d75ddb65e9468aadf5f57f01bfe2f940d846c4051e3913d05",
+      "bytes": 106598
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q1_comparison\\_qa\\result_q1_effect_gestational_week_grayscale.png",
+      "sha256": "ec43877c40c4a7e6923594c064946ea8521f88591a2fdd20beffe46dd1b242d5",
+      "bytes": 103805
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q1_comparison\\process_q1_oof_diagnostics.svg",
+      "sha256": "79895182d4aa449e07defd41224f81300f3adca7867eefd376998b9f1a4aacf5",
+      "bytes": 380325
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q1_comparison\\result_q1_comparison.svg",
+      "sha256": "03bf3fe817e1513b6b79a68a3137a08fd58954700777bc717d3943d0d62f8892",
+      "bytes": 11520
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q1_comparison\\result_q1_effect_bmi.svg",
+      "sha256": "1a305a80c86764421e7fbc5224ecbbeaaffea01931a2d44f072b4c525270fa0f",
+      "bytes": 201313
+    },
+    {
+      "path": "D:\\mathmodeling\\math-modeling-training\\problems\\25年C题\\outputs\\figures\\q1_comparison\\result_q1_effect_gestational_week.svg",
+      "sha256": "c3bc4faabe0f05fb4e42dece2c912041f6ce0e165fcf1599e03470e28b72517b",
+      "bytes": 201836
+    }
+  ],
+  "runtime": {
+    "name": "python",
+    "version": "3.13.5",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "dependencies": {
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "patsy": "1.0.1",
+      "statsmodels": "0.14.4",
+      "scipy": "1.15.3",
+      "matplotlib": "3.10.6",
+      "openpyxl": "3.1.5",
+      "pyparsing": "3.2.3"
+    }
+  },
+  "key_parameters": {
+    "outer_folds": 5,
+    "inner_folds": 3,
+    "candidate_df": [
+      3,
+      4
+    ],
+    "bootstrap_replicates": 2000,
+    "response": "logit Y",
+    "scope": "Q1 small comparison; not whole-problem P2"
+  },
+  "reproduce_command": ".\\.venv\\Scripts\\python.exe -W error src\\run_q1_experiment.py"
+}

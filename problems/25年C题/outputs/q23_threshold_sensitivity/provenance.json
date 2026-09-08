@@ -1,0 +1,13 @@
+{
+  "files": {
+    "附件.xlsx": "14827156218bd4f7e4f16db4aa6d9f757c6648379e038ae6c6b58383648614af",
+    "src\\q23_threshold_sensitivity.py": "04de6142d21afd7baa67fa5449e850cea990bd51ae65680d361edc1b07249f74",
+    "src\\q23_explore.py": "1039103d88cdf4c5af76a1639bfe6597668a0c2b3ac250d4860f10566be1d967",
+    "src\\q23_policy_summary.py": "5300e08e0a81014590128ab4112e3dc7e544c0f5c272c562644ee5673532154e",
+    "src\\q2_probability.py": "4b659bc2d328020ec431f0d9c5bbc84314d13602d683f8aee1a894343b675221",
+    "src\\q2_nonlinear_calibration.py": "f0e2725e44ff583061257d13c58809a8d3707aefbabf8708d914a3b431a53ebd",
+    "src\\q1_lmm_baseline.py": "98e0728561cb6044f7fccab4a6980ac7a08b45063472c7a7e0b2fd52626295cf"
+  },
+  "command": ".\\.venv\\Scripts\\python.exe -W error src\\q23_threshold_sensitivity.py",
+  "scope": "Full-data conditional refits at 3.5%, 4%, 4.5%. No OOF validation, no clinical weights estimated, no additive measurement-error simulation. Only within-model scenario sensitivity; cross-model self-risk not a performance comparison."
+}
