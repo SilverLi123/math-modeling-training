@@ -35,3 +35,10 @@ figures/*
 !figures/process_q2_calibration.png
 !figures/result_q3_conditional_policy.png
 !figures/result_q4_brier_intervals.png
+!figures/raw_q1_repeat_counts.png
+!figures/result_q1_effect_gestational_week.png
+!figures/result_q2_probability_slices.png
+!figures/raw_q2_observation_support.png
+!figures/process_q3_paired_comparison.png
+!figures/raw_q4_positive_subjects.png
+!figures/process_q4_calibration.png
